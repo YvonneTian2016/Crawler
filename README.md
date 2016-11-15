@@ -1,4 +1,5 @@
 # Crawler
+The code for Crawler part is mostly done in chap01
 参考如下:
 
 面向微博网页的爬虫实现对微博内容的自动采集，抓取内容可随着被采集网页内容的更新而更新。在抓取的过程中，可实现对非相关数据能进行初步的过滤，并对数据进行本地存
