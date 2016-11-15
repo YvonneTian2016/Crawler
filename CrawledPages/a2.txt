@@ -1,0 +1,1378 @@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@15930716@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+###################################################################articelItem_5317452####################################################
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>华越sherry的微博-和讯财经微博</title>
+
+<link href="/css/wb.css" rel="stylesheet" type="text/css" />
+<link href="/css/vote.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/mb9.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/js/Util.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/wb.js"></script>
+<script src="/js/smallwindow.js" type="text/javascript"></script>
+<script src="/js/chk_frm.js" type="text/javascript"></script>
+<script type="text/javascript"  src="/yuce/js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript"  src="/jquery/jquery-1.4.2.min.js" ></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/jquery.tablesorter.js"></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/api.js"></script>
+<script language="JavaScript" type="text/javascript" src="/unitpngfix/unitpngfix.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/FriendList.js"></script>
+<script src="/js/vote.js" type="text/javascript"></script>
+<script src="/js/complaintsJS.js" type="text/javascript"></script>
+<script>
+var usertemplate=9;
+</script>
+<script>
+var valueofnameinput="用户名/邮箱/手机";
+var valueofpassinout="******";
+
+<!--
+ var sWidth=window.screen.width;
+
+var sHeight=window.screen.height;
+
+if(sWidth<640&&sHeight<480)
+{
+   document.location="http://mt.hexun.com";
+}
+
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+	}
+function cssControl()
+{
+    document.getElementById('jshao_yi').style.display='none';
+    setCookie("UserControlCookie","1","h12");  
+}
+
+function setCookie(name,value,time)
+{
+    var strsec = getsec(time);
+    var exp = new Date();
+    exp.setTime(exp.getTime() + strsec*1);
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+function getsec(str)
+{
+    var str1=str.substring(1,str.length)*1;
+    var str2=str.substring(0,1);
+    if (str2=="s")
+    {
+        return str1*1000;
+    }
+    else if (str2=="h")
+    {
+        return str1*60*60*1000;
+    }else if (str2=="d")
+    {
+       return str1*24*60*60*1000;
+    }
+    
+}
+
+function quickSubmit(evt)
+{
+    evt = evt || window.event;
+    var code = evt.keyCode;
+    if( code == 13)
+    {
+      login(); 
+    }
+}
+function login()
+{
+    //debugger;
+    if(document.getElementById("LoginStateAuto").checked == true)
+    {
+        document.getElementById("LoginStateName").checked = true;
+    }
+    if(CheckLoginForm())
+    {
+        document.getElementById("Frm").action="http://reg.hexun.com/login.aspx?gourl=http://t.hexun.com/default2.aspx?blogname=15930716";
+        document.getElementById("Frm").submit();
+    }
+}
+function CheckLoginForm()
+{
+    if(document.getElementById("username").value==''||document.getElementById("username").value==valueofnameinput)
+    {
+	    alert('请填写用户名');
+	    document.getElementById("username").value="";
+	    document.getElementById("username").focus();
+	    return false;
+    }
+    else if(document.getElementById("password").value=='')
+    {
+	    alert('请填写密码');
+	    document.getElementById("password").focus();
+	    return false;
+    }
+    return true;
+}
+
+function initFade()
+{
+    var windowbg = document.getElementById("fade");
+        //windowbg.id = "windowbg";
+        with(windowbg.style) {
+	       position = "absolute";
+	        background = "#666";
+	        width = document.documentElement.scrollWidth+"px";
+	        height = document.documentElement.scrollHeight+"px";
+	        top = "0px";
+	        left = "0px";
+	        filter="Alpha(opacity=50)";
+	        opacity = 0.5;
+	        zIndex=999;
+	        }
+}
+function AddFollows(strFollows, userId, userRelation)
+{     
+     //
+     var follows = new Array();
+     follows = strFollows.split('|');
+     if (strFollows.length > 0)
+     {
+         //alert(strFollows.length);
+         for(var i = 0; i < follows.length; i++)
+         {   
+             //alert(2);      
+             AddMyFollow(follows[i], userId, userRelation);
+         }
+     }
+     
+}
+//从/special/useriframe.aspx 过来，直接推荐某用户
+window.onload = function() 
+{
+    //alert("sdfsd");
+    if(0 == 1)
+    {
+        javascript:CommendUser('turn3Window','360','230','华越sherry','15930716','15930716');
+    }
+}
+//全局当前登陆的用户ID
+var pub_LoginUserID=0;
+//-->
+</script>
+
+</head>
+<body>
+
+
+
+<div id="main">
+
+<script language=javascript>
+function GoLogin(){
+  document.location.href='http://t.hexun.com/login.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function Loginout(blogname){
+   document.location.href='http://utility.tool.hexun.com/quit.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+}
+</script>
+<div class="nav">
+	<div class="navL">
+	        <ul>
+	        
+			    <li><a href="http://www.hexun.com" target="_blank">和讯首页</a>|</li>
+			    <li class="toogle_nav" id="toogle_nav" onmouseover="navToogle()" onmouseout="navTogle()"><a href="/default.htm" target="_blank">财经微博</a>
+		        <div class="toogle_content" id="toogle_content">
+                  <ul>
+                    <li> <a href="/financemennew.html">名人推荐</a></li>
+                    <li> <a href="http://t.hexun.com/grouphome.html" target="_blank">微群首页</a></li>
+                    <li><a href="/stocks.aspx"><font color="red">直播解盘</font></a></li>
+                    <!--<li><a href="/yuce/" target="_blank">大盘预测</a></li>-->
+                    <li><a href="/top.html">排行榜</a></li>
+                    <li><a href="/special/interview/" target="_blank">微访谈</a></li>
+                    <li><a href="/cms/rdht/" target="_blank">热门话题</a></li>
+                    <li><a href="/qsrz.aspx" target=_blank>证券公司</a></li>
+                    <li><a href="/qhrz.aspx" target=_blank>期货公司</a></li>  
+                    <li><a href="/jiepan.html">高手解盘</a></li>
+                    <li><a href="/recommend.htm">特别推荐</a></li>
+                    <li><a href="/look.htm">随便看看</a></li>
+                  </ul>
+                </div>
+		        </li>	
+		        		    
+	        </ul>
+	 </div>
+	
+	
+    <div class="navR">
+		<ul>
+			<li><a href="/help.html">帮助</a>|</li>
+			<li><a href="javascript:GoLogin();">登录</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+<div class="titbg">
+    
+	<h1><a href="http://t.hexun.com/15930716/default.html">华越sherry的微博</a></h1>
+	<h2><a href="http://t.hexun.com/15930716">http://t.hexun.com/15930716</a>   <a href="javascript:void(0);" onclick="javascript:copytext('15930716','华越sherry');">复制</a></h2>
+	
+</div>
+
+<script type="text/javascript">
+var WeiboWatchUserTemplate=9;
+</script>
+<script type="text/javascript" src="/js/toogle.js"></script>
+
+<div class="main mainbg">
+	<div class="mainL mainLbg1">
+	
+      <div class="activebg">		
+			
+			<dl>
+				<dd>
+					和讯财经微博可以让你随时随地与百万网友分享理财心得，与财经名人零距离接触，与股市达人探讨学习，与亲朋好友保持联络。
+				</dd>
+				<dt class="indlogin">
+				
+				
+				
+				<form name="Frm" id="Frm" method="post"  action="http://reg.hexun.com/login.aspx" onsubmit="return CheckLoginForm();" target="_parent" style="margin-top:0px;">
+				<ul>
+					<li>
+						登录名：
+						<label><input type="text" id="username" name="username" value="用户名/邮箱/手机" onmouseover="" onclick="if(this.value==valueofnameinput)this.value='';"  onblur="if(this.value=='')this.value=valueofnameinput;" onfocus="if(this.value==valueofnameinput)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li>
+						密<font>空</font>码：
+						<label><input type="password" id="password" name="password" value="******"  onclick="if(this.value==valueofpassinout)this.value='';"   onblur="if(this.value=='')this.value=valueofpassinout;"  onkeypress="quickSubmit(event);" onfocus="if(this.value==valueofpassinout)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li class="indloginLi1">
+					<label><input type="checkbox" name="LoginStateAuto" id="LoginStateAuto" value="1"/></label>
+					下次自动登录
+				</li>
+				<li class="indloginLi2"><label><input type="button" onclick="javascript:login();" value="" class="indlogin_btn" /></label><a href="http://reg.hexun.com/GetPasswordPre.aspx" target="_blank">找回密码</a><font>|</font><a href="http://reg.hexun.com/regname.aspx?IsWeiBo=1&urlreferrerhost=http://t.hexun.com/default2.aspx?blogname=15930716" target="_blank">注册</a></li>
+              </ul>
+              <p style="display:none"><input type="checkbox" name="LoginStateName" id="LoginStateName" value="1"/></p>   
+              <input type="hidden" name="gourl">
+		    </form>                
+                </dt>
+			  <div class="clear"></div>
+			</dl>
+			
+		</div>
+    
+		<div class="blogbg">
+			<div class="tarenint">
+			    <div class="tarenintL">
+		        <dl>
+			        
+			        <dt><a href="http://15930716.photo.hexun.com/logo.html" target=_blank><img src="http://logo0.tool.hexun.com/5c15f3-150.jpg" /></a></dt>
+			        
+		        </dl>
+		        
+		        
+		            <p><!--<img src="/images/common/bico.gif" alt="访问Ta的博客" align="absmiddle" /><a href="http://15930716.blog.hexun.com/" target=_blank>访问Ta的博客</a><br/> -->
+		            
+
+		            </p>
+		        
+	        </div>
+	        
+	        
+	        <div class="tarenintR">
+		        <dl>
+			        <dd class="tarenint_dd1">
+			            <span class="RZ_span1"><a href='/Channel/FinanceMenmore.aspx?typeId=8'><img src="/images/common/space.gif" class="rz_cjmr" /></a></span>				        
+						<a class="tarena14">华越sherry</a><b class="indshowC_b1" title="财经名人">&nbsp;</b><span class="RZ_span2 fcjmr">——中信地产总经理</span>
+						<strong class="sex_women">北京</strong>
+						
+						<p style="color:#999999">用户名：华越sherry</p>
+						<p>博客：<a target="_blank" href="http://15930716.blog.hexun.com/">http://15930716.blog.hexun.com/</a></p>
+										        
+			        </dd>
+			        <dd class="tarenint_dd2">
+						<span><a href="javascript:void(0);" onclick="javascript:CommendUser('turn3Window','360','230','华越sherry','15930716','15930716');">推荐</a>|<a href="/0/default.html?attype=n&atkey=华越sherry">@华越sherry</a></span>
+				        
+						<label id=followlabel><input type="button" onclick="javscript:AddFollow(15930716,0);" class="addbtn1" title="加关注" /></label>
+						
+						<!--&nbsp;<input type=button style="width:80px; background-image: url(/images/Common/phone.png);" onclick="NewDYSms('15930716','turn3Window','360','230','0')" />-->
+			        </dd>
+			        <dd class="tarenint_dd3">
+			        
+					    <span class="tarenint_dd3R" > <a href="javascript:void(0);" onclick="javascript:AddBlacklist(15930716,0,0,'华越sherry');" >加入黑名单</a></span>	
+				   </dd>
+
+
+
+		        </dl>
+	        </div>
+	        
+				<dl>
+					<dt></dt>
+					<dd class="tarenint_dd1">
+					    
+				    </dd>
+					<dd class="tarenint_dd2">
+					    
+					</dd>
+					
+					<div class="clear"></div>
+				</dl>
+		  </div>  
+		  
+		  
+		  <ul class="miniUl">
+            <li style="width: 77px;" class="currentLi" id="liWeibo"><span id="tabWeibo" style="cursor:default;" onclick="javascript:switchWeibo();"><img id="imgWeibo" align="absmiddle" src="/images/common/wb_iconR.gif"> 微博</span></li>
+            <li style="width: 77px;" class="otherLi" id="liBlog"><span id="tabBlog" style="cursor:pointer;" onclick="javascript:switchBlog();"><img id="imgBlog" align="absmiddle" src="/images/common/wb_iconG.gif"> 博客</span></li>
+          </ul>
+		    <div class="blogcon" id="listWeibo">
+				<div class="nr_con" id="articelItem_5317452">				<div class="nr_shuo">【新华头条：求解共同富裕的“重庆样本”】重庆作为全国率先将基尼系数写入“十二五”规划的地方政府，明确提出将衡量社会贫富差距的指标基尼系数由０．４２降到０．３５。“十二五”期间，重庆力争使居民收入在国民财富初次分配中占比从目前不到４０％提高到５０％。</div><div id="SmallDiv_5317452_86143134" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5317452', '86143134','http://photo20.hexun.com/p/2011/0221/430715/b45_DA22A6434DB12F1373E49C4D9F8DB659.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0221/430715/t150_DA22A6434DB12F1373E49C4D9F8DB659.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5317452_86143134" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5317452' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='86143134' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','【新华头条：求解共同富裕的“重庆样本”】重庆作为全国率先将基尼系数写入“十二五”规划的地方政府，明确提出将衡量社会贫富差距的指标基尼系数由０．４２降到０．３５。“十二五”期间，重庆力争使居民收入在国民财富初次分配中占比从目前不到４０％提高到５０％。', '',this)">转发<font id="forwardfont_5317452"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5317452');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5317452','1','15930716','0')">评论<font id="commentfont_5317452"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5317452_d.html">2011-02-21</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5317452" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5317452"></div><div class="nr_con" id="articelItem_5310397">				<div class="nr_shuo">仅凭现有的西方经济学理论很难解决目前前所未有的复杂的经济困境~而且更难解决14亿人口的处在目前发展阶段的中国问题~//@新浪财经：【谢国忠：买房抗通胀是胡扯 房价跌助力股市上涨】<a href="http://url.hexun.com/19gMM" title="http://url.hexun.com/19gMM" target="_blank">http://url.hexun.com/19gMM</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5310397' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','仅凭现有的西方经济学理论很难解决目前前所未有的复杂的经济困境~而且更难解决14亿人口的处在目前发展阶段的中国问题~//@新浪财经：【谢国忠：买房抗通胀是胡扯 房价跌助力股市上涨】http://url.hexun.com/19gMM', '',this)">转发<font id="forwardfont_5310397"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5310397');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5310397','1','15930716','0')">评论<font id="commentfont_5310397"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5310397_d.html">2011-02-21</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5310397" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5310397"></div><div class="nr_con" id="articelItem_5303855">				<div class="nr_shuo"> 【全国各大城市租房价格普遍上涨】羊城晚报报道：北京上海广州等一线城市房屋的租金持续上涨，很多待租房在开年后更刷新了年前出租价格，从住房到商铺再到办公楼，涨声一片，租金大约都上涨了10%左右不等。根据地产中介的统计数据，深圳今年1月租金水平也创下新高，全市平均租金达42.54元/平方米</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5303855' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 【全国各大城市租房价格普遍上涨】羊城晚报报道：北京上海广州等一线城市房屋的租金持续上涨，很多待租房在开年后更刷新了年前出租价格，从住房到商铺再到办公楼，涨声一片，租金大约都上涨了10%左右不等。根据地产中介的统计数据，深圳今年1月租金水平也创下新高，全市平均租金达42.54元/平方米', '',this)">转发<font id="forwardfont_5303855"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5303855');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5303855','1','15930716','0')">评论<font id="commentfont_5303855"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5303855_d.html">2011-02-20</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5303855" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5303855"></div><div class="nr_con" id="articelItem_5303787">				<div class="nr_shuo">【北京豪宅月销量有史以来首破千套】亚豪机构数据显示，2011年1月，北京在售的81个报价超过4万/平方米的住宅项目中，累计成交1321套，环比增44.85%。豪宅价格也一路高涨，25个项目提高对外报价，平均涨幅15%。单价超8万元的顶级豪宅增加至11个。单价达11万的钓鱼台七号院，1月成交7套之多。(法制晚报)</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5303787' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','【北京豪宅月销量有史以来首破千套】亚豪机构数据显示，2011年1月，北京在售的81个报价超过4万/平方米的住宅项目中，累计成交1321套，环比增44.85%。豪宅价格也一路高涨，25个项目提高对外报价，平均涨幅15%。单价超8万元的顶级豪宅增加至11个。单价达11万的钓鱼台七号院，1月成交7套之多。(法制晚报)', '',this)">转发<font id="forwardfont_5303787"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5303787');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5303787','1','15930716','0')">评论<font id="commentfont_5303787"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5303787_d.html">2011-02-20</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5303787" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5303787"></div><div class="nr_con" id="articelItem_5299115">				<div class="nr_shuo">  <a href="/k/%ca%d3%c6%b5">&nbsp;#视频#&nbsp;</a> tell me why__一个10岁男孩发自内心的歌声~tell me why__<a href="http://url.hexun.com/19gjA" title="http://www.tudou.com/programs/view/ItDS1ctxofA/" target="_blank">http://url.hexun.com/19gjA</a></div><div id="SmallDiv_5299115_video0" class="img_border"><div class="playicon" onmousedown="javascript:videoOpen(5299115,0,'')" onmouseup="javascript:videoMouseUp(5299115,0,'')"></div><a href="javascript:void(0);" onmousedown="javascript:videoOpen(5299115,0,'')" onmouseup="javascript:videoMouseUp(5299115,0,'')"><img  src="http://i01.img.tudou.com/data/imgs/i/026/261/360/p.jpg" class="imgBig" style="width:150px; height:115px"></a></div><div id="MiddleDiv_5299115_video0" class="preview_big" style="display:none;"><h3><span class="preview_big_4" title="关闭" onclick="javascript:videoClose(5299115,0)">&nbsp;</span></h3><p id="p_5299115_video0"></p><p id="hid_5299115_videoUrl0" style="display:none"><embed src="ptth://www.tudou.com/v/ItDS1ctxofA/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="537" height="450"></embed></p></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5299115' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','  &amp;nbsp;#视频#&amp;nbsp; tell me why__一个10岁男孩发自内心的歌声~tell me why__http://url.hexun.com/19gjA', '',this)">转发<font id="forwardfont_5299115" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5299115');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5299115','1','15930716','0')">评论<font id="commentfont_5299115" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5299115_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5299115" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5299115"></div><div class="nr_con" id="articelItem_5298933">				<div class="nr_shuo">任总不愧是炮手~//@任志强：推荐财经第三期中前国税总局副局长许善达的文章，《房产税不符合当前国情》，非常专业的从不同角度回答了各种政府，社会，媒体对房产税问题认识的错误和误解。房产税不可取，也不可行。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298933' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','任总不愧是炮手~//@任志强：推荐财经第三期中前国税总局副局长许善达的文章，《房产税不符合当前国情》，非常专业的从不同角度回答了各种政府，社会，媒体对房产税问题认识的错误和误解。房产税不可取，也不可行。', '',this)">转发<font id="forwardfont_5298933"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298933');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298933','1','15930716','0')">评论<font id="commentfont_5298933"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298933_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298933" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298933"></div><div class="nr_con" id="articelItem_5298880">				<div class="nr_shuo">财经网：政治体制改革同经济体制改革应该相互依赖，相互配合。只搞经济体制改革，不搞政治体制改革，经济体制改革也搞不通。从这个角度来讲，我们所有的改革最终能不能成功，还是决定于政治体制的改革－－邓小平，1986年6月7日。纪念 邓小平逝世14周年</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298880' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','财经网：政治体制改革同经济体制改革应该相互依赖，相互配合。只搞经济体制改革，不搞政治体制改革，经济体制改革也搞不通。从这个角度来讲，我们所有的改革最终能不能成功，还是决定于政治体制的改革－－邓小平，1986年6月7日。纪念 邓小平逝世14周年', '',this)">转发<font id="forwardfont_5298880"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298880');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298880','1','15930716','0')">评论<font id="commentfont_5298880"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298880_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298880" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298880"></div><div class="nr_con" id="articelItem_5298501">				<div class="nr_shuo">李扬：通胀是指过多的货币追逐过少的产品。但中国好象不是。有许多过剩，消费也没上去。类金融化是无法用收紧银根解决的。货币的增长是伴随收入增长和储蓄增加形成的。要用新思维研究，旧的理论已无法解释了。易纲：要注意国际收支平衡，不是靠减出口，而是加进口。用科学方法计算，中国不存在热钱问题</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298501' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','李扬：通胀是指过多的货币追逐过少的产品。但中国好象不是。有许多过剩，消费也没上去。类金融化是无法用收紧银根解决的。货币的增长是伴随收入增长和储蓄增加形成的。要用新思维研究，旧的理论已无法解释了。易纲：要注意国际收支平衡，不是靠减出口，而是加进口。用科学方法计算，中国不存在热钱问题', '',this)">转发<font id="forwardfont_5298501" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298501');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298501','1','15930716','0')">评论<font id="commentfont_5298501"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298501_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298501" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298501"></div><div class="nr_con" id="articelItem_5298481">				<div class="nr_shuo"> 【京8条催生炒婚一族】本人男，30岁单身，根据北京版“国八条”的要求，可在京购房。现承接各种以买房为目的假结婚，手续费为房屋总价的1.5%，保证周期短，无后患，离婚快，不留情！~</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298481' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 【京8条催生炒婚一族】本人男，30岁单身，根据北京版“国八条”的要求，可在京购房。现承接各种以买房为目的假结婚，手续费为房屋总价的1.5%，保证周期短，无后患，离婚快，不留情！~', '',this)">转发<font id="forwardfont_5298481"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298481');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298481','1','15930716','0')">评论<font id="commentfont_5298481"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298481_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298481" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298481"></div><div class="nr_con" id="articelItem_5298461">				<div class="nr_shuo">// @任志强：要正确处理政府与市场，政府与社会的关系。如人与人之间的交往中信任从来都是相互的。当政府不相信市场，不相信社会时，其以不相信为基础而出台的政策，又怎么会赢得市场与社会的信任呢？比如各种的限制措施等，能让民众欢迎的政策绝不是以牺牲一部分人的利益而讨好另一部分人的政策。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298461' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','// @任志强：要正确处理政府与市场，政府与社会的关系。如人与人之间的交往中信任从来都是相互的。当政府不相信市场，不相信社会时，其以不相信为基础而出台的政策，又怎么会赢得市场与社会的信任呢？比如各种的限制措施等，能让民众欢迎的政策绝不是以牺牲一部分人的利益而讨好另一部分人的政策。', '',this)">转发<font id="forwardfont_5298461"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298461');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298461','1','15930716','0')">评论<font id="commentfont_5298461"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298461_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298461" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298461"></div><div class="nr_con" id="articelItem_5298440">				<div class="nr_shuo">户籍歧视~@新浪财经：【视频：李稻葵称限购政策应把五年调成两年】央行货币委员会委员、清华大学教授@李稻葵 表示：房地产限购就是一个局部的资本管制，但北京限购的范围应从5年纳税证明改为2年，北京限购的一个重要缺陷是以户籍为核心，5年太猛，2年纳税条件比较合适。 <a href="http://url.hexun.com/19gid" title="http://sinaurl.cn/hqeooq" target="_blank">http://url.hexun.com/19gid</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298440' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','户籍歧视~@新浪财经：【视频：李稻葵称限购政策应把五年调成两年】央行货币委员会委员、清华大学教授@李稻葵 表示：房地产限购就是一个局部的资本管制，但北京限购的范围应从5年纳税证明改为2年，北京限购的一个重要缺陷是以户籍为核心，5年太猛，2年纳税条件比较合适。 http://url.hexun.com/19gid', '',this)">转发<font id="forwardfont_5298440"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298440');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298440','1','15930716','0')">评论<font id="commentfont_5298440"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298440_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298440" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298440"></div><div class="nr_con" id="articelItem_5298370">				<div class="nr_shuo"> //@CRIC研究中心： <a href="/k/%c4%fe16%cc%f5">&nbsp;#宁16条#&nbsp;</a>南京印发房市调控细则，规定南京市户籍居民家庭限购第三套房，能提供纳税证明或社会保险缴纳证明的非南京市户籍居民家庭则限购第二套房。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298370' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' //@CRIC研究中心： &amp;nbsp;#宁16条#&amp;nbsp;南京印发房市调控细则，规定南京市户籍居民家庭限购第三套房，能提供纳税证明或社会保险缴纳证明的非南京市户籍居民家庭则限购第二套房。', '',this)">转发<font id="forwardfont_5298370"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298370');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298370','1','15930716','0')">评论<font id="commentfont_5298370"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298370_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298370" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298370"></div><div class="nr_con" id="articelItem_5298364">				<div class="nr_shuo">// @CRIC研究中心：【地产界的365天】2011年2月19日，广州版细则终于露出庐山真面目。 其对于在家庭已拥有房套数上，进行限购1套或禁购，且要求外地人需2年纳税证明。此外还将范围扩大到广州的增城、从化区域。 </div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298364' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','// @CRIC研究中心：【地产界的365天】2011年2月19日，广州版细则终于露出庐山真面目。 其对于在家庭已拥有房套数上，进行限购1套或禁购，且要求外地人需2年纳税证明。此外还将范围扩大到广州的增城、从化区域。 ', '',this)">转发<font id="forwardfont_5298364"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298364');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298364','1','15930716','0')">评论<font id="commentfont_5298364"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298364_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298364" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298364"></div><div class="nr_con" id="articelItem_5298333">				<div class="nr_shuo">//@时光的故事:伟人后的世界，重要的是学习。 // <a href="/5250073/default.html">@许小年</a> :纪念这位改变中国、影响世界的伟人。小平同志的政策是改革而不是规划和管制；开放而不是国际阶级斗争；依靠群众（如小岗村的农民、“傻子瓜子”的经营者）和市场的创造力，而不是部委文件；注重实效而不是假大空。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5298333' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@时光的故事:伟人后的世界，重要的是学习。 // @许小年 :纪念这位改变中国、影响世界的伟人。小平同志的政策是改革而不是规划和管制；开放而不是国际阶级斗争；依靠群众（如小岗村的农民、“傻子瓜子”的经营者）和市场的创造力，而不是部委文件；注重实效而不是假大空。', '',this)">转发<font id="forwardfont_5298333"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5298333');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5298333','1','15930716','0')">评论<font id="commentfont_5298333"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5298333_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5298333" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5298333"></div><div class="nr_con" id="articelItem_5293528">				<div class="nr_shuo">//@ 任志强：小平的时代是打破垄断与限制，给社会和民众更多权利与自由，从抛弃计划经济而向市场经济过渡的进程，如今则是增加限制和垄断，重回计划经济的倒退。 //从闭关的中国走向开放的中国，毛泽东没能解决的问题，邓公解决了。没有毛主席就没有新中国，没有邓小平就没有现代中国。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5293528' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@ 任志强：小平的时代是打破垄断与限制，给社会和民众更多权利与自由，从抛弃计划经济而向市场经济过渡的进程，如今则是增加限制和垄断，重回计划经济的倒退。 //从闭关的中国走向开放的中国，毛泽东没能解决的问题，邓公解决了。没有毛主席就没有新中国，没有邓小平就没有现代中国。', '',this)">转发<font id="forwardfont_5293528"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5293528');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5293528','1','15930716','0')">评论<font id="commentfont_5293528" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5293528_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5293528" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5293528"></div><div class="nr_con" id="articelItem_5293524">				<div class="nr_shuo">1997年2月19日，邓小平逝世。其一生未担任党或国家的最高领导人，但被认为是1978-1992年间的实际最高领导人，直到去世仍保持着影响力。是“改革开放”及“一国两制”的提议者，其政治理论称为“邓小平理论”。“改革开放的总设计师”，其政策影响了20世纪后期每个中国人，也在相当程度上改变了世界。</div><div id="SmallDiv_5293524_86093993" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5293524', '86093993','http://photo20.hexun.com/p/2011/0219/430469/b45_EF6644CF0F66138B092A0AE09551791D.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0219/430469/t150_EF6644CF0F66138B092A0AE09551791D.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5293524_86093993" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5293524' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='86093993' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','1997年2月19日，邓小平逝世。其一生未担任党或国家的最高领导人，但被认为是1978-1992年间的实际最高领导人，直到去世仍保持着影响力。是“改革开放”及“一国两制”的提议者，其政治理论称为“邓小平理论”。“改革开放的总设计师”，其政策影响了20世纪后期每个中国人，也在相当程度上改变了世界。', '',this)">转发<font id="forwardfont_5293524" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5293524');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5293524','1','15930716','0')">评论<font id="commentfont_5293524" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5293524_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5293524" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5293524"></div><div class="nr_con" id="articelItem_5293499">				<div class="nr_shuo">怀念小平！//@新周刊：14年前的今天，那个“让一部分人先富起来，最终实现共同富裕”的人走了。</div><div id="SmallDiv_5293499_86093946" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5293499', '86093946','http://photo20.hexun.com/p/2011/0219/430469/b45_08614B1CD20CEF0E88990564E07485D6.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0219/430469/t150_08614B1CD20CEF0E88990564E07485D6.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5293499_86093946" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5293499' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='86093946' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','怀念小平！//@新周刊：14年前的今天，那个“让一部分人先富起来，最终实现共同富裕”的人走了。', '',this)">转发<font id="forwardfont_5293499" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5293499');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5293499','1','15930716','0')">评论<font id="commentfont_5293499" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5293499_d.html">2011-02-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5293499" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5293499"></div><div class="nr_con" id="articelItem_5292024">				<div class="nr_shuo">【英国博彩公司推出雷人赌博：赌中国十年超美】英国博彩公司立博集团14日推出新产品，以6赔4的赔率赌中国2020年之前超过美国。美国2010年GDP仍是中国的两倍多，中国人也早过了为这类超越激动的年代，但它却成了西方类似赛马赌注般的嗜好。立博发言人表示该公司只花了半天时间，就决定推出该项赌博。</div><div id="SmallDiv_5292024_86090782" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5292024', '86090782','http://photo20.hexun.com/p/2011/0218/430453/b45_DBAA70B514CA3D80B5CA08EA19D78D8F.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0218/430453/t150_DBAA70B514CA3D80B5CA08EA19D78D8F.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5292024_86090782" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5292024' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='86090782' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','【英国博彩公司推出雷人赌博：赌中国十年超美】英国博彩公司立博集团14日推出新产品，以6赔4的赔率赌中国2020年之前超过美国。美国2010年GDP仍是中国的两倍多，中国人也早过了为这类超越激动的年代，但它却成了西方类似赛马赌注般的嗜好。立博发言人表示该公司只花了半天时间，就决定推出该项赌博。', '',this)">转发<font id="forwardfont_5292024"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5292024');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5292024','1','15930716','0')">评论<font id="commentfont_5292024"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5292024_d.html">2011-02-18</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5292024" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5292024"></div><div class="nr_con" id="articelItem_5291944">				<div class="nr_shuo"> 周末到了，女儿马上开学，送给她~~并祝福她~~//@微博经典语录：做一个淡淡的女子，不浮不躁，不争不抢，不去计较浮华之事。不是不追求，只是不去强求，淡然地过着自己的生活，不要轰轰烈烈，只求安安心心。</div><div id="SmallDiv_5291944_86090596" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5291944', '86090596','http://photo20.hexun.com/p/2011/0218/430452/b45_02FE475426C3FEB72192F6E091FDFC8D.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0218/430452/t150_02FE475426C3FEB72192F6E091FDFC8D.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5291944_86090596" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5291944' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='86090596' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 周末到了，女儿马上开学，送给她~~并祝福她~~//@微博经典语录：做一个淡淡的女子，不浮不躁，不争不抢，不去计较浮华之事。不是不追求，只是不去强求，淡然地过着自己的生活，不要轰轰烈烈，只求安安心心。', '',this)">转发<font id="forwardfont_5291944" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5291944');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5291944','1','15930716','0')">评论<font id="commentfont_5291944" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5291944_d.html">2011-02-18</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5291944" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5291944"></div><div class="nr_con" id="articelItem_5291897">				<div class="nr_shuo">【管不住“房租” 就别管“群租”】春节后，北上广等一线城市房租持续上涨，二三线城市也未能幸免。北京租房市场报价比节前增长了14%。房租上涨已经是不争的事实。而从2月1号起，住建部已经明令禁止群租行为。对承受能力脆弱的蚁族、农民工而言，让他们拿什么抵制群租的诱惑呀？(生活新报) </div><div id="SmallDiv_5291897_86090569" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5291897', '86090569','http://photo20.hexun.com/p/2011/0218/430452/b45_AA2F8A5C7100A469B72C9EECAA13080C.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0218/430452/t150_AA2F8A5C7100A469B72C9EECAA13080C.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5291897_86090569" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5291897' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='86090569' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','【管不住“房租” 就别管“群租”】春节后，北上广等一线城市房租持续上涨，二三线城市也未能幸免。北京租房市场报价比节前增长了14%。房租上涨已经是不争的事实。而从2月1号起，住建部已经明令禁止群租行为。对承受能力脆弱的蚁族、农民工而言，让他们拿什么抵制群租的诱惑呀？(生活新报) ', '',this)">转发<font id="forwardfont_5291897"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5291897');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5291897','1','15930716','0')">评论<font id="commentfont_5291897"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5291897_d.html">2011-02-18</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5291897" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5291897"></div><div class="nr_con" id="articelItem_5291851">				<div class="nr_shuo">晚上跟刚从国外度假回来的朋友聚会，席间说到她的司机接她的路上一脸愁云地表达了对地产调控的无奈：房子再调控，他们也买不起，但一调控，孩子的工作又保不住了~~他孩子在中介公司，也不知北京限购车、限购房造成多少失业呀！哪个脖友有统计数据呀？</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5291851' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','晚上跟刚从国外度假回来的朋友聚会，席间说到她的司机接她的路上一脸愁云地表达了对地产调控的无奈：房子再调控，他们也买不起，但一调控，孩子的工作又保不住了~~他孩子在中介公司，也不知北京限购车、限购房造成多少失业呀！哪个脖友有统计数据呀？', '',this)">转发<font id="forwardfont_5291851"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5291851');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5291851','1','15930716','0')">评论<font id="commentfont_5291851"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5291851_d.html">2011-02-18</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5291851" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5291851"></div><div class="nr_con" id="articelItem_5259771">				<div class="nr_shuo">@陶红兵：限购年代新版“北京欢迎你”：迎接另一限购令，带来紧张空气，气息改变情味没了，车房都不给你。我家大门常打开，开放怀抱等你，拥抱过后也没默契，你会白爱这里，不管远近都是客人，请不用客气，相约好了再一起，都不卖给你…哈哈哈，作者真有才</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5259771' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','@陶红兵：限购年代新版“北京欢迎你”：迎接另一限购令，带来紧张空气，气息改变情味没了，车房都不给你。我家大门常打开，开放怀抱等你，拥抱过后也没默契，你会白爱这里，不管远近都是客人，请不用客气，相约好了再一起，都不卖给你…哈哈哈，作者真有才', '',this)">转发<font id="forwardfont_5259771"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5259771');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5259771','1','15930716','0')">评论<font id="commentfont_5259771"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5259771_d.html">2011-02-16</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5259771" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5259771"></div><div class="nr_con" id="articelItem_5211484">				<div class="nr_shuo">人口红利阶段，哪儿有就业，哪儿就有人口聚集；随着中国未来十年加速进入老龄化，哪儿有良好的环境和气候，哪儿就有新的人口聚集~</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5211484' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','人口红利阶段，哪儿有就业，哪儿就有人口聚集；随着中国未来十年加速进入老龄化，哪儿有良好的环境和气候，哪儿就有新的人口聚集~', '',this)">转发<font id="forwardfont_5211484"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5211484');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5211484','1','15930716','0')">评论<font id="commentfont_5211484"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5211484_d.html">2011-02-14</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5211484" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5211484"></div><div class="nr_con" id="articelItem_5211330">				<div class="nr_shuo"> 该网站对中国三年的描述：2000年是贫穷的第三世界国家联盟，2009年是主导性的发展中国家联盟，2020年是一个二等发达国家+一个一等发展中国家联盟</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5211330' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 该网站对中国三年的描述：2000年是贫穷的第三世界国家联盟，2009年是主导性的发展中国家联盟，2020年是一个二等发达国家+一个一等发展中国家联盟', '',this)">转发<font id="forwardfont_5211330"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5211330');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5211330','1','15930716','0')">评论<font id="commentfont_5211330"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5211330_d.html">2011-02-14</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5211330" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5211330"></div><div class="nr_con" id="articelItem_5211313">				<div class="nr_shuo">2020年的中国GDP=韩国+加拿大+俄罗斯+印尼+澳大利亚+西班牙+土耳其+以色列+......这是环球时报的一篇文章讲西方知名金融评论网站wallstreetpit4日发表的中国另类解读，并且该网站绘制了中国2000、2009、2020三年的经济地图~</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5211313' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','2020年的中国GDP=韩国+加拿大+俄罗斯+印尼+澳大利亚+西班牙+土耳其+以色列+......这是环球时报的一篇文章讲西方知名金融评论网站wallstreetpit4日发表的中国另类解读，并且该网站绘制了中国2000、2009、2020三年的经济地图~', '',this)">转发<font id="forwardfont_5211313"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5211313');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5211313','1','15930716','0')">评论<font id="commentfont_5211313"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5211313_d.html">2011-02-14</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5211313" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5211313"></div><div class="nr_con" id="articelItem_5211299">				<div class="nr_shuo">现实点说只有先通过土地城市化获得财政收入，才有可能再投入实现人的城市化~我国超八成地级市欲规划建设国际大都市-新闻频道-和讯网 <a href="http://url.hexun.com/19aO2" title="http://news.hexun.com/2011-02-14/127285204.html" target="_blank">http://url.hexun.com/19aO2</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='5211299' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','现实点说只有先通过土地城市化获得财政收入，才有可能再投入实现人的城市化~我国超八成地级市欲规划建设国际大都市-新闻频道-和讯网 http://url.hexun.com/19aO2', '',this)">转发<font id="forwardfont_5211299"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5211299');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5211299','1','15930716','0')">评论<font id="commentfont_5211299"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5211299_d.html">2011-02-14</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5211299" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5211299"></div><div class="nr_con" id="articelItem_5210851">				<div class="nr_shuo">远远涌入的资金和由此带来的就业人口将使已有不低门槛的北京房价难降！——北京在21个国际大都市吸引外资排名中位居第二-新闻频道-和讯网 <a href="http://url.hexun.com/19aQz" title="http://news.hexun.com/2011-01-17/126846736.html" target="_blank">http://url.hexun.com/19aQz</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='5210851' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','远远涌入的资金和由此带来的就业人口将使已有不低门槛的北京房价难降！——北京在21个国际大都市吸引外资排名中位居第二-新闻频道-和讯网 http://url.hexun.com/19aQz', '',this)">转发<font id="forwardfont_5210851"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5210851');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5210851','1','15930716','0')">评论<font id="commentfont_5210851"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5210851_d.html">2011-02-14</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5210851" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5210851"></div><div class="nr_con" id="articelItem_5205148">				<div class="nr_shuo">  <a href="/k/%ca%d3%c6%b5">&nbsp;#视频#&nbsp;</a> 幻想曲2000：情人节到来，分享唐老鸭演绎诺亚方舟，爱意浓浓~~</div><div id="SmallDiv_5205148_video0" class="img_border"><div class="playicon" onmousedown="javascript:videoOpen(5205148,0,'')" onmouseup="javascript:videoMouseUp(5205148,0,'')"></div><a href="javascript:void(0);" onmousedown="javascript:videoOpen(5205148,0,'')" onmouseup="javascript:videoMouseUp(5205148,0,'')"><img  src="http://i01.img.tudou.com/data/imgs/i/008/225/981/p.jpg" class="imgBig" style="width:150px; height:115px"></a></div><div id="MiddleDiv_5205148_video0" class="preview_big" style="display:none;"><h3><span class="preview_big_4" title="关闭" onclick="javascript:videoClose(5205148,0)">&nbsp;</span></h3><p id="p_5205148_video0"></p><p id="hid_5205148_videoUrl0" style="display:none"><embed src="ptth://www.tudou.com/l/x9D8fFQMY4w" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="537" height="450"></embed></p></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5205148' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','  &amp;nbsp;#视频#&amp;nbsp; 幻想曲2000：情人节到来，分享唐老鸭演绎诺亚方舟，爱意浓浓~~', '',this)">转发<font id="forwardfont_5205148" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5205148');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5205148','1','15930716','0')">评论<font id="commentfont_5205148" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5205148_d.html">2011-02-14</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5205148" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5205148"></div><div class="nr_con" id="articelItem_5201518">				<div class="nr_shuo">渣打银行报告，官方发布的去年新增就业数被严重低估，实际估算是官方数据两倍。原因是对私人部门新增就业估计不足；更重要的是工作岗位增加的速度已超劳动力人口增速。前者再次印证王小鲁对经济规模低估的研究；后者说明，刘易斯拐点真来了！结论：高增长必有高通胀。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5201518' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','渣打银行报告，官方发布的去年新增就业数被严重低估，实际估算是官方数据两倍。原因是对私人部门新增就业估计不足；更重要的是工作岗位增加的速度已超劳动力人口增速。前者再次印证王小鲁对经济规模低估的研究；后者说明，刘易斯拐点真来了！结论：高增长必有高通胀。', '',this)">转发<font id="forwardfont_5201518"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5201518');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5201518','1','15930716','0')">评论<font id="commentfont_5201518"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5201518_d.html">2011-02-13</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5201518" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5201518"></div><div class="nr_con" id="articelItem_5200297">				<div class="nr_shuo"> 转型之难~【地产界的365天】2011年2月13日,上海土地市场12日举行的5地连拍结果出炉,单价最高则被浦兴社区Y<a href="/g/000902_1">000902</a>编制单元19-04住宅地块获得,其楼板价达到21362元,而莘庄商务区27A-05A商办地块拍出最高溢价率178%,楼板价13798元/平米。第三波楼市调控下,住宅成交跌入冰点,但土地市场并未有显著影响。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5200297' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 转型之难~【地产界的365天】2011年2月13日,上海土地市场12日举行的5地连拍结果出炉,单价最高则被浦兴社区Y000902编制单元19-04住宅地块获得,其楼板价达到21362元,而莘庄商务区27A-05A商办地块拍出最高溢价率178%,楼板价13798元/平米。第三波楼市调控下,住宅成交跌入冰点,但土地市场并未有显著影响。', '',this)">转发<font id="forwardfont_5200297"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5200297');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5200297','1','15930716','0')">评论<font id="commentfont_5200297"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5200297_d.html">2011-02-13</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5200297" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5200297"></div><div class="nr_con" id="articelItem_5200284">				<div class="nr_shuo">@CRIC研究中心：：进入2011年以来，九龙仓已分别于苏州、长沙与杭州买地，涉及资金近100亿港元。九龙仓此次的100亿港元的供股计划，与其中期将内地资产比重由30%提高至50%的计划是一致的。到2011年底九龙仓的净负债与股权的比例可能增至19%，预计九龙仓的土地溢价为290亿港元。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5200284' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','@CRIC研究中心：：进入2011年以来，九龙仓已分别于苏州、长沙与杭州买地，涉及资金近100亿港元。九龙仓此次的100亿港元的供股计划，与其中期将内地资产比重由30%提高至50%的计划是一致的。到2011年底九龙仓的净负债与股权的比例可能增至19%，预计九龙仓的土地溢价为290亿港元。', '',this)">转发<font id="forwardfont_5200284"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5200284');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5200284','1','15930716','0')">评论<font id="commentfont_5200284"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5200284_d.html">2011-02-13</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5200284" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5200284"></div><div class="nr_con" id="articelItem_5200246">				<div class="nr_shuo">@CRIC研究中心：【 <a href="/k/%c8%da%d7%ca">&nbsp;#融资#&nbsp;</a>】香港九龙仓集团宣布拟以每股36.5港元，每10股供1股，发行2.75亿股供股股份，该供股价较9日收市价折让31%。九龙仓此次供股所得款项将为港币100.52亿，在扣除相关开支后估计将为港币99.8亿，九龙仓拟将供股所得款项净额用作为额外的中国物业及相关投资融资。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5200246' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','@CRIC研究中心：【 &amp;nbsp;#融资#&amp;nbsp;】香港九龙仓集团宣布拟以每股36.5港元，每10股供1股，发行2.75亿股供股股份，该供股价较9日收市价折让31%。九龙仓此次供股所得款项将为港币100.52亿，在扣除相关开支后估计将为港币99.8亿，九龙仓拟将供股所得款项净额用作为额外的中国物业及相关投资融资。', '',this)">转发<font id="forwardfont_5200246"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5200246');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5200246','1','15930716','0')">评论<font id="commentfont_5200246"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5200246_d.html">2011-02-13</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5200246" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5200246"></div><div class="nr_con" id="articelItem_5196213">				<div class="nr_shuo">经典~悠扬~好歌入梦~  <a href="/k/%ca%d3%c6%b5">&nbsp;#视频#&nbsp;</a> MOON RIVER—— 小野丽莎</div><div id="SmallDiv_5196213_video0" class="img_border"><div class="playicon" onmousedown="javascript:videoOpen(5196213,0,'')" onmouseup="javascript:videoMouseUp(5196213,0,'')"></div><a href="javascript:void(0);" onmousedown="javascript:videoOpen(5196213,0,'')" onmouseup="javascript:videoMouseUp(5196213,0,'')"><img  src="http://i01.img.tudou.com/data/imgs/i/034/712/799/audio_120x90.jpg" class="imgBig" style="width:150px; height:115px"></a></div><div id="MiddleDiv_5196213_video0" class="preview_big" style="display:none;"><h3><span class="preview_big_4" title="关闭" onclick="javascript:videoClose(5196213,0)">&nbsp;</span></h3><p id="p_5196213_video0"></p><p id="hid_5196213_videoUrl0" style="display:none"><embed src="ptth://www.tudou.com/v/PCR1ZaLFQ7o/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="537" height="450"></embed></p></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5196213' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','经典~悠扬~好歌入梦~  &amp;nbsp;#视频#&amp;nbsp; MOON RIVER—— 小野丽莎', '',this)">转发<font id="forwardfont_5196213"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5196213');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5196213','1','15930716','0')">评论<font id="commentfont_5196213"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5196213_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5196213" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5196213"></div><div class="nr_con" id="articelItem_5192469">				<div class="nr_shuo">很牛！ //@何刚:用郭德纲相声里的三俗比喻，这汽太浓，沟点芡就成@头条新闻：【上海<a href="/g/600663_1">陆家嘴</a>双子楼冒烟 官方称系空调锅炉放汽】新民网：多名网友在微博上发帖称，15点30分左右上海<a href="/g/600663_1">陆家嘴</a>的“双子楼”冒出滚滚浓烟。记者从浦东新区政府了解到，冒烟并不是火警，是空调锅炉放蒸汽。</div><div id="SmallDiv_5192469_85926407" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5192469', '85926407','http://photo20.hexun.com/p/2011/0212/429632/b45_5A001027C263A5E532D3F246905637AB.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0212/429632/t150_5A001027C263A5E532D3F246905637AB.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5192469_85926407" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5192469' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85926407' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','很牛！ //@何刚:用郭德纲相声里的三俗比喻，这汽太浓，沟点芡就成@头条新闻：【上海陆家嘴双子楼冒烟 官方称系空调锅炉放汽】新民网：多名网友在微博上发帖称，15点30分左右上海陆家嘴的“双子楼”冒出滚滚浓烟。记者从浦东新区政府了解到，冒烟并不是火警，是空调锅炉放蒸汽。', '',this)">转发<font id="forwardfont_5192469"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5192469');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5192469','1','15930716','0')">评论<font id="commentfont_5192469"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5192469_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5192469" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5192469"></div><div class="nr_con" id="articelItem_5192367">				<div class="nr_shuo">//@赵晓：黑色幽默：在美国法院，亲耳听到美国法官和华人偷渡客的这样一番问答：法官问，“你是中华人民共和国的公民吗”？偷渡客答，“我不是中华人民共和国的公民，我是中华人民共和国的农民!”</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5192367' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@赵晓：黑色幽默：在美国法院，亲耳听到美国法官和华人偷渡客的这样一番问答：法官问，“你是中华人民共和国的公民吗”？偷渡客答，“我不是中华人民共和国的公民，我是中华人民共和国的农民!”', '',this)">转发<font id="forwardfont_5192367"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5192367');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5192367','1','15930716','0')">评论<font id="commentfont_5192367"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5192367_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5192367" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5192367"></div><div class="nr_con" id="articelItem_5191132">				<div class="nr_shuo"> 冬日没有阳光的下午，听最为舒缓优美的音乐期盼春天的到来~~ <a href="/k/%ca%d3%c6%b5">&nbsp;#视频#&nbsp;</a> 班得瑞——春野专辑 One Day in Spring</div><div id="SmallDiv_5191132_video0" class="img_border"><div class="playicon" onmousedown="javascript:videoOpen(5191132,0,'')" onmouseup="javascript:videoMouseUp(5191132,0,'')"></div><a href="javascript:void(0);" onmousedown="javascript:videoOpen(5191132,0,'')" onmouseup="javascript:videoMouseUp(5191132,0,'')"><img  src="http://i01.img.tudou.com/data/imgs/i/057/274/649/p.jpg" class="imgBig" style="width:150px; height:115px"></a></div><div id="MiddleDiv_5191132_video0" class="preview_big" style="display:none;"><h3><span class="preview_big_4" title="关闭" onclick="javascript:videoClose(5191132,0)">&nbsp;</span></h3><p id="p_5191132_video0"></p><p id="hid_5191132_videoUrl0" style="display:none"><embed src="ptth://www.tudou.com/v/7JOrq_Pa79Q/v.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="537" height="450"></embed></p></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5191132' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 冬日没有阳光的下午，听最为舒缓优美的音乐期盼春天的到来~~ &amp;nbsp;#视频#&amp;nbsp; 班得瑞——春野专辑 One Day in Spring', '',this)">转发<font id="forwardfont_5191132"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5191132');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5191132','1','15930716','0')">评论<font id="commentfont_5191132"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5191132_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5191132" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5191132"></div><div class="nr_con" id="articelItem_5190711">				<div class="nr_shuo">@冷笑话精选【对视的妙处】男女对视不足1秒钟表明没有好感；对视2秒有好感；对视3秒可能情愫暗生；对视4秒表明感情深厚；对视5秒钟以上已到步入婚姻阶段。美国心理学家推荐“深情对视”练习：面带微笑、充满爱意对视对方8秒钟，深情对望。训练后彼此爱慕程度可上升7%，喜欢度上升11%，亲密度上升45% </div><div id="SmallDiv_5190711_85922446" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5190711', '85922446','http://photo20.hexun.com/p/2011/0212/429612/b45_74F042D32217003697DD92CD9EEA174F.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0212/429612/t150_74F042D32217003697DD92CD9EEA174F.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5190711_85922446" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5190711' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85922446' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','@冷笑话精选【对视的妙处】男女对视不足1秒钟表明没有好感；对视2秒有好感；对视3秒可能情愫暗生；对视4秒表明感情深厚；对视5秒钟以上已到步入婚姻阶段。美国心理学家推荐“深情对视”练习：面带微笑、充满爱意对视对方8秒钟，深情对望。训练后彼此爱慕程度可上升7%，喜欢度上升11%，亲密度上升45% ', '',this)">转发<font id="forwardfont_5190711" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5190711');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5190711','1','15930716','0')">评论<font id="commentfont_5190711" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5190711_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5190711" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5190711"></div><div class="nr_con" id="articelItem_5188234">				<div class="nr_shuo">//@财经网：【浙江将公布首批可开发建设无人岛 起租年限30年】浙江首批可利用无居民岛名录将在2月底或3月初公布，成为首批被允许开发建设的无人岛。无人岛起租年限是30年，也可一次性租四五十年。有的限定只能搞旅游，有的限定只能搞工业，有的可建仓库搞物流，有的搞海鲜养殖。</div><div id="SmallDiv_5188234_85916146" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5188234', '85916146','http://photo20.hexun.com/p/2011/0212/429580/b45_5BF73D21A4DC130D4EC87851DF1C6920.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0212/429580/t150_5BF73D21A4DC130D4EC87851DF1C6920.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5188234_85916146" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5188234' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85916146' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@财经网：【浙江将公布首批可开发建设无人岛 起租年限30年】浙江首批可利用无居民岛名录将在2月底或3月初公布，成为首批被允许开发建设的无人岛。无人岛起租年限是30年，也可一次性租四五十年。有的限定只能搞旅游，有的限定只能搞工业，有的可建仓库搞物流，有的搞海鲜养殖。', '',this)">转发<font id="forwardfont_5188234"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5188234');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5188234','1','15930716','0')">评论<font id="commentfont_5188234"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5188234_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5188234" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5188234"></div><div class="nr_con" id="articelItem_5188032">				<div class="nr_shuo">@丁学良：穆老爷一下台，瑞士就冻结他家藏的财产。统治30年的穆家财产据专家估计达400亿-700亿美元，每天捞370万至640万，够一家人忙的。冻结令有效期三年，目的是阻止埃国公有财产被挪用。民众要穆下台的原因之一就是贪腐。早先瑞士也冻结了突尼斯前总统阿里和科特迪瓦总统巴博的帐户，都有巨款私藏</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5188032' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','@丁学良：穆老爷一下台，瑞士就冻结他家藏的财产。统治30年的穆家财产据专家估计达400亿-700亿美元，每天捞370万至640万，够一家人忙的。冻结令有效期三年，目的是阻止埃国公有财产被挪用。民众要穆下台的原因之一就是贪腐。早先瑞士也冻结了突尼斯前总统阿里和科特迪瓦总统巴博的帐户，都有巨款私藏', '',this)">转发<font id="forwardfont_5188032"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5188032');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5188032','1','15930716','0')">评论<font id="commentfont_5188032"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5188032_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5188032" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5188032"></div><div class="nr_con" id="articelItem_5187929">				<div class="nr_shuo">“闯出一片天”是不易，“发现一片天”亦难得//@生活方式研究院：德国女摄影师丽莎?里尼尔曼的“英文字母表”。她用半年时间通过在西班牙巴塞罗那仰拍被高楼遮挡的天空，收集了完整的26个字母的图样，构成一组艺术创作。她将这种独特的艺术形式叫做“天空字型(Type of Sky)”。（据艺术新闻） </div><div id="SmallDiv_5187929_85915810" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5187929', '85915810','http://photo20.hexun.com/p/2011/0212/429579/b45_1C3F38795CA6D2973866F400A121EE64.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0212/429579/t150_1C3F38795CA6D2973866F400A121EE64.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5187929_85915810" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5187929' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85915810' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','“闯出一片天”是不易，“发现一片天”亦难得//@生活方式研究院：德国女摄影师丽莎?里尼尔曼的“英文字母表”。她用半年时间通过在西班牙巴塞罗那仰拍被高楼遮挡的天空，收集了完整的26个字母的图样，构成一组艺术创作。她将这种独特的艺术形式叫做“天空字型(Type of Sky)”。（据艺术新闻） ', '',this)">转发<font id="forwardfont_5187929"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5187929');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5187929','1','15930716','0')">评论<font id="commentfont_5187929"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5187929_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5187929" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5187929"></div><div class="nr_con" id="articelItem_5186725">				<div class="nr_shuo">//@王蒙：一个政党的前景从它的文风上已经可以看出端倪。一个政权的衰落是从语文的腐烂上开始的。王蒙11岁时,听国民党北平市某局长广播讲话，满口空话套话陈词滥调，悟道政权衰落从语文的腐烂上开始 <a href="http://url.hexun.com/198HM" title="http://sinaurl.cn/hqxSbm" target="_blank">http://url.hexun.com/198HM</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5186725' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@王蒙：一个政党的前景从它的文风上已经可以看出端倪。一个政权的衰落是从语文的腐烂上开始的。王蒙11岁时,听国民党北平市某局长广播讲话，满口空话套话陈词滥调，悟道政权衰落从语文的腐烂上开始 http://url.hexun.com/198HM', '',this)">转发<font id="forwardfont_5186725"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5186725');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5186725','1','15930716','0')">评论<font id="commentfont_5186725"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5186725_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5186725" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5186725"></div><div class="nr_con" id="articelItem_5186685">				<div class="nr_shuo"> 以人为鉴知兴衰!----从北非地中海沿岸的突尼斯和埃及，跨过苏伊士运河到达彼岸的约旦，东到红海口的也门，这些近二三十年来政权固若金汤的国家，最近政权或固有权力结构以各种形式更迭或崩塌：突尼斯是总统本阿里出走，约旦是首相下台，也门总统宣布不再连任，埃及是执政党总辞和穆巴拉克下台(牛刀).</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5186685' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 以人为鉴知兴衰!----从北非地中海沿岸的突尼斯和埃及，跨过苏伊士运河到达彼岸的约旦，东到红海口的也门，这些近二三十年来政权固若金汤的国家，最近政权或固有权力结构以各种形式更迭或崩塌：突尼斯是总统本阿里出走，约旦是首相下台，也门总统宣布不再连任，埃及是执政党总辞和穆巴拉克下台(牛刀).', '',this)">转发<font id="forwardfont_5186685" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5186685');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5186685','1','15930716','0')">评论<font id="commentfont_5186685" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5186685_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5186685" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5186685"></div><div class="nr_con" id="articelItem_5186658">				<div class="nr_shuo">穆巴拉克辞职、11日纽约三大股低开高走，股指全面收涨。纽约油价大幅下跌</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5186658' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','穆巴拉克辞职、11日纽约三大股低开高走，股指全面收涨。纽约油价大幅下跌', '',this)">转发<font id="forwardfont_5186658"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5186658');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5186658','1','15930716','0')">评论<font id="commentfont_5186658"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5186658_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5186658" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5186658"></div><div class="nr_con" id="articelItem_5185597">				<div class="nr_shuo">（新华网）开罗2月11日电 埃及副总统苏莱曼11日通过国家电视台宣布，穆巴拉克已经辞去总统职务，并将权力移交给军方。苏莱曼说：“在国家目前正在经历的困难时期，穆巴拉克总统决定辞去总统职务。”他说，穆巴拉克已经授权埃及武装部队最高委员会掌管国家事务。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5185597' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','（新华网）开罗2月11日电 埃及副总统苏莱曼11日通过国家电视台宣布，穆巴拉克已经辞去总统职务，并将权力移交给军方。苏莱曼说：“在国家目前正在经历的困难时期，穆巴拉克总统决定辞去总统职务。”他说，穆巴拉克已经授权埃及武装部队最高委员会掌管国家事务。', '',this)">转发<font id="forwardfont_5185597"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5185597');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5185597','1','15930716','0')">评论<font id="commentfont_5185597"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5185597_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5185597" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5185597"></div><div class="nr_con" id="articelItem_5185565">				<div class="nr_shuo">//@财经网：【埃及最新局势】新华网快讯：埃及总统穆巴拉克宣布辞职。 财经网: 【埃及局势】新华网快讯：据外电１１日报道，埃及总统穆巴拉克和他的家人已经离开首都开罗。</div><div id="SmallDiv_5185565_85914173" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5185565', '85914173','http://photo20.hexun.com/p/2011/0212/429570/b45_09AAB7FDBDD9C417114266CBEC4A4DE7.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0212/429570/t150_09AAB7FDBDD9C417114266CBEC4A4DE7.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5185565_85914173" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5185565' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85914173' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@财经网：【埃及最新局势】新华网快讯：埃及总统穆巴拉克宣布辞职。 财经网: 【埃及局势】新华网快讯：据外电１１日报道，埃及总统穆巴拉克和他的家人已经离开首都开罗。', '',this)">转发<font id="forwardfont_5185565" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5185565');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5185565','1','15930716','0')">评论<font id="commentfont_5185565" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5185565_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5185565" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5185565"></div><div class="nr_con" id="articelItem_5185505">				<div class="nr_shuo"> <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>西班牙。白色小镇。街道</div><div id="SmallDiv_5185505_85914160" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5185505', '85914160','http://photo20.hexun.com/p/2011/0212/429570/b45_4D4B25C2B7C7DCA72CBEC3739F6DA747.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0212/429570/t150_4D4B25C2B7C7DCA72CBEC3739F6DA747.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5185505_85914160" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5185505' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85914160' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#分享图片#&amp;nbsp;西班牙。白色小镇。街道', '',this)">转发<font id="forwardfont_5185505"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5185505');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5185505','1','15930716','0')">评论<font id="commentfont_5185505"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5185505_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5185505" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5185505"></div><div class="nr_con" id="articelItem_5185497">				<div class="nr_shuo"> <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>西班牙。白色小镇</div><div id="SmallDiv_5185497_85914155" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5185497', '85914155','http://photo20.hexun.com/p/2011/0212/429570/b45_17F4DD992E7DEB6A417D314BB20E7AA6.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0212/429570/t150_17F4DD992E7DEB6A417D314BB20E7AA6.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5185497_85914155" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5185497' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85914155' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#分享图片#&amp;nbsp;西班牙。白色小镇', '',this)">转发<font id="forwardfont_5185497"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5185497');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5185497','1','15930716','0')">评论<font id="commentfont_5185497"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5185497_d.html">2011-02-12</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5185497" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5185497"></div><div class="nr_con" id="articelItem_5184618">				<div class="nr_shuo"> <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>西班牙。格莱那达</div><div id="SmallDiv_5184618_85911375" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5184618', '85911375','http://photo20.hexun.com/p/2011/0211/429556/b45_EE5A423F6B4BCD2FA56C974F9115B739.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0211/429556/t150_EE5A423F6B4BCD2FA56C974F9115B739.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5184618_85911375" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5184618' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85911375' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#分享图片#&amp;nbsp;西班牙。格莱那达', '',this)">转发<font id="forwardfont_5184618" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5184618');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5184618','1','15930716','0')">评论<font id="commentfont_5184618" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5184618_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5184618" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5184618"></div><div class="nr_con" id="articelItem_5184469">				<div class="nr_shuo">告诉女儿：烦的时候没人问，就学会了承受；哭的时候没人哄，就学会了坚强；怕的时候没人陪，就学会了勇敢；累的时候没人可以依靠，就学会了自立。就这样可以找到自己，可贵的是，世界上，只有一个你！渐渐地你成熟了，有压力才有动力，因为没有更大的不如意，所以现在的不如意也是幸福的~</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5184469' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','告诉女儿：烦的时候没人问，就学会了承受；哭的时候没人哄，就学会了坚强；怕的时候没人陪，就学会了勇敢；累的时候没人可以依靠，就学会了自立。就这样可以找到自己，可贵的是，世界上，只有一个你！渐渐地你成熟了，有压力才有动力，因为没有更大的不如意，所以现在的不如意也是幸福的~', '',this)">转发<font id="forwardfont_5184469"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5184469');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5184469','1','15930716','0')">评论<font id="commentfont_5184469"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5184469_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5184469" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5184469"></div><div class="nr_con" id="articelItem_5184204">				<div class="nr_shuo"> <a href="/k/%c2%a5%ca%d0%7e%cf%de%b9%ba%7e%b7%bf%bc%db">&nbsp;#楼市~限购~房价#&nbsp;</a> 如果11年经济政策的重点是1、抗通胀；2、调结构；3、保增长的话，楼市主旋律：1、调结构（单元结构向二元结构转型）；2、防泡沫；但调结构需要时间，阶段性行政干预是在争取时间。。。。。。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5184204' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#楼市~限购~房价#&amp;nbsp; 如果11年经济政策的重点是1、抗通胀；2、调结构；3、保增长的话，楼市主旋律：1、调结构（单元结构向二元结构转型）；2、防泡沫；但调结构需要时间，阶段性行政干预是在争取时间。。。。。。', '',this)">转发<font id="forwardfont_5184204"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5184204');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5184204','1','15930716','0')">评论<font id="commentfont_5184204"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5184204_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5184204" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5184204"></div>
+			</div>
+			<iframe style="display:none;" id="iframeBlog" src="about:blank" frameBorder="0" width="554" name="iframeBlog" scrolling="no"></iframe>
+			<script language="javascript" type="text/javascript">
+			document.domain = "hexun.com";
+			function switchBlog()
+			{
+			    $("#liWeibo").attr("class","otherLi");
+			    $("#liBlog").attr("class","currentLi");
+			    $("#tabWeibo").css("cursor","pointer");
+			    $("#tabBlog").css("cursor","default");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconG.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconR.gif");
+			    $("#listWeibo").hide();
+			    $("#gotop").hide();
+			    var iframesrc = $("#iframeBlog").attr("src");
+			    if (iframesrc == "about:blank")
+			    {
+			        iframesrc = "http://15930716.blog.hexun.com/wbblog.html?mb=9"; 
+			        $("#iframeBlog").attr("src",iframesrc);
+			    }
+			    $("#iframeBlog").show();
+			}
+			function switchWeibo()
+			{
+			    $("#liWeibo").attr("class","currentLi");
+			    $("#liBlog").attr("class","otherLi");
+			    $("#tabWeibo").css("cursor","default");
+			    $("#tabBlog").css("cursor","pointer");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconR.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconG.gif");
+			    $("#iframeBlog").hide();
+			    $("#listWeibo").show();
+			    $("#gotop").show();
+			}
+			</script>
+		</div>
+		<div id="gotop">
+	        <div style="float:left"><a href="javascript:void(0);" onclick="javascript:GotoTop();">返回顶部</a></div>
+			<div id="page2"><ul><li class="border_f"><strong >1</strong></li><li><a href="/15930716/p2/default.html">2</a></li><li class="nextbtn2 a555"><a href="/15930716/p2/default.html" >下一页&nbsp;&gt;</a></li></ul>
+</div>
+			<div class=clear></div>
+		</div>
+	</div>
+	<div class="mainR">
+		<!--博主简介 s-->		
+		<div class="user_con">
+			<ul>
+				<li class="li1"><strong><a href="/15930716/MyFollow.html" id=followcFont>9</a></strong><a href="/15930716/MyFollow.html">关注</a></li>
+				<li class="li2"><strong><a href="/15930716/FollowMy.html" id=followedFont>3164</a></strong><a href="/15930716/FollowMy.html">被关注</a></li>
+				<li class="li3"><strong><a href="/15930716/default.html"  id=articlecFont>72</a></strong><a href="/15930716/default.html">博文</a></li>
+			</ul>
+		</div>
+		<!--博主简介 e-->
+		
+		
+        <!--真实身份认证-->
+		
+		<div class="phb" style="background:none;padding-left:0px;"><img src="/images/common/rz.gif" border="0" title="真实身份认证用户">&nbsp;&nbsp;</div>
+				
+        <!--真实身份认证 e-->
+        
+        
+		<div class="mainR_line"></div>
+
+
+				
+		<div align="center">
+ 
+<table width="185" border="0">
+  <tr>
+    <td width="185"><div align="center"><a href="http://t.hexun.com/zt/fangtan.html" target="_blank"><img src="http://i9.hexunimg.cn/2012-05-10/141257867.jpg" width="185" height="150" border="0"></a></div></td>
+  </tr>
+ 
+</table>
+ 
+</div>
+	  <!--自选股票-->
+	  <div id="TaStockDiv_line" class="mainR_line2"></div>
+	  <!--增加自选股-->
+	  <div id="TaStockDiv" class="theme_con" style="margin-top:15px;">
+        <h2><span id="smyStockDiv" onclick="trHead('myStockDiv','9')" class="iconimg" title="隐藏">&nbsp;</span>Ta的自选股</h2>
+        <div id="myStockDiv">
+	  
+	   <!--增加自选股end-->
+	    <!--自选股-->
+	  <div id="sfqp_StockInfo2" class="sfgp_con" style="background:#fff; overflow:hidden;filter:alpha(opacity=90); opacity:0.9;width:162px;padding:0 5px;">
+	  </div>
+	  <!--自选股end-->
+	  <!--自选股票end-->
+        <script type="text/javascript">
+        getMyStockInfoForHomePage = function()
+        {     
+             
+             $.getIfModified(ApiFile,{GetMyStockInfoForHomePage:Math.random(),curID:15930716}, 
+             function(response)
+             {         
+                 if(response.length == 0)
+                 {
+                       document.getElementById("TaStockDiv").style.display = "none";
+                       document.getElementById("TaStockDiv_line").style.display = "none";
+                       
+                 }                         
+                 document.getElementById("sfqp_StockInfo2").innerHTML = response;         
+             });
+        }
+        getMyStockInfoForHomePage();
+        setInterval("getMyStockInfoForHomePage()",300000);
+        </script>        
+        </div>
+     </div>
+		
+		<!--Ta的微群-->
+		
+		<!--Ta的微群 e-->
+		<div class="mainR_line"></div>
+		
+		<!--Ta的同行 s-->
+		<div class="rec_con">
+			<h2>Ta的同行</h2>
+			<ul> 
+			    <li><a href="/6117/default.html" title="江涛"><img src="http://logo1.tool.hexun.com/e51700-40.jpg" /></a><a href="/6117/default.html" title="江涛"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=6117')" >江涛</a><br><a href='#' onclick='javscript:AddFollow(6117,0);window.location.reload();'>关注Ta</a></li><li><a href="/368902/default.html" title="陈剑峰"><img src="http://logo2.tool.hexun.com/6a105-40.jpg" /></a><a href="/368902/default.html" title="陈剑峰"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=368902')" >陈剑峰</a><br><a href='#' onclick='javscript:AddFollow(368902,0);window.location.reload();'>关注Ta</a></li><li><a href="/1493771/default.html" title="刘彦斌"><img src="http://logo3.tool.hexun.com/bcb16-40.jpg" /></a><a href="/1493771/default.html" title="刘彦斌"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=1493771')" >刘彦斌</a><br><a href='#' onclick='javscript:AddFollow(1493771,0);window.location.reload();'>关注Ta</a></li><li><a href="/2736365/default.html" title="DTSBCceo"><img src="http://logo1.tool.hexun.com/edc029-40.jpg" /></a><a href="/2736365/default.html" title="DTSBCceo"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2736365')" >DTSBCc..</a><br><a href='#' onclick='javscript:AddFollow(2736365,0);window.location.reload();'>关注Ta</a></li><li><a href="/2949026/default.html" title="任志强"><img src="http://logo2.tool.hexun.com/a2ff2c-40.jpg" /></a><a href="/2949026/default.html" title="任志强"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2949026')" >任志强</a><br><a href='#' onclick='javscript:AddFollow(2949026,0);window.location.reload();'>关注Ta</a></li><li><a href="/3383756/default.html" title="陶行逸"><img src="http://logo0.tool.hexun.com/cca133-40.jpg" /></a><a href="/3383756/default.html" title="陶行逸"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=3383756')" >陶行逸</a><br><a href='#' onclick='javscript:AddFollow(3383756,0);window.location.reload();'>关注Ta</a></li><li><a href="/4069031/default.html" title="贾卧龙"><img src="http://logo3.tool.hexun.com/a7163e-40.jpg" /></a><a href="/4069031/default.html" title="贾卧龙"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4069031')" >贾卧龙</a><br><a href='#' onclick='javscript:AddFollow(4069031,0);window.location.reload();'>关注Ta</a></li><li><a href="/4226845/default.html" title="于跃文"><img src="http://logo1.tool.hexun.com/1d7f40-40.jpg" /></a><a href="/4226845/default.html" title="于跃文"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4226845')" >于跃文</a><br><a href='#' onclick='javscript:AddFollow(4226845,0);window.location.reload();'>关注Ta</a></li><li><a href="/4244579/default.html" title="潘石屹"><img src="http://logo3.tool.hexun.com/63c440-40.jpg" /></a><a href="/4244579/default.html" title="潘石屹"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4244579')" >潘石屹</a><br><a href='#' onclick='javscript:AddFollow(4244579,0);window.location.reload();'>关注Ta</a></li>
+				<div class="clear"></div>
+			</ul>
+			<p><a href="/Channel/InvestmentExperts.aspx?typeId=10">更多&gt;</a></p>
+		</div>
+		<!--Ta的同行 e-->
+		<!--Ta关注的话题 s-->
+		
+<script type="text/javascript">
+function changeWeihu()
+{
+    //debugger;
+    if(document.getElementById("ulWeihu2").style.display=="none")
+    {
+        document.getElementById("ulWeihu1").style.display="none";
+        document.getElementById("ulWeihu2").style.display="block";
+        
+    }
+    else
+    {
+        document.getElementById("ulWeihu2").style.display="none";
+        document.getElementById("ulWeihu1").style.display="block";
+
+    }
+}
+</script>
+		<!--Ta关注的话题 e-->
+		<!--Ta的股票 s-->
+		
+		<!--Ta的股票 e-->
+		
+<div class="mainR_line"></div>
+		<!--和讯微博意见反馈 s-->
+		<div class="stock_con">
+			<h2><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">和讯微博意见反馈</a></h2>
+			<h4>和讯财经微博新鲜上架，肯定有很多不完善的地方，特别欢迎大家帮忙提出宝贵意见与建议。</h4>
+			<ul>
+				<li><a href="http://t.hexun.com/hecaiwei/default.html">1.财经微博客服何采薇</a></li>
+				<li><a href="http://t.hexun.com/weibo/default.html">2.财经微博产品动态</a></li>
+				
+                <!-- xl -->
+		        
+                <li><a href="http://hecaiwei.blog.hexun.com/49208608_d.html" target="_blank">3.新手攻略：帮您成为微博达人</a></li>
+				<li><a href="http://t.hexun.com/zt/jianyi.html" target="_blank">4.有奖征集发展管理建议</a></li>
+                
+                
+			</ul>
+			
+			
+</div>
+
+
+	</div>
+	<div class="clear"></div>
+	
+</div>
+
+
+<div id="mainbgB"></div>
+<div id="footer"><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">意见反馈</a><font>|</font><a href="http://hexun.com/report.aspx?userid=15930716&type=1" target=_blank>举报</a><font>|</font>和讯微博V1.0 beta powered by hexun.com</div>
+<!--弹出窗口：转发博文1-->
+<div class="conBg_oth_zf" id="turn1Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn2Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn3Window" style="display:none;">
+</div>
+
+<div class="conBg_fz" id="fzWindow" style="display:none;">1111</div>
+
+  
+  <!--informbg start-->
+  <div class="conBg_oth informbg" id="informbg" style="z-index:1000;">
+  <form id=frm_CompUserName>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="z-index:1000;">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+		    
+			<h3><span onclick="closeInformbg();"></span>举报</h3>
+			
+			
+			<table class="inform_table">
+  <tr>
+    <td>被举报人：<span class="red" id="span_CompUserName"></span></td>
+    
+    <input type=hidden id="form_CompID"  value=0/>
+    <input type=hidden id="form_CompUserID"  value=0/>
+    <input type=hidden id="form_CompType"  value=0/>
+    
+    
+  </tr>
+  <tr>
+    <td valign="top" id="span_compID"></td>
+  </tr>
+    <tr>
+    <td valign="top">举报理由（请详细填写，以便核实）：</td>
+  </tr>
+   <tr>
+    <td valign="top"><textarea name="form_ComReason" id="form_ComReason" cols="20" rows="" class="inp9"></textarea></td>
+  </tr>
+  <tr>
+   
+    <td><p class="red inform_tip">恶意举报和试图欺骗管理员，在查实后将可能处以
+从警告直至删号的处理，请严肃对待。</p><input class="btn2" onclick="addComplaints();" type=button title="举报" value="举报" name="Submit2" style=" float:right;"/></td>
+  </tr>
+</table>
+			
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</form>
+</div>
+<!--informbg end-->
+<script type="text/javascript" src="http://comment.blog.hexun.com/inc/wbemotions.aspx?c=EmotionsDiv&e=CommentContent"></script>
+<script language=javascript src='http://shequ5.tool.hexun.com/rest/GetVoteCount.aspx?v='></script>
+
+<!--分享start-->
+<script type="text/javascript">
+(function(){
+  var reg = /^[http:\/\/\w|\w\.*\w|\w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;
+  if(!reg.test(window.location.href)) {
+    document.write('\x3Cscript type="text/javascript" src="http://img.hexun.com/base/version/hx_base.min1.1.js">\x3C/script>'+'\x3Cscript type="text/javascript" src="http://img.hexun.com/share/hxShare2011.js">\x3C/script><link href="http://img.hexun.com/share/hxShare2011.css" type="text/css" rel="stylesheet" />');
+    if(window.attachEvent) window.attachEvent('onload',function() {hxShare2011('');});
+	if(window.addEventListener) window.addEventListener('load',function(){hxShare2011('');},false);
+  }
+})();
+</script>
+<!--分享over-->
+
+<script type="text/javascript" src="http://img.hexun.com/app/js/TB.main.js"></script>
+
+
+<script src="http://utrack.hexun.com/track/track.js"></script> 
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-2167933-52");
+
+pageTracker._trackPageview();
+
+} catch(err) {}
+</script>
+<script type="text/javascript" src="/js/tipblog.js"></script>
+
+</div>
+
+<!--帮推 start-->
+  <div class="conBg_oth" id="BTRecbg"  style="display:none;" >
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+	    <td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"></span><p id="forwardtextarea_Title">把xxx的特别推荐帮推给我的朋友</p></h3>
+			<div class="win_con2">
+		<div class="win_con2_2"><span id="tipInfoBoxhelpRecommend">还可以输入<strong>140</strong>个字</span></div>
+            <textarea id="forwardtextarea_helpRecommend" name="forwardtextarea_helpRecommend" cols="" rows=""  class="BTinp6" onkeyup="javascript:forwardInputLimit(this,'helpRecommend');">@海豚猫 的特别推荐里有@AAA @BBB @CCC等高人，很有关注价值，大家都来看看吧：http://t.hexun.com/xxxxx。</textarea>
+        </div>
+        <div class="clear"></div>
+        <div class="BTbtn">
+		   <input class="conBgbtn_1" type="button"title="取消" value="取消" name="Submit2" onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"/>	 <input class="conBgbtn_1" id="forwardbtn_helpRecommend" name="forwardbtn_helpRecommend" type="button" title="确定" value="确定" onclick="javascript:helpRecommend('turn3Window','360','230','华越sherry','15930716','15930716')"/></div>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+
+<!--弹出窗口：成功-->
+
+<!--弹出窗口：成功-->
+<div class="conBg_oth" id="successfulWindow" style="display:none;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('successfulWindow');"></span>成功</h3>
+			<form>
+			<div class="win_con">
+				<p class="successfulp">您添加的关注已成功！</p>
+				<p class="huizip">5秒后自动关闭...</p>
+				<p class="fabup">
+					<span><input type="submit" class="conBgbtn_1" value="确定" /></span>
+				</p>
+			</div>
+			</form>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+  <!--帮推 end-->
+  
+<!--弹出窗口：微博认证  start-->
+
+<!--弹出窗口：微博认证  end-->
+                
+</body>
+</html>
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TIANYUAN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@15930716@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+###################################################################articelItem_5184129####################################################
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>华越sherry的微博-和讯财经微博</title>
+
+<link href="/css/wb.css" rel="stylesheet" type="text/css" />
+<link href="/css/vote.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/mb9.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/js/Util.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/wb.js"></script>
+<script src="/js/smallwindow.js" type="text/javascript"></script>
+<script src="/js/chk_frm.js" type="text/javascript"></script>
+<script type="text/javascript"  src="/yuce/js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript"  src="/jquery/jquery-1.4.2.min.js" ></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/jquery.tablesorter.js"></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/api.js"></script>
+<script language="JavaScript" type="text/javascript" src="/unitpngfix/unitpngfix.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/FriendList.js"></script>
+<script src="/js/vote.js" type="text/javascript"></script>
+<script src="/js/complaintsJS.js" type="text/javascript"></script>
+<script>
+var usertemplate=9;
+</script>
+<script>
+var valueofnameinput="用户名/邮箱/手机";
+var valueofpassinout="******";
+
+<!--
+ var sWidth=window.screen.width;
+
+var sHeight=window.screen.height;
+
+if(sWidth<640&&sHeight<480)
+{
+   document.location="http://mt.hexun.com";
+}
+
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+	}
+function cssControl()
+{
+    document.getElementById('jshao_yi').style.display='none';
+    setCookie("UserControlCookie","1","h12");  
+}
+
+function setCookie(name,value,time)
+{
+    var strsec = getsec(time);
+    var exp = new Date();
+    exp.setTime(exp.getTime() + strsec*1);
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+function getsec(str)
+{
+    var str1=str.substring(1,str.length)*1;
+    var str2=str.substring(0,1);
+    if (str2=="s")
+    {
+        return str1*1000;
+    }
+    else if (str2=="h")
+    {
+        return str1*60*60*1000;
+    }else if (str2=="d")
+    {
+       return str1*24*60*60*1000;
+    }
+    
+}
+
+function quickSubmit(evt)
+{
+    evt = evt || window.event;
+    var code = evt.keyCode;
+    if( code == 13)
+    {
+      login(); 
+    }
+}
+function login()
+{
+    //debugger;
+    if(document.getElementById("LoginStateAuto").checked == true)
+    {
+        document.getElementById("LoginStateName").checked = true;
+    }
+    if(CheckLoginForm())
+    {
+        document.getElementById("Frm").action="http://reg.hexun.com/login.aspx?gourl=http://t.hexun.com/default2.aspx?blogname=15930716&page=2";
+        document.getElementById("Frm").submit();
+    }
+}
+function CheckLoginForm()
+{
+    if(document.getElementById("username").value==''||document.getElementById("username").value==valueofnameinput)
+    {
+	    alert('请填写用户名');
+	    document.getElementById("username").value="";
+	    document.getElementById("username").focus();
+	    return false;
+    }
+    else if(document.getElementById("password").value=='')
+    {
+	    alert('请填写密码');
+	    document.getElementById("password").focus();
+	    return false;
+    }
+    return true;
+}
+
+function initFade()
+{
+    var windowbg = document.getElementById("fade");
+        //windowbg.id = "windowbg";
+        with(windowbg.style) {
+	       position = "absolute";
+	        background = "#666";
+	        width = document.documentElement.scrollWidth+"px";
+	        height = document.documentElement.scrollHeight+"px";
+	        top = "0px";
+	        left = "0px";
+	        filter="Alpha(opacity=50)";
+	        opacity = 0.5;
+	        zIndex=999;
+	        }
+}
+function AddFollows(strFollows, userId, userRelation)
+{     
+     //
+     var follows = new Array();
+     follows = strFollows.split('|');
+     if (strFollows.length > 0)
+     {
+         //alert(strFollows.length);
+         for(var i = 0; i < follows.length; i++)
+         {   
+             //alert(2);      
+             AddMyFollow(follows[i], userId, userRelation);
+         }
+     }
+     
+}
+//从/special/useriframe.aspx 过来，直接推荐某用户
+window.onload = function() 
+{
+    //alert("sdfsd");
+    if(0 == 1)
+    {
+        javascript:CommendUser('turn3Window','360','230','华越sherry','15930716','15930716');
+    }
+}
+//全局当前登陆的用户ID
+var pub_LoginUserID=0;
+//-->
+</script>
+
+</head>
+<body>
+
+
+
+<div id="main">
+
+<script language=javascript>
+function GoLogin(){
+  document.location.href='http://t.hexun.com/login.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function Loginout(blogname){
+   document.location.href='http://utility.tool.hexun.com/quit.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+}
+</script>
+<div class="nav">
+	<div class="navL">
+	        <ul>
+	        
+			    <li><a href="http://www.hexun.com" target="_blank">和讯首页</a>|</li>
+			    <li class="toogle_nav" id="toogle_nav" onmouseover="navToogle()" onmouseout="navTogle()"><a href="/default.htm" target="_blank">财经微博</a>
+		        <div class="toogle_content" id="toogle_content">
+                  <ul>
+                    <li> <a href="/financemennew.html">名人推荐</a></li>
+                    <li> <a href="http://t.hexun.com/grouphome.html" target="_blank">微群首页</a></li>
+                    <li><a href="/stocks.aspx"><font color="red">直播解盘</font></a></li>
+                    <!--<li><a href="/yuce/" target="_blank">大盘预测</a></li>-->
+                    <li><a href="/top.html">排行榜</a></li>
+                    <li><a href="/special/interview/" target="_blank">微访谈</a></li>
+                    <li><a href="/cms/rdht/" target="_blank">热门话题</a></li>
+                    <li><a href="/qsrz.aspx" target=_blank>证券公司</a></li>
+                    <li><a href="/qhrz.aspx" target=_blank>期货公司</a></li>  
+                    <li><a href="/jiepan.html">高手解盘</a></li>
+                    <li><a href="/recommend.htm">特别推荐</a></li>
+                    <li><a href="/look.htm">随便看看</a></li>
+                  </ul>
+                </div>
+		        </li>	
+		        		    
+	        </ul>
+	 </div>
+	
+	
+    <div class="navR">
+		<ul>
+			<li><a href="/help.html">帮助</a>|</li>
+			<li><a href="javascript:GoLogin();">登录</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+<div class="titbg">
+    
+	<h1><a href="http://t.hexun.com/15930716/default.html">华越sherry的微博</a></h1>
+	<h2><a href="http://t.hexun.com/15930716">http://t.hexun.com/15930716</a>   <a href="javascript:void(0);" onclick="javascript:copytext('15930716','华越sherry');">复制</a></h2>
+	
+</div>
+
+<script type="text/javascript">
+var WeiboWatchUserTemplate=9;
+</script>
+<script type="text/javascript" src="/js/toogle.js"></script>
+
+<div class="main mainbg">
+	<div class="mainL mainLbg1">
+	
+      <div class="activebg">		
+			
+			<dl>
+				<dd>
+					和讯财经微博可以让你随时随地与百万网友分享理财心得，与财经名人零距离接触，与股市达人探讨学习，与亲朋好友保持联络。
+				</dd>
+				<dt class="indlogin">
+				
+				
+				
+				<form name="Frm" id="Frm" method="post"  action="http://reg.hexun.com/login.aspx" onsubmit="return CheckLoginForm();" target="_parent" style="margin-top:0px;">
+				<ul>
+					<li>
+						登录名：
+						<label><input type="text" id="username" name="username" value="用户名/邮箱/手机" onmouseover="" onclick="if(this.value==valueofnameinput)this.value='';"  onblur="if(this.value=='')this.value=valueofnameinput;" onfocus="if(this.value==valueofnameinput)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li>
+						密<font>空</font>码：
+						<label><input type="password" id="password" name="password" value="******"  onclick="if(this.value==valueofpassinout)this.value='';"   onblur="if(this.value=='')this.value=valueofpassinout;"  onkeypress="quickSubmit(event);" onfocus="if(this.value==valueofpassinout)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li class="indloginLi1">
+					<label><input type="checkbox" name="LoginStateAuto" id="LoginStateAuto" value="1"/></label>
+					下次自动登录
+				</li>
+				<li class="indloginLi2"><label><input type="button" onclick="javascript:login();" value="" class="indlogin_btn" /></label><a href="http://reg.hexun.com/GetPasswordPre.aspx" target="_blank">找回密码</a><font>|</font><a href="http://reg.hexun.com/regname.aspx?IsWeiBo=1&urlreferrerhost=http://t.hexun.com/default2.aspx?blogname=15930716&page=2" target="_blank">注册</a></li>
+              </ul>
+              <p style="display:none"><input type="checkbox" name="LoginStateName" id="LoginStateName" value="1"/></p>   
+              <input type="hidden" name="gourl">
+		    </form>                
+                </dt>
+			  <div class="clear"></div>
+			</dl>
+			
+		</div>
+    
+		<div class="blogbg">
+			<div class="tarenint">
+			    <div class="tarenintL">
+		        <dl>
+			        
+			        <dt><a href="http://15930716.photo.hexun.com/logo.html" target=_blank><img src="http://logo0.tool.hexun.com/5c15f3-150.jpg" /></a></dt>
+			        
+		        </dl>
+		        
+		        
+		            <p><!--<img src="/images/common/bico.gif" alt="访问Ta的博客" align="absmiddle" /><a href="http://15930716.blog.hexun.com/" target=_blank>访问Ta的博客</a><br/> -->
+		            
+
+		            </p>
+		        
+	        </div>
+	        
+	        
+	        <div class="tarenintR">
+		        <dl>
+			        <dd class="tarenint_dd1">
+			            <span class="RZ_span1"><a href='/Channel/FinanceMenmore.aspx?typeId=8'><img src="/images/common/space.gif" class="rz_cjmr" /></a></span>				        
+						<a class="tarena14">华越sherry</a><b class="indshowC_b1" title="财经名人">&nbsp;</b><span class="RZ_span2 fcjmr">——中信地产总经理</span>
+						<strong class="sex_women">北京</strong>
+						
+						<p style="color:#999999">用户名：华越sherry</p>
+						<p>博客：<a target="_blank" href="http://15930716.blog.hexun.com/">http://15930716.blog.hexun.com/</a></p>
+										        
+			        </dd>
+			        <dd class="tarenint_dd2">
+						<span><a href="javascript:void(0);" onclick="javascript:CommendUser('turn3Window','360','230','华越sherry','15930716','15930716');">推荐</a>|<a href="/0/default.html?attype=n&atkey=华越sherry">@华越sherry</a></span>
+				        
+						<label id=followlabel><input type="button" onclick="javscript:AddFollow(15930716,0);" class="addbtn1" title="加关注" /></label>
+						
+						<!--&nbsp;<input type=button style="width:80px; background-image: url(/images/Common/phone.png);" onclick="NewDYSms('15930716','turn3Window','360','230','0')" />-->
+			        </dd>
+			        <dd class="tarenint_dd3">
+			        
+					    <span class="tarenint_dd3R" > <a href="javascript:void(0);" onclick="javascript:AddBlacklist(15930716,0,0,'华越sherry');" >加入黑名单</a></span>	
+				   </dd>
+
+
+
+		        </dl>
+	        </div>
+	        
+				<dl>
+					<dt></dt>
+					<dd class="tarenint_dd1">
+					    
+				    </dd>
+					<dd class="tarenint_dd2">
+					    
+					</dd>
+					
+					<div class="clear"></div>
+				</dl>
+		  </div>  
+		  
+		  
+		  <ul class="miniUl">
+            <li style="width: 77px;" class="currentLi" id="liWeibo"><span id="tabWeibo" style="cursor:default;" onclick="javascript:switchWeibo();"><img id="imgWeibo" align="absmiddle" src="/images/common/wb_iconR.gif"> 微博</span></li>
+            <li style="width: 77px;" class="otherLi" id="liBlog"><span id="tabBlog" style="cursor:pointer;" onclick="javascript:switchBlog();"><img id="imgBlog" align="absmiddle" src="/images/common/wb_iconG.gif"> 博客</span></li>
+          </ul>
+		    <div class="blogcon" id="listWeibo">
+				<div class="nr_con" id="articelItem_5184129">				<div class="nr_shuo">该网站对中国三年的描述：2000年是贫穷的第三世界国家联盟，2009年是主导性的发展中国家联盟，2020年是一个二等发达国家+一个一等发展中国家联盟</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5184129' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','该网站对中国三年的描述：2000年是贫穷的第三世界国家联盟，2009年是主导性的发展中国家联盟，2020年是一个二等发达国家+一个一等发展中国家联盟', '',this)">转发<font id="forwardfont_5184129"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5184129');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5184129','1','15930716','0')">评论<font id="commentfont_5184129"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5184129_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5184129" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5184129"></div><div class="nr_con" id="articelItem_5184126">				<div class="nr_shuo">2020年的中国GDP=韩国+加拿大+俄罗斯+印尼+澳大利亚+西班牙+土耳其+以色列+......这是从青岛回京的飞机上，环球时报的一篇文章是讲西方知名金融评论网站wallstreetpit4日发表的中国另类解读，并且该网站绘制了中国2000、2009、2020三年的经济地图......</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5184126' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','2020年的中国GDP=韩国+加拿大+俄罗斯+印尼+澳大利亚+西班牙+土耳其+以色列+......这是从青岛回京的飞机上，环球时报的一篇文章是讲西方知名金融评论网站wallstreetpit4日发表的中国另类解读，并且该网站绘制了中国2000、2009、2020三年的经济地图......', '',this)">转发<font id="forwardfont_5184126"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5184126');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5184126','1','15930716','0')">评论<font id="commentfont_5184126"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5184126_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5184126" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5184126"></div><div class="nr_con" id="articelItem_5177313">				<div class="nr_shuo">美丽有爱心的人~热门转发//@李开复 ：有人问我希望女儿成为什么样的人？回答：1）一个快乐、让人信任喜欢的人。2）一个有着诚信价值观的好人。3）一个不被世俗信条所惑，拥有跟随内心和直觉的勇气的人。4）一个找到自己心中的声音，做自己爱做的事情的人。5）一个有独立思考能力，挑战自己的潜能的人。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5177313' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','美丽有爱心的人~热门转发//@李开复 ：有人问我希望女儿成为什么样的人？回答：1）一个快乐、让人信任喜欢的人。2）一个有着诚信价值观的好人。3）一个不被世俗信条所惑，拥有跟随内心和直觉的勇气的人。4）一个找到自己心中的声音，做自己爱做的事情的人。5）一个有独立思考能力，挑战自己的潜能的人。', '',this)">转发<font id="forwardfont_5177313"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5177313');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5177313','1','15930716','0')">评论<font id="commentfont_5177313"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5177313_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5177313" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5177313"></div><div class="nr_con" id="articelItem_5176794">				<div class="nr_shuo">记得总理说09年是最困难一年，说10年是最复杂一年，今年总理有没有说是什么年？~~ //@何刚:@财经网：【温家宝三度表态：有信心有能力保持物价基本稳定】</div><div id="SmallDiv_5176794_85896132" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5176794', '85896132','http://photo20.hexun.com/p/2011/0211/429480/b45_1568A11313A8C38A9DB39E5F80CF9263.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0211/429480/t150_1568A11313A8C38A9DB39E5F80CF9263.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5176794_85896132" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5176794' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85896132' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','记得总理说09年是最困难一年，说10年是最复杂一年，今年总理有没有说是什么年？~~ //@何刚:@财经网：【温家宝三度表态：有信心有能力保持物价基本稳定】', '',this)">转发<font id="forwardfont_5176794"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5176794');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5176794','1','15930716','0')">评论<font id="commentfont_5176794" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5176794_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5176794" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5176794"></div><div class="nr_con" id="articelItem_5174157">				<div class="nr_shuo">// @任志强：通过@微盘 分享了一个文件, &quot;2010专题报告03：未来20年我国城镇住宅建设发展空间.doc&quot;, 欢迎大家下载分享！<a href="http://url.hexun.com/197Dr" title="http://sinaurl.cn/h5Ppr0" target="_blank">http://url.hexun.com/197Dr</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5174157' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','// @任志强：通过@微盘 分享了一个文件, &amp;quot;2010专题报告03：未来20年我国城镇住宅建设发展空间.doc&amp;quot;, 欢迎大家下载分享！http://url.hexun.com/197Dr', '',this)">转发<font id="forwardfont_5174157"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5174157');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5174157','1','15930716','0')">评论<font id="commentfont_5174157"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5174157_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5174157" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5174157"></div><div class="nr_con" id="articelItem_5174128">				<div class="nr_shuo"> //@任志强：未来供给下降。政策多变，地产商谨慎观望，开发速度放慢，供给将下降。影响供给预期的还有18亿亩红线、地方政府的土地财政等。理解了预期，晚上就不必去小区数电灯了，空置率再高，房价也下不来。黄金空置率是多少？接近100%，谁买黄金是为了使用？预期通胀和有限供给决定金价。”（2/3）</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5174128' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' //@任志强：未来供给下降。政策多变，地产商谨慎观望，开发速度放慢，供给将下降。影响供给预期的还有18亿亩红线、地方政府的土地财政等。理解了预期，晚上就不必去小区数电灯了，空置率再高，房价也下不来。黄金空置率是多少？接近100%，谁买黄金是为了使用？预期通胀和有限供给决定金价。”（2/3）', '',this)">转发<font id="forwardfont_5174128"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5174128');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5174128','1','15930716','0')">评论<font id="commentfont_5174128"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5174128_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5174128" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5174128"></div><div class="nr_con" id="articelItem_5174090">				<div class="nr_shuo">//@任志强：许小年微博《关于经济学的误解》说：“供需决定房价？错。预期而不是当期供需决定价格。房地产的国十条和新八条为何作用有限？只在当期需求上下功夫，预期的未来需求没变。未来需求由城镇化、婚龄人口、通胀预期等因素决定，十八条对这些因素基本没影响，却改变了市场对供给的预期。（1/3）</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5174090' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@任志强：许小年微博《关于经济学的误解》说：“供需决定房价？错。预期而不是当期供需决定价格。房地产的国十条和新八条为何作用有限？只在当期需求上下功夫，预期的未来需求没变。未来需求由城镇化、婚龄人口、通胀预期等因素决定，十八条对这些因素基本没影响，却改变了市场对供给的预期。（1/3）', '',this)">转发<font id="forwardfont_5174090"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5174090');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5174090','1','15930716','0')">评论<font id="commentfont_5174090"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5174090_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5174090" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5174090"></div><div class="nr_con" id="articelItem_5173961">				<div class="nr_shuo">房地产行业10年销售额5.25万亿元， 百强企业销售总额达9742亿元，市场占有率18.6%，行业集中度不高；但前30强销售总额8691亿元 ，占百强企业的份额比例89%，品牌企业份额还是非常高的</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5173961' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','房地产行业10年销售额5.25万亿元， 百强企业销售总额达9742亿元，市场占有率18.6%，行业集中度不高；但前30强销售总额8691亿元 ，占百强企业的份额比例89%，品牌企业份额还是非常高的', '',this)">转发<font id="forwardfont_5173961"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5173961');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5173961','1','15930716','0')">评论<font id="commentfont_5173961"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5173961_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5173961" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5173961"></div><div class="nr_con" id="articelItem_5173841">				<div class="nr_shuo">10年过排名前30 名的房企销售总额占市场份额不足20%，调控将提升行业集中度//<a href="/2240832/default.html">@巴曙松</a> ：//@陶冬：今年房地产行业中资金出现问题的企业，未必“跳楼大甩卖。”他们被同业收购的可能性更大，也许今后两年房市将上演2005-06年时在重化工业出现的“国进民退”。政策因素对于房市乃最大的不确定性。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5173841' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','10年过排名前30 名的房企销售总额占市场份额不足20%，调控将提升行业集中度//@巴曙松 ：//@陶冬：今年房地产行业中资金出现问题的企业，未必“跳楼大甩卖。”他们被同业收购的可能性更大，也许今后两年房市将上演2005-06年时在重化工业出现的“国进民退”。政策因素对于房市乃最大的不确定性。', '',this)">转发<font id="forwardfont_5173841" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5173841');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5173841','1','15930716','0')">评论<font id="commentfont_5173841"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5173841_d.html">2011-02-11</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5173841" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5173841"></div><div class="nr_con" id="articelItem_5167661">				<div class="nr_shuo"> <a href="/k/%b7%bf%bc%db%c5%c5%d0%d0">&nbsp;#房价排行#&nbsp;</a> 中心城市的城市中心房价还会坚挺</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5167661' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#房价排行#&amp;nbsp; 中心城市的城市中心房价还会坚挺', '',this)">转发<font id="forwardfont_5167661" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5167661');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5167661','1','15930716','0')">评论<font id="commentfont_5167661"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5167661_d.html">2011-02-10</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5167661" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5167661"></div><div class="nr_con" id="articelItem_5167586">				<div class="nr_shuo"> <a href="/k/%b1%b1%be%a9%7e%d1%a9">&nbsp;#北京~雪#&nbsp;</a> @吕立新：北京的老城区最有韵味，只有身在其中才能体会，可惜这样的街道越来越少了。这是小雪过后的南池子。 原文转发(412)|原文评论(113)</div><div id="SmallDiv_5167586_85888171" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5167586', '85888171','http://photo20.hexun.com/p/2011/0210/429440/b45_D2E3CA8B4CF41E1917F340D012BC37AA.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0210/429440/t150_D2E3CA8B4CF41E1917F340D012BC37AA.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5167586_85888171" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5167586' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85888171' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#北京~雪#&amp;nbsp; @吕立新：北京的老城区最有韵味，只有身在其中才能体会，可惜这样的街道越来越少了。这是小雪过后的南池子。 原文转发(412)|原文评论(113)', '',this)">转发<font id="forwardfont_5167586"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5167586');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5167586','1','15930716','0')">评论<font id="commentfont_5167586"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5167586_d.html">2011-02-10</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5167586" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5167586"></div><div class="nr_con" id="articelItem_5167531">				<div class="nr_shuo"> <a href="/k/%b1%b1%be%a9%7e%d1%a9">&nbsp;#北京~雪#&nbsp;</a> @故宫官网： <a href="/k/%d1%a9%d7%b1%d7%cf%bd%fb%b3%c7">&nbsp;#雪妆紫禁城#&nbsp;</a>下雪喽！铜缸缸都笑了 </div><div id="SmallDiv_5167531_85888086" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5167531', '85888086','http://photo20.hexun.com/p/2011/0210/429440/b45_859D0AA856DD2B37D1A9BB0D1915715A.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0210/429440/t150_859D0AA856DD2B37D1A9BB0D1915715A.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5167531_85888086" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5167531' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85888086' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#北京~雪#&amp;nbsp; @故宫官网： &amp;nbsp;#雪妆紫禁城#&amp;nbsp;下雪喽！铜缸缸都笑了 ', '',this)">转发<font id="forwardfont_5167531"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5167531');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5167531','1','15930716','0')">评论<font id="commentfont_5167531"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5167531_d.html">2011-02-10</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5167531" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5167531"></div><div class="nr_con" id="articelItem_5167499">				<div class="nr_shuo"> <a href="/k/%b1%b1%be%a9%7e%d1%a9">&nbsp;#北京~雪#&nbsp;</a> 似梦是真~~//@戴小京：如诗如画。 // @Huaiwen :无圆明园遗址公园:  <a href="/k/%d4%b2%c3%f7%d4%b0%d1%a9%be%b0">&nbsp;#圆明园雪景#&nbsp;</a>长春园某小桥。</div><div id="SmallDiv_5167499_85888011" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5167499', '85888011','http://photo20.hexun.com/p/2011/0210/429440/b45_8D1170EE318EB2D2512A41A6E395EF87.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0210/429440/t150_8D1170EE318EB2D2512A41A6E395EF87.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5167499_85888011" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5167499' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85888011' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#北京~雪#&amp;nbsp; 似梦是真~~//@戴小京：如诗如画。 // @Huaiwen :无圆明园遗址公园:  &amp;nbsp;#圆明园雪景#&amp;nbsp;长春园某小桥。', '',this)">转发<font id="forwardfont_5167499"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5167499');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5167499','1','15930716','0')">评论<font id="commentfont_5167499"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5167499_d.html">2011-02-10</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5167499" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5167499"></div><div class="nr_con" id="articelItem_5167428">				<div class="nr_shuo">//@上海乐居：【独家评论】【银行取消首套房贷优惠是在给调控捣乱】春节期间，上海五大银行首套房贷利率优惠均已取消。在新国八条出台的背景下，这一举措完全是在稀释调控效果。调控的目的是支持自住需求，如果在压制投资投机需求的同时，还不能让自住需求顺利买房，那调控出台的意义何在？</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5167428' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','//@上海乐居：【独家评论】【银行取消首套房贷优惠是在给调控捣乱】春节期间，上海五大银行首套房贷利率优惠均已取消。在新国八条出台的背景下，这一举措完全是在稀释调控效果。调控的目的是支持自住需求，如果在压制投资投机需求的同时，还不能让自住需求顺利买房，那调控出台的意义何在？', '',this)">转发<font id="forwardfont_5167428"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5167428');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5167428','1','15930716','0')">评论<font id="commentfont_5167428"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5167428_d.html">2011-02-10</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5167428" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5167428"></div><div class="nr_con" id="articelItem_5165031">				<div class="nr_shuo">转发微博 //转自 <a href="/5263807/default.html">@谭雅玲</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/tanyalingblog/default.html">@谭雅玲</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：加息恐怕解决不了我们美好的期待，解决不了通胀压力，反之又加重资金管理和疏导的难度，甚至进一步推高人民币升值给自己带来更大的难度，或将自己逼入死胡同，宏观经济金融调控将面临死结，难以解扣和难以奏效。股市和楼市的问题需要体制、技术和效率解决，不是单一工具可以得到结果，很忧虑这种思路。</p>						<dl><dd><span style="float:left;"><a  href="/tanyalingblog/5148699_d.html">2011-02-09</a>来自和讯微博</span><a href="/tanyalingblog/5148699_d.html">转发原文<font >(44)</font></a>|<a href="/tanyalingblog/5148699_d.html">评论原文<font >(35)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='5165031' lastUID='15930716' lastUName='华越sherry' firstAID='5148699' firstUID='5263807' firstUName='谭雅玲' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','转发微博 //转自 @谭雅玲', '加息恐怕解决不了我们美好的期待，解决不了通胀压力，反之又加重资金管理和疏导的难度，甚至进一步推高人民币升值给自己带来更大的难度，或将自己逼入死胡同，宏观经济金融调控将面临死结，难以解扣和难以奏效。股市和楼市的问题需要体制、技术和效率解决，不是单一工具可以得到结果，很忧虑这种思路。',this)">转发<font id="forwardfont_5165031"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5165031');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5165031','1','15930716','5148699')">评论<font id="commentfont_5165031"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5165031_d.html">2011-02-10</a>来自和讯微博 <a href="/5263807/5148699_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5165031" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5165031"></div><div class="nr_con" id="articelItem_5160136">				<div class="nr_shuo">股市的财富效应显现——不是中、小盘股的轮番暴涨、而是大盘股的稳健上行——这样的股市才可能让更多人参与——可能实现吗? //转自 <a href="/6200329/default.html">@左安龙</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/zuoal/default.html">@左安龙</a><b class="indshowC_b4" title="业界精英">&nbsp;</b>：央行终于宣布加息了 其实是早晚的事 加息后 中国还是负利率 说明加息空间很大 目前最大的两个吸纳流动性的池子 一个楼市一个股市。策略“围三放一” ，此刻加息“一箭三雕” ，楼市降温让钱流向股市，保持股市强势 大力发股票，既抑制通胀又掩护国资退出。 今年股市有好戏。明天股市跳空低开 回升</p>						<dl><dd><span style="float:left;"><a  href="/zuoal/5136557_d.html">2011-02-08</a>来自和讯微博</span><a href="/zuoal/5136557_d.html">转发原文<font >(39)</font></a>|<a href="/zuoal/5136557_d.html">评论原文<font >(35)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='5160136' lastUID='15930716' lastUName='华越sherry' firstAID='5136557' firstUID='6200329' firstUName='左安龙' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','股市的财富效应显现——不是中、小盘股的轮番暴涨、而是大盘股的稳健上行——这样的股市才可能让更多人参与——可能实现吗? //转自 @左安龙', '央行终于宣布加息了 其实是早晚的事 加息后 中国还是负利率 说明加息空间很大 目前最大的两个吸纳流动性的池子 一个楼市一个股市。策略“围三放一” ，此刻加息“一箭三雕” ，楼市降温让钱流向股市，保持股市强势 大力发股票，既抑制通胀又掩护国资退出。 今年股市有好戏。明天股市跳空低开 回升',this)">转发<font id="forwardfont_5160136"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5160136');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5160136','1','15930716','5136557')">评论<font id="commentfont_5160136"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5160136_d.html">2011-02-10</a>来自和讯微博 <a href="/6200329/5136557_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5160136" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5160136"></div><div class="nr_con" id="articelItem_5159927">				<div class="nr_shuo">从2008年金融危机开始，09年保增长成为主旋律，中国率先大规模救市，年内各国跟进~~10年通胀显现，中国率先回收流动资金~~11年抗通胀成为主旋律，从紧货币政策，各国跟进~~从危机到通胀历经2年~~从通胀到通缩也是此节奏的话，即明年~~ </div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5159927' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','从2008年金融危机开始，09年保增长成为主旋律，中国率先大规模救市，年内各国跟进~~10年通胀显现，中国率先回收流动资金~~11年抗通胀成为主旋律，从紧货币政策，各国跟进~~从危机到通胀历经2年~~从通胀到通缩也是此节奏的话，即明年~~ ', '',this)">转发<font id="forwardfont_5159927" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5159927');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5159927','1','15930716','0')">评论<font id="commentfont_5159927" >(2)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5159927_d.html">2011-02-10</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5159927" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5159927"></div><div class="nr_con" id="articelItem_5159868">				<div class="nr_shuo">大山平和着内在的火焰，久练成金，熠熠发光</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='2' lastAID='5159868' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','大山平和着内在的火焰，久练成金，熠熠发光', '',this)">转发<font id="forwardfont_5159868"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5159868');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5159868','1','15930716','0')">评论<font id="commentfont_5159868"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5159868_d.html">2011-02-10</a>来自声音</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5159868" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5159868"></div><div class="nr_con" id="articelItem_5159742">				<div class="nr_shuo">转发微博 //转自 <a href="/2240832/default.html">@巴曙松</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/bashusongdoc/default.html">@巴曙松</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：应一家金融机构的邀请写一段对财富的看法的短评，备存－金融业每天都要与财富打交道，通过观察以不同方式赢得财富的人士的起伏经历，可以发现，财富实际上是一种心态，财富的积累与消耗也是由特定的心态导致的。积累财富的过程，也是锤炼自身对于财富的看法的过程，同时也是积累阅历、智慧的过程。</p>						<dl><dd><span style="float:left;"><a  href="/bashusongdoc/5148154_d.html">2011-02-09</a>来自和讯微博</span><a href="/bashusongdoc/5148154_d.html">转发原文<font >(29)</font></a>|<a href="/bashusongdoc/5148154_d.html">评论原文<font >(10)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='5159742' lastUID='15930716' lastUName='华越sherry' firstAID='5148154' firstUID='2240832' firstUName='巴曙松' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','转发微博 //转自 @巴曙松', '应一家金融机构的邀请写一段对财富的看法的短评，备存－金融业每天都要与财富打交道，通过观察以不同方式赢得财富的人士的起伏经历，可以发现，财富实际上是一种心态，财富的积累与消耗也是由特定的心态导致的。积累财富的过程，也是锤炼自身对于财富的看法的过程，同时也是积累阅历、智慧的过程。',this)">转发<font id="forwardfont_5159742"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5159742');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5159742','1','15930716','5148154')">评论<font id="commentfont_5159742"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5159742_d.html">2011-02-10</a>来自和讯微博 <a href="/2240832/5148154_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5159742" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5159742"></div><div class="nr_con" id="articelItem_5137016">				<div class="nr_shuo">春节期间买得起房的热议哪去买房~从国内 到国外~//<a href="/14510216/default.html">@yiyijingling</a> ： //<a href="/14205633/default.html">@kailei</a> ：何刚兄，这个细节真实吧，太给力。向民间要最真实感！ //转自 <a href="/3352084/default.html">@何刚</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/ernesthe/default.html">@何刚</a><b class="indshowC_b4" title="业界精英">&nbsp;</b>： 中央再推房地产新政，各方争论不休。昨天财经杂志同事曲艳丽在地铁里注意到一个卖报大姐的叫卖：“党出新政策了，没钱的买不上，有钱的不让买，卖报，卖报！”大家都觉得这个大姐概括得好。同时也表明，此轮以房价和控需求为指向的调控，并不得人心</p>						<dl><dd><span style="float:left;"><a  href="/ernesthe/5048264_d.html">2011-01-28</a>来自和讯微博</span><a href="/ernesthe/5048264_d.html">转发原文<font >(48)</font></a>|<a href="/ernesthe/5048264_d.html">评论原文<font >(27)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='5137016' lastUID='15930716' lastUName='华越sherry' firstAID='5048264' firstUID='3352084' firstUName='何刚' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','春节期间买得起房的热议哪去买房~从国内 到国外~//@yiyijingling ： //@kailei ：何刚兄，这个细节真实吧，太给力。向民间要最真实感！ //转自 @何刚', ' 中央再推房地产新政，各方争论不休。昨天财经杂志同事曲艳丽在地铁里注意到一个卖报大姐的叫卖：“党出新政策了，没钱的买不上，有钱的不让买，卖报，卖报！”大家都觉得这个大姐概括得好。同时也表明，此轮以房价和控需求为指向的调控，并不得人心',this)">转发<font id="forwardfont_5137016"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5137016');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5137016','1','15930716','5048264')">评论<font id="commentfont_5137016"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5137016_d.html">2011-02-08</a>来自和讯微博 <a href="/14510216/5089209_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5137016" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5137016"></div><div class="nr_con" id="articelItem_5136970">				<div class="nr_shuo">只能缓解，无法解决~ //<a href="/13420356/default.html">@小隐</a> ：转发微博 //转自 <a href="/3352084/default.html">@何刚</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/ernesthe/default.html">@何刚</a><b class="indshowC_b4" title="业界精英">&nbsp;</b>：正如外界预期，兔年后第一工作日前夜央行加息了。看看春节期间全球大宗商品狂涨，通胀压力正在变成通胀现实，中国央行进入加息通道应是无奈之选，有利于缓解居民负利率状态，但真正麻烦的是人民币升值因此提速，出口不容乐观。 <a href="http://url.hexun.com/194s8" title="http://bank.hexun.com/2011-02-08/127183653.html" target="_blank">http://url.hexun.com/194s8</a></p>						<dl><dd><span style="float:left;"><a  href="/ernesthe/5134671_d.html">2011-02-08</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></span><a href="/ernesthe/5134671_d.html">转发原文<font >(6)</font></a>|<a href="/ernesthe/5134671_d.html">评论原文<font >(4)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='5136970' lastUID='15930716' lastUName='华越sherry' firstAID='5134671' firstUID='3352084' firstUName='何刚' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','只能缓解，无法解决~ //@小隐 ：转发微博 //转自 @何刚', '正如外界预期，兔年后第一工作日前夜央行加息了。看看春节期间全球大宗商品狂涨，通胀压力正在变成通胀现实，中国央行进入加息通道应是无奈之选，有利于缓解居民负利率状态，但真正麻烦的是人民币升值因此提速，出口不容乐观。 http://url.hexun.com/194s8',this)">转发<font id="forwardfont_5136970"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5136970');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5136970','1','15930716','5134671')">评论<font id="commentfont_5136970"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5136970_d.html">2011-02-08</a>来自和讯微博 <a href="/13420356/5135695_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5136970" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5136970"></div><div class="nr_con" id="articelItem_5136951">				<div class="nr_shuo"> //<a href="/2240832/default.html">@巴曙松</a> ：从目前的趋势看，一二月份可能是全年物价的高点，相应地包括房地产政策和货币政策等的调控力度也是全年最严厉的时期，现在全年的紧缩政策框架已经基本明朗，随着物价压力的逐步降低，紧缩政策对市场的冲击力度会减弱，同时PMI等开始回落，也显示物价在总需求推动下持续攀升的动力不足。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/bashusongdoc/default.html">@巴曙松</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：央行自2月9日起上调利率，金融机构一年期存贷款基准利率分别上调0.25个百分点，这印证了此前我们一直预期的一季度“三率启动”的政策预期。这次加息应当是对一月份信贷增长可能依然较快、一月份物价可能因为气候因素和春节因素等创出新高、境外商品价格近期持续上涨等的必然政策反映。</p>						<dl><dd><span style="float:left;"><a  href="/bashusongdoc/5134558_d.html">2011-02-08</a>来自和讯微博</span><a href="/bashusongdoc/5134558_d.html">转发原文<font >(13)</font></a>|<a href="/bashusongdoc/5134558_d.html">评论原文<font >(8)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='5136951' lastUID='15930716' lastUName='华越sherry' firstAID='5134558' firstUID='2240832' firstUName='巴曙松' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' //@巴曙松 ：从目前的趋势看，一二月份可能是全年物价的高点，相应地包括房地产政策和货币政策等的调控力度也是全年最严厉的时期，现在全年的紧缩政策框架已经基本明朗，随着物价压力的逐步降低，紧缩政策对市场的冲击力度会减弱，同时PMI等开始回落，也显示物价在总需求推动下持续攀升的动力不足。', '央行自2月9日起上调利率，金融机构一年期存贷款基准利率分别上调0.25个百分点，这印证了此前我们一直预期的一季度“三率启动”的政策预期。这次加息应当是对一月份信贷增长可能依然较快、一月份物价可能因为气候因素和春节因素等创出新高、境外商品价格近期持续上涨等的必然政策反映。',this)">转发<font id="forwardfont_5136951"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5136951');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5136951','1','15930716','5134558')">评论<font id="commentfont_5136951"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5136951_d.html">2011-02-08</a>来自和讯微博 <a href="/2240832/5134579_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5136951" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5136951"></div><div class="nr_con" id="articelItem_5136944">				<div class="nr_shuo">王育琨：黄光裕是有智慧的-评论频道-和讯网 <a href="http://url.hexun.com/194CG" title="http://opinion.hexun.com/2011-02-08/127183060.html" target="_blank">http://url.hexun.com/194CG</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='5136944' lastUID='15930716' lastUName='华越sherry' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','王育琨：黄光裕是有智慧的-评论频道-和讯网 http://url.hexun.com/194CG', '',this)">转发<font id="forwardfont_5136944"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5136944');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5136944','1','15930716','0')">评论<font id="commentfont_5136944"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/15930716/5136944_d.html">2011-02-08</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5136944" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5136944"></div>
+			</div>
+			<iframe style="display:none;" id="iframeBlog" src="about:blank" frameBorder="0" width="554" name="iframeBlog" scrolling="no"></iframe>
+			<script language="javascript" type="text/javascript">
+			document.domain = "hexun.com";
+			function switchBlog()
+			{
+			    $("#liWeibo").attr("class","otherLi");
+			    $("#liBlog").attr("class","currentLi");
+			    $("#tabWeibo").css("cursor","pointer");
+			    $("#tabBlog").css("cursor","default");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconG.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconR.gif");
+			    $("#listWeibo").hide();
+			    $("#gotop").hide();
+			    var iframesrc = $("#iframeBlog").attr("src");
+			    if (iframesrc == "about:blank")
+			    {
+			        iframesrc = "http://15930716.blog.hexun.com/wbblog.html?mb=9"; 
+			        $("#iframeBlog").attr("src",iframesrc);
+			    }
+			    $("#iframeBlog").show();
+			}
+			function switchWeibo()
+			{
+			    $("#liWeibo").attr("class","currentLi");
+			    $("#liBlog").attr("class","otherLi");
+			    $("#tabWeibo").css("cursor","default");
+			    $("#tabBlog").css("cursor","pointer");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconR.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconG.gif");
+			    $("#iframeBlog").hide();
+			    $("#listWeibo").show();
+			    $("#gotop").show();
+			}
+			</script>
+		</div>
+		<div id="gotop">
+	        <div style="float:left"><a href="javascript:void(0);" onclick="javascript:GotoTop();">返回顶部</a></div>
+			<div id="page2"><ul><li class="returnbtn2 a555"><a href="/15930716/p1/default.html" >&lt;&nbsp;上一页</a></li><li><a href="/15930716/p1/default.html">1</a></li><li class="border_f"><strong >2</strong></li></ul>
+</div>
+			<div class=clear></div>
+		</div>
+	</div>
+	<div class="mainR">
+		<!--博主简介 s-->		
+		<div class="user_con">
+			<ul>
+				<li class="li1"><strong><a href="/15930716/MyFollow.html" id=followcFont>9</a></strong><a href="/15930716/MyFollow.html">关注</a></li>
+				<li class="li2"><strong><a href="/15930716/FollowMy.html" id=followedFont>3164</a></strong><a href="/15930716/FollowMy.html">被关注</a></li>
+				<li class="li3"><strong><a href="/15930716/default.html"  id=articlecFont>72</a></strong><a href="/15930716/default.html">博文</a></li>
+			</ul>
+		</div>
+		<!--博主简介 e-->
+		
+		
+        <!--真实身份认证-->
+		
+		<div class="phb" style="background:none;padding-left:0px;"><img src="/images/common/rz.gif" border="0" title="真实身份认证用户">&nbsp;&nbsp;</div>
+				
+        <!--真实身份认证 e-->
+        
+        
+		<div class="mainR_line"></div>
+
+
+				
+		<div align="center">
+ 
+<table width="185" border="0">
+  <tr>
+    <td width="185"><div align="center"><a href="http://t.hexun.com/zt/fangtan.html" target="_blank"><img src="http://i9.hexunimg.cn/2012-05-10/141257867.jpg" width="185" height="150" border="0"></a></div></td>
+  </tr>
+ 
+</table>
+ 
+</div>
+	  <!--自选股票-->
+	  <div id="TaStockDiv_line" class="mainR_line2"></div>
+	  <!--增加自选股-->
+	  <div id="TaStockDiv" class="theme_con" style="margin-top:15px;">
+        <h2><span id="smyStockDiv" onclick="trHead('myStockDiv','9')" class="iconimg" title="隐藏">&nbsp;</span>Ta的自选股</h2>
+        <div id="myStockDiv">
+	  
+	   <!--增加自选股end-->
+	    <!--自选股-->
+	  <div id="sfqp_StockInfo2" class="sfgp_con" style="background:#fff; overflow:hidden;filter:alpha(opacity=90); opacity:0.9;width:162px;padding:0 5px;">
+	  </div>
+	  <!--自选股end-->
+	  <!--自选股票end-->
+        <script type="text/javascript">
+        getMyStockInfoForHomePage = function()
+        {     
+             
+             $.getIfModified(ApiFile,{GetMyStockInfoForHomePage:Math.random(),curID:15930716}, 
+             function(response)
+             {         
+                 if(response.length == 0)
+                 {
+                       document.getElementById("TaStockDiv").style.display = "none";
+                       document.getElementById("TaStockDiv_line").style.display = "none";
+                       
+                 }                         
+                 document.getElementById("sfqp_StockInfo2").innerHTML = response;         
+             });
+        }
+        getMyStockInfoForHomePage();
+        setInterval("getMyStockInfoForHomePage()",300000);
+        </script>        
+        </div>
+     </div>
+		
+		<!--Ta的微群-->
+		
+		<!--Ta的微群 e-->
+		<div class="mainR_line"></div>
+		
+		<!--Ta的同行 s-->
+		<div class="rec_con">
+			<h2>Ta的同行</h2>
+			<ul> 
+			    <li><a href="/6117/default.html" title="江涛"><img src="http://logo1.tool.hexun.com/e51700-40.jpg" /></a><a href="/6117/default.html" title="江涛"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=6117')" >江涛</a><br><a href='#' onclick='javscript:AddFollow(6117,0);window.location.reload();'>关注Ta</a></li><li><a href="/368902/default.html" title="陈剑峰"><img src="http://logo2.tool.hexun.com/6a105-40.jpg" /></a><a href="/368902/default.html" title="陈剑峰"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=368902')" >陈剑峰</a><br><a href='#' onclick='javscript:AddFollow(368902,0);window.location.reload();'>关注Ta</a></li><li><a href="/1493771/default.html" title="刘彦斌"><img src="http://logo3.tool.hexun.com/bcb16-40.jpg" /></a><a href="/1493771/default.html" title="刘彦斌"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=1493771')" >刘彦斌</a><br><a href='#' onclick='javscript:AddFollow(1493771,0);window.location.reload();'>关注Ta</a></li><li><a href="/2736365/default.html" title="DTSBCceo"><img src="http://logo1.tool.hexun.com/edc029-40.jpg" /></a><a href="/2736365/default.html" title="DTSBCceo"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2736365')" >DTSBCc..</a><br><a href='#' onclick='javscript:AddFollow(2736365,0);window.location.reload();'>关注Ta</a></li><li><a href="/2949026/default.html" title="任志强"><img src="http://logo2.tool.hexun.com/a2ff2c-40.jpg" /></a><a href="/2949026/default.html" title="任志强"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2949026')" >任志强</a><br><a href='#' onclick='javscript:AddFollow(2949026,0);window.location.reload();'>关注Ta</a></li><li><a href="/3383756/default.html" title="陶行逸"><img src="http://logo0.tool.hexun.com/cca133-40.jpg" /></a><a href="/3383756/default.html" title="陶行逸"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=3383756')" >陶行逸</a><br><a href='#' onclick='javscript:AddFollow(3383756,0);window.location.reload();'>关注Ta</a></li><li><a href="/4069031/default.html" title="贾卧龙"><img src="http://logo3.tool.hexun.com/a7163e-40.jpg" /></a><a href="/4069031/default.html" title="贾卧龙"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4069031')" >贾卧龙</a><br><a href='#' onclick='javscript:AddFollow(4069031,0);window.location.reload();'>关注Ta</a></li><li><a href="/4226845/default.html" title="于跃文"><img src="http://logo1.tool.hexun.com/1d7f40-40.jpg" /></a><a href="/4226845/default.html" title="于跃文"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4226845')" >于跃文</a><br><a href='#' onclick='javscript:AddFollow(4226845,0);window.location.reload();'>关注Ta</a></li><li><a href="/4244579/default.html" title="潘石屹"><img src="http://logo3.tool.hexun.com/63c440-40.jpg" /></a><a href="/4244579/default.html" title="潘石屹"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4244579')" >潘石屹</a><br><a href='#' onclick='javscript:AddFollow(4244579,0);window.location.reload();'>关注Ta</a></li>
+				<div class="clear"></div>
+			</ul>
+			<p><a href="/Channel/InvestmentExperts.aspx?typeId=10">更多&gt;</a></p>
+		</div>
+		<!--Ta的同行 e-->
+		<!--Ta关注的话题 s-->
+		
+<script type="text/javascript">
+function changeWeihu()
+{
+    //debugger;
+    if(document.getElementById("ulWeihu2").style.display=="none")
+    {
+        document.getElementById("ulWeihu1").style.display="none";
+        document.getElementById("ulWeihu2").style.display="block";
+        
+    }
+    else
+    {
+        document.getElementById("ulWeihu2").style.display="none";
+        document.getElementById("ulWeihu1").style.display="block";
+
+    }
+}
+</script>
+		<!--Ta关注的话题 e-->
+		<!--Ta的股票 s-->
+		
+		<!--Ta的股票 e-->
+		
+<div class="mainR_line"></div>
+		<!--和讯微博意见反馈 s-->
+		<div class="stock_con">
+			<h2><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">和讯微博意见反馈</a></h2>
+			<h4>和讯财经微博新鲜上架，肯定有很多不完善的地方，特别欢迎大家帮忙提出宝贵意见与建议。</h4>
+			<ul>
+				<li><a href="http://t.hexun.com/hecaiwei/default.html">1.财经微博客服何采薇</a></li>
+				<li><a href="http://t.hexun.com/weibo/default.html">2.财经微博产品动态</a></li>
+				
+                <!-- xl -->
+		        
+                <li><a href="http://hecaiwei.blog.hexun.com/49208608_d.html" target="_blank">3.新手攻略：帮您成为微博达人</a></li>
+				<li><a href="http://t.hexun.com/zt/jianyi.html" target="_blank">4.有奖征集发展管理建议</a></li>
+                
+                
+			</ul>
+			
+			
+</div>
+
+
+	</div>
+	<div class="clear"></div>
+	
+</div>
+
+
+<div id="mainbgB"></div>
+<div id="footer"><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">意见反馈</a><font>|</font><a href="http://hexun.com/report.aspx?userid=15930716&type=1" target=_blank>举报</a><font>|</font>和讯微博V1.0 beta powered by hexun.com</div>
+<!--弹出窗口：转发博文1-->
+<div class="conBg_oth_zf" id="turn1Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn2Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn3Window" style="display:none;">
+</div>
+
+<div class="conBg_fz" id="fzWindow" style="display:none;">1111</div>
+
+  
+  <!--informbg start-->
+  <div class="conBg_oth informbg" id="informbg" style="z-index:1000;">
+  <form id=frm_CompUserName>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="z-index:1000;">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+		    
+			<h3><span onclick="closeInformbg();"></span>举报</h3>
+			
+			
+			<table class="inform_table">
+  <tr>
+    <td>被举报人：<span class="red" id="span_CompUserName"></span></td>
+    
+    <input type=hidden id="form_CompID"  value=0/>
+    <input type=hidden id="form_CompUserID"  value=0/>
+    <input type=hidden id="form_CompType"  value=0/>
+    
+    
+  </tr>
+  <tr>
+    <td valign="top" id="span_compID"></td>
+  </tr>
+    <tr>
+    <td valign="top">举报理由（请详细填写，以便核实）：</td>
+  </tr>
+   <tr>
+    <td valign="top"><textarea name="form_ComReason" id="form_ComReason" cols="20" rows="" class="inp9"></textarea></td>
+  </tr>
+  <tr>
+   
+    <td><p class="red inform_tip">恶意举报和试图欺骗管理员，在查实后将可能处以
+从警告直至删号的处理，请严肃对待。</p><input class="btn2" onclick="addComplaints();" type=button title="举报" value="举报" name="Submit2" style=" float:right;"/></td>
+  </tr>
+</table>
+			
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</form>
+</div>
+<!--informbg end-->
+<script type="text/javascript" src="http://comment.blog.hexun.com/inc/wbemotions.aspx?c=EmotionsDiv&e=CommentContent"></script>
+<script language=javascript src='http://shequ5.tool.hexun.com/rest/GetVoteCount.aspx?v='></script>
+
+<!--分享start-->
+<script type="text/javascript">
+(function(){
+  var reg = /^[http:\/\/\w|\w\.*\w|\w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;
+  if(!reg.test(window.location.href)) {
+    document.write('\x3Cscript type="text/javascript" src="http://img.hexun.com/base/version/hx_base.min1.1.js">\x3C/script>'+'\x3Cscript type="text/javascript" src="http://img.hexun.com/share/hxShare2011.js">\x3C/script><link href="http://img.hexun.com/share/hxShare2011.css" type="text/css" rel="stylesheet" />');
+    if(window.attachEvent) window.attachEvent('onload',function() {hxShare2011('');});
+	if(window.addEventListener) window.addEventListener('load',function(){hxShare2011('');},false);
+  }
+})();
+</script>
+<!--分享over-->
+
+<script type="text/javascript" src="http://img.hexun.com/app/js/TB.main.js"></script>
+
+
+<script src="http://utrack.hexun.com/track/track.js"></script> 
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-2167933-52");
+
+pageTracker._trackPageview();
+
+} catch(err) {}
+</script>
+<script type="text/javascript" src="/js/tipblog.js"></script>
+
+</div>
+
+<!--帮推 start-->
+  <div class="conBg_oth" id="BTRecbg"  style="display:none;" >
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+	    <td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"></span><p id="forwardtextarea_Title">把xxx的特别推荐帮推给我的朋友</p></h3>
+			<div class="win_con2">
+		<div class="win_con2_2"><span id="tipInfoBoxhelpRecommend">还可以输入<strong>140</strong>个字</span></div>
+            <textarea id="forwardtextarea_helpRecommend" name="forwardtextarea_helpRecommend" cols="" rows=""  class="BTinp6" onkeyup="javascript:forwardInputLimit(this,'helpRecommend');">@海豚猫 的特别推荐里有@AAA @BBB @CCC等高人，很有关注价值，大家都来看看吧：http://t.hexun.com/xxxxx。</textarea>
+        </div>
+        <div class="clear"></div>
+        <div class="BTbtn">
+		   <input class="conBgbtn_1" type="button"title="取消" value="取消" name="Submit2" onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"/>	 <input class="conBgbtn_1" id="forwardbtn_helpRecommend" name="forwardbtn_helpRecommend" type="button" title="确定" value="确定" onclick="javascript:helpRecommend('turn3Window','360','230','华越sherry','15930716','15930716')"/></div>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+
+<!--弹出窗口：成功-->
+
+<!--弹出窗口：成功-->
+<div class="conBg_oth" id="successfulWindow" style="display:none;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('successfulWindow');"></span>成功</h3>
+			<form>
+			<div class="win_con">
+				<p class="successfulp">您添加的关注已成功！</p>
+				<p class="huizip">5秒后自动关闭...</p>
+				<p class="fabup">
+					<span><input type="submit" class="conBgbtn_1" value="确定" /></span>
+				</p>
+			</div>
+			</form>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+  <!--帮推 end-->
+  
+<!--弹出窗口：微博认证  start-->
+
+<!--弹出窗口：微博认证  end-->
+                
+</body>
+</html>
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TIANYUAN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

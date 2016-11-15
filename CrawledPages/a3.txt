@@ -1,0 +1,1374 @@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@gechang68@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+###################################################################articelItem_5236529####################################################
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>葛昶的微博-和讯财经微博</title>
+
+<link href="/css/wb.css" rel="stylesheet" type="text/css" />
+<link href="/css/vote.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/mb19.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/js/Util.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/wb.js"></script>
+<script src="/js/smallwindow.js" type="text/javascript"></script>
+<script src="/js/chk_frm.js" type="text/javascript"></script>
+<script type="text/javascript"  src="/yuce/js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript"  src="/jquery/jquery-1.4.2.min.js" ></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/jquery.tablesorter.js"></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/api.js"></script>
+<script language="JavaScript" type="text/javascript" src="/unitpngfix/unitpngfix.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/FriendList.js"></script>
+<script src="/js/vote.js" type="text/javascript"></script>
+<script src="/js/complaintsJS.js" type="text/javascript"></script>
+<script>
+var usertemplate=19;
+</script>
+<script>
+var valueofnameinput="用户名/邮箱/手机";
+var valueofpassinout="******";
+
+<!--
+ var sWidth=window.screen.width;
+
+var sHeight=window.screen.height;
+
+if(sWidth<640&&sHeight<480)
+{
+   document.location="http://mt.hexun.com";
+}
+
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+	}
+function cssControl()
+{
+    document.getElementById('jshao_yi').style.display='none';
+    setCookie("UserControlCookie","1","h12");  
+}
+
+function setCookie(name,value,time)
+{
+    var strsec = getsec(time);
+    var exp = new Date();
+    exp.setTime(exp.getTime() + strsec*1);
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+function getsec(str)
+{
+    var str1=str.substring(1,str.length)*1;
+    var str2=str.substring(0,1);
+    if (str2=="s")
+    {
+        return str1*1000;
+    }
+    else if (str2=="h")
+    {
+        return str1*60*60*1000;
+    }else if (str2=="d")
+    {
+       return str1*24*60*60*1000;
+    }
+    
+}
+
+function quickSubmit(evt)
+{
+    evt = evt || window.event;
+    var code = evt.keyCode;
+    if( code == 13)
+    {
+      login(); 
+    }
+}
+function login()
+{
+    //debugger;
+    if(document.getElementById("LoginStateAuto").checked == true)
+    {
+        document.getElementById("LoginStateName").checked = true;
+    }
+    if(CheckLoginForm())
+    {
+        document.getElementById("Frm").action="http://reg.hexun.com/login.aspx?gourl=http://t.hexun.com/default2.aspx?blogname=gechang68";
+        document.getElementById("Frm").submit();
+    }
+}
+function CheckLoginForm()
+{
+    if(document.getElementById("username").value==''||document.getElementById("username").value==valueofnameinput)
+    {
+	    alert('请填写用户名');
+	    document.getElementById("username").value="";
+	    document.getElementById("username").focus();
+	    return false;
+    }
+    else if(document.getElementById("password").value=='')
+    {
+	    alert('请填写密码');
+	    document.getElementById("password").focus();
+	    return false;
+    }
+    return true;
+}
+
+function initFade()
+{
+    var windowbg = document.getElementById("fade");
+        //windowbg.id = "windowbg";
+        with(windowbg.style) {
+	       position = "absolute";
+	        background = "#666";
+	        width = document.documentElement.scrollWidth+"px";
+	        height = document.documentElement.scrollHeight+"px";
+	        top = "0px";
+	        left = "0px";
+	        filter="Alpha(opacity=50)";
+	        opacity = 0.5;
+	        zIndex=999;
+	        }
+}
+function AddFollows(strFollows, userId, userRelation)
+{     
+     //
+     var follows = new Array();
+     follows = strFollows.split('|');
+     if (strFollows.length > 0)
+     {
+         //alert(strFollows.length);
+         for(var i = 0; i < follows.length; i++)
+         {   
+             //alert(2);      
+             AddMyFollow(follows[i], userId, userRelation);
+         }
+     }
+     
+}
+//从/special/useriframe.aspx 过来，直接推荐某用户
+window.onload = function() 
+{
+    //alert("sdfsd");
+    if(0 == 1)
+    {
+        javascript:CommendUser('turn3Window','360','230','葛昶','14814331','gechang68');
+    }
+}
+//全局当前登陆的用户ID
+var pub_LoginUserID=0;
+//-->
+</script>
+
+</head>
+<body>
+
+
+
+<div id="main">
+
+<script language=javascript>
+function GoLogin(){
+  document.location.href='http://t.hexun.com/login.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function Loginout(blogname){
+   document.location.href='http://utility.tool.hexun.com/quit.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+}
+</script>
+<div class="nav">
+	<div class="navL">
+	        <ul>
+	        
+			    <li><a href="http://www.hexun.com" target="_blank">和讯首页</a>|</li>
+			    <li class="toogle_nav" id="toogle_nav" onmouseover="navToogle()" onmouseout="navTogle()"><a href="/default.htm" target="_blank">财经微博</a>
+		        <div class="toogle_content" id="toogle_content">
+                  <ul>
+                    <li> <a href="/financemennew.html">名人推荐</a></li>
+                    <li> <a href="http://t.hexun.com/grouphome.html" target="_blank">微群首页</a></li>
+                    <li><a href="/stocks.aspx"><font color="red">直播解盘</font></a></li>
+                    <!--<li><a href="/yuce/" target="_blank">大盘预测</a></li>-->
+                    <li><a href="/top.html">排行榜</a></li>
+                    <li><a href="/special/interview/" target="_blank">微访谈</a></li>
+                    <li><a href="/cms/rdht/" target="_blank">热门话题</a></li>
+                    <li><a href="/qsrz.aspx" target=_blank>证券公司</a></li>
+                    <li><a href="/qhrz.aspx" target=_blank>期货公司</a></li>  
+                    <li><a href="/jiepan.html">高手解盘</a></li>
+                    <li><a href="/recommend.htm">特别推荐</a></li>
+                    <li><a href="/look.htm">随便看看</a></li>
+                  </ul>
+                </div>
+		        </li>	
+		        		    
+	        </ul>
+	 </div>
+	
+	
+    <div class="navR">
+		<ul>
+			<li><a href="/help.html">帮助</a>|</li>
+			<li><a href="javascript:GoLogin();">登录</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+<div class="titbg">
+    
+	<h1><a href="http://t.hexun.com/gechang68/default.html">葛昶的微博</a></h1>
+	<h2><a href="http://t.hexun.com/gechang68">http://t.hexun.com/gechang68</a>   <a href="javascript:void(0);" onclick="javascript:copytext('gechang68','葛昶');">复制</a></h2>
+	
+</div>
+
+<script type="text/javascript">
+var WeiboWatchUserTemplate=19;
+</script>
+<script type="text/javascript" src="/js/toogle.js"></script>
+
+<div class="main mainbg">
+	<div class="mainL mainLbg1">
+	
+      <div class="activebg">		
+			
+			<dl>
+				<dd>
+					和讯财经微博可以让你随时随地与百万网友分享理财心得，与财经名人零距离接触，与股市达人探讨学习，与亲朋好友保持联络。
+				</dd>
+				<dt class="indlogin">
+				
+				
+				
+				<form name="Frm" id="Frm" method="post"  action="http://reg.hexun.com/login.aspx" onsubmit="return CheckLoginForm();" target="_parent" style="margin-top:0px;">
+				<ul>
+					<li>
+						登录名：
+						<label><input type="text" id="username" name="username" value="用户名/邮箱/手机" onmouseover="" onclick="if(this.value==valueofnameinput)this.value='';"  onblur="if(this.value=='')this.value=valueofnameinput;" onfocus="if(this.value==valueofnameinput)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li>
+						密<font>空</font>码：
+						<label><input type="password" id="password" name="password" value="******"  onclick="if(this.value==valueofpassinout)this.value='';"   onblur="if(this.value=='')this.value=valueofpassinout;"  onkeypress="quickSubmit(event);" onfocus="if(this.value==valueofpassinout)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li class="indloginLi1">
+					<label><input type="checkbox" name="LoginStateAuto" id="LoginStateAuto" value="1"/></label>
+					下次自动登录
+				</li>
+				<li class="indloginLi2"><label><input type="button" onclick="javascript:login();" value="" class="indlogin_btn" /></label><a href="http://reg.hexun.com/GetPasswordPre.aspx" target="_blank">找回密码</a><font>|</font><a href="http://reg.hexun.com/regname.aspx?IsWeiBo=1&urlreferrerhost=http://t.hexun.com/default2.aspx?blogname=gechang68" target="_blank">注册</a></li>
+              </ul>
+              <p style="display:none"><input type="checkbox" name="LoginStateName" id="LoginStateName" value="1"/></p>   
+              <input type="hidden" name="gourl">
+		    </form>                
+                </dt>
+			  <div class="clear"></div>
+			</dl>
+			
+		</div>
+    
+		<div class="blogbg">
+			<div class="tarenint">
+			    <div class="tarenintL">
+		        <dl>
+			        
+			        <dt><a href="http://gechang68.photo.hexun.com/logo.html" target=_blank><img src="http://logo3.tool.hexun.com/7b0ce2-150.jpg" /></a></dt>
+			        
+		        </dl>
+		        
+		        
+		            <p><!--<img src="/images/common/bico.gif" alt="访问Ta的博客" align="absmiddle" /><a href="http://gechang68.blog.hexun.com/" target=_blank>访问Ta的博客</a><br/> -->
+		            
+
+		            </p>
+		        
+	        </div>
+	        
+	        
+	        <div class="tarenintR">
+		        <dl>
+			        <dd class="tarenint_dd1">
+			            <span class="RZ_span1"><a href='/Channel/FinanceMenmore.aspx?typeId=8'><img src="/images/common/space.gif" class="rz_cjmr" /></a></span>				        
+						<a class="tarena14">葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b><span class="RZ_span2 fcjmr">——瑞达期货董事总经理</span>
+						<strong class="sex_men">福建省(厦门市)</strong>
+						
+						<p style="color:#999999">用户名：葛昶</p>
+						<p>博客：<a target="_blank" href="http://gechang68.blog.hexun.com/">http://gechang68.blog.hexun.com/</a></p>
+						瑞达期货董事总经理				        
+			        </dd>
+			        <dd class="tarenint_dd2">
+						<span><a href="javascript:void(0);" onclick="javascript:CommendUser('turn3Window','360','230','葛昶','14814331','gechang68');">推荐</a>|<a href="/0/default.html?attype=n&atkey=葛昶">@葛昶</a></span>
+				        
+						<label id=followlabel><input type="button" onclick="javscript:AddFollow(14814331,0);" class="addbtn1" title="加关注" /></label>
+						
+						<!--&nbsp;<input type=button style="width:80px; background-image: url(/images/Common/phone.png);" onclick="NewDYSms('14814331','turn3Window','360','230','0')" />-->
+			        </dd>
+			        <dd class="tarenint_dd3">
+			        
+					    <span class="tarenint_dd3R" > <a href="javascript:void(0);" onclick="javascript:AddBlacklist(14814331,0,0,'葛昶');" >加入黑名单</a></span>	
+				   </dd>
+
+
+
+		        </dl>
+	        </div>
+	        
+				<dl>
+					<dt></dt>
+					<dd class="tarenint_dd1">
+					    
+				    </dd>
+					<dd class="tarenint_dd2">
+					    
+					</dd>
+					
+					<div class="clear"></div>
+				</dl>
+		  </div>  
+		  
+		  
+		  <ul class="miniUl">
+            <li style="width: 77px;" class="currentLi" id="liWeibo"><span id="tabWeibo" style="cursor:default;" onclick="javascript:switchWeibo();"><img id="imgWeibo" align="absmiddle" src="/images/common/wb_iconR.gif"> 微博</span></li>
+            <li style="width: 77px;" class="otherLi" id="liBlog"><span id="tabBlog" style="cursor:pointer;" onclick="javascript:switchBlog();"><img id="imgBlog" align="absmiddle" src="/images/common/wb_iconG.gif"> 博客</span></li>
+          </ul>
+		    <div class="blogcon" id="listWeibo">
+				<div class="nr_con" id="articelItem_5236529">				<div class="nr_shuo">  <a href="/k/%ca%d3%c6%b5">&nbsp;#视频#&nbsp;</a> 期货大客户时代瑞达期货厦门营业部尾牙宴上的最佳节目。这次公司2011开门红晚宴选上了这个节目让总部的同事及公司董事、股东们欣赏。节目制作虽然较业余，但其所表达的期货对专业的要求，时代对期货的要求，激烈的市场竞争还是捏拿得较准。再次被评为最佳节目。</div><div id="SmallDiv_5236529_video0" class="img_border"><div class="playicon" onmousedown="javascript:videoOpen(5236529,0,'')" onmouseup="javascript:videoMouseUp(5236529,0,'')"></div><a href="javascript:void(0);" onmousedown="javascript:videoOpen(5236529,0,'')" onmouseup="javascript:videoMouseUp(5236529,0,'')"><img  src="http://g1.ykimg.com/0100641F464D5A1A3491C30492FA55D4184EF3-623D-BA4E-51BF-CE7770EF2088" class="imgBig" style="width:150px; height:115px"></a></div><div id="MiddleDiv_5236529_video0" class="preview_big" style="display:none;"><h3><span class="preview_big_4" title="关闭" onclick="javascript:videoClose(5236529,0)">&nbsp;</span></h3><p id="p_5236529_video0"></p><p id="hid_5236529_videoUrl0" style="display:none"><embed width="537" height="450" wmode="transparent" type="application/x-shockwave-flash" src="ptth://player.youku.com/player.php/sid/XMjQzOTExNjky/v.swf" quality="high" allowfullscreen="true" flashvars="playMovie=true&auto=1&adss=0" pluginspage="ptth://get.adobe.com/cn/flashplayer/" style="visibility: visible;" allowscriptaccess="always"></embed></p></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5236529' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','  &amp;nbsp;#视频#&amp;nbsp; 期货大客户时代瑞达期货厦门营业部尾牙宴上的最佳节目。这次公司2011开门红晚宴选上了这个节目让总部的同事及公司董事、股东们欣赏。节目制作虽然较业余，但其所表达的期货对专业的要求，时代对期货的要求，激烈的市场竞争还是捏拿得较准。再次被评为最佳节目。', '',this)">转发<font id="forwardfont_5236529" >(4)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5236529');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5236529','1','14814331','0')">评论<font id="commentfont_5236529" >(3)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/5236529_d.html">2011-02-15</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5236529" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5236529"></div><div class="nr_con" id="articelItem_5145895">				<div class="nr_shuo">上海紧急叫停农产品经纪人参与大宗商品中远期交易-期货频道-和讯网 <a href="http://url.hexun.com/195ir" title="http://futures.hexun.com/2011-02-09/127186524.html" target="_blank">http://url.hexun.com/195ir</a>上海给力</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='5145895' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','上海紧急叫停农产品经纪人参与大宗商品中远期交易-期货频道-和讯网 http://url.hexun.com/195ir上海给力', '',this)">转发<font id="forwardfont_5145895"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5145895');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5145895','1','14814331','0')">评论<font id="commentfont_5145895"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/5145895_d.html">2011-02-09</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5145895" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5145895"></div><div class="nr_con" id="articelItem_5048307">				<div class="nr_shuo">投资者都在投诉商品期货市场的恶性炒作?</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/xinyue/default.html">@馨月</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：从去年到今年我听说过很多投资者都在投诉商品期货市场的恶性炒作问题，但是却从来没有看见过任何处理案件，如今橡胶和棉花的疯狂炒作更说明了管理层对商品期货监管的麻木和放任。</p>						<dl><dd><span style="float:left;"><a  href="/xinyue/5032685_d.html">2011-01-27</a>来自和讯微博</span><a href="/xinyue/5032685_d.html">转发原文<font >(15)</font></a>|<a href="/xinyue/5032685_d.html">评论原文<font >(12)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='5048307' lastUID='14814331' lastUName='葛昶' firstAID='5032685' firstUID='321184' firstUName='馨月' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','投资者都在投诉商品期货市场的恶性炒作?', '从去年到今年我听说过很多投资者都在投诉商品期货市场的恶性炒作问题，但是却从来没有看见过任何处理案件，如今橡胶和棉花的疯狂炒作更说明了管理层对商品期货监管的麻木和放任。',this)">转发<font id="forwardfont_5048307" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5048307');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5048307','1','14814331','5032685')">评论<font id="commentfont_5048307" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/5048307_d.html">2011-01-28</a>来自和讯微博 <a href="/321184/5032685_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5048307" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5048307"></div><div class="nr_con" id="articelItem_5004151">				<div class="nr_shuo">证监会发布QFII参与股指期货交易指引<a href="http://url.hexun.com/18TZl" title="http://futures.hexun.com/2011-01-25/127015031.html" target="_blank">http://url.hexun.com/18TZl</a>亚历山大</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='5004151' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','证监会发布QFII参与股指期货交易指引http://url.hexun.com/18TZl亚历山大', '',this)">转发<font id="forwardfont_5004151"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5004151');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5004151','1','14814331','0')">评论<font id="commentfont_5004151"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/5004151_d.html">2011-01-25</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5004151" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5004151"></div><div class="nr_con" id="articelItem_4982622">				<div class="nr_shuo">山东首度为期市正名促企业“套期保值”意见出炉-期货频道-和讯网 <a href="http://url.hexun.com/18S6m" title="http://futures.hexun.com/2011-01-24/126981299.html" target="_blank">http://url.hexun.com/18S6m</a>山东的做法好</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='4982622' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','山东首度为期市正名促企业“套期保值”意见出炉-期货频道-和讯网 http://url.hexun.com/18S6m山东的做法好', '',this)">转发<font id="forwardfont_4982622" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4982622');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4982622','1','14814331','0')">评论<font id="commentfont_4982622" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4982622_d.html">2011-01-24</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4982622" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4982622"></div><div class="nr_con" id="articelItem_4982577">				<div class="nr_shuo">福建欲“借东风”壮大辖区期货业-期货频道-和讯网 <a href="http://url.hexun.com/18S69" title="http://futures.hexun.com/2011-01-24/126973499.html" target="_blank">http://url.hexun.com/18S69</a>今年福建辖区将以夯实基础为主线，提高期货业服务实体经济能力。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='4982577' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','福建欲“借东风”壮大辖区期货业-期货频道-和讯网 http://url.hexun.com/18S69今年福建辖区将以夯实基础为主线，提高期货业服务实体经济能力。', '',this)">转发<font id="forwardfont_4982577"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4982577');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4982577','1','14814331','0')">评论<font id="commentfont_4982577"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4982577_d.html">2011-01-24</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4982577" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4982577"></div><div class="nr_con" id="articelItem_4914663">				<div class="nr_shuo">证监会公示2011年度证券期货业申请推荐<a href="http://url.hexun.com/18LG6" title="http://futures.hexun.com/2011-01-19/126878826.html" target="_blank">http://url.hexun.com/18LG6</a>《基于生物识别技术的新一代双实名制系统》、《IT自动化运营系统》、《单客户多银行第三方存管服务模式》、《中信建投证券——证券业务综合管理平台》、《新一代集中交易系统》。这才是方向！</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='4914663' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','证监会公示2011年度证券期货业申请推荐http://url.hexun.com/18LG6《基于生物识别技术的新一代双实名制系统》、《IT自动化运营系统》、《单客户多银行第三方存管服务模式》、《中信建投证券——证券业务综合管理平台》、《新一代集中交易系统》。这才是方向！', '',this)">转发<font id="forwardfont_4914663" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4914663');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4914663','1','14814331','0')">评论<font id="commentfont_4914663" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4914663_d.html">2011-01-19</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4914663" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4914663"></div><div class="nr_con" id="articelItem_4318332">				<div class="nr_shuo"><a href="http://url.hexun.com/17Xbx" title="http://blog.sina.com.cn/s/blog_4e2087320100oaiz.html" target="_blank">http://url.hexun.com/17Xbx</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：通胀调控引争议 期市抱怨“被错杀” <a href="http://url.hexun.com/17VcJ" title="http://gechang68.blog.hexun.com/59724291_d.html" target="_blank">http://url.hexun.com/17VcJ</a></p>						<dl><dd><span style="float:left;"><a  href="/gechang68/4279569_d.html">2010-12-12</a>来自<a href="/relblog.aspx?uid=14814331" target=_blank>关联博客</a></span><a href="/gechang68/4279569_d.html">转发原文<font >(6)</font></a>|<a href="/gechang68/4279569_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='4318332' lastUID='14814331' lastUName='葛昶' firstAID='4279569' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','http://url.hexun.com/17Xbx', '通胀调控引争议 期市抱怨“被错杀” http://url.hexun.com/17VcJ',this)">转发<font id="forwardfont_4318332" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4318332');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4318332','1','14814331','4279569')">评论<font id="commentfont_4318332" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4318332_d.html">2010-12-13</a>来自和讯微博 <a href="/14814331/4279569_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4318332" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4318332"></div><div class="nr_con" id="articelItem_4279629">				<div class="nr_shuo">“资金撤出期市入冬”这有点言过其实了。办法还是有的。 //<a href="/14814331/default.html">@葛昶</a> ：“我们是顶着不道德的罪，挣个卖白菜的钱”妄自菲薄，无奈啊！ //<a href="/14814331/default.html">@葛昶</a> ：有可读性为什么转载后有拿下呢？</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：通胀调控引争议 期市抱怨“被错杀” <a href="http://url.hexun.com/17VcJ" title="http://gechang68.blog.hexun.com/59724291_d.html" target="_blank">http://url.hexun.com/17VcJ</a></p>						<dl><dd><span style="float:left;"><a  href="/gechang68/4279569_d.html">2010-12-12</a>来自<a href="/relblog.aspx?uid=14814331" target=_blank>关联博客</a></span><a href="/gechang68/4279569_d.html">转发原文<font >(6)</font></a>|<a href="/gechang68/4279569_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='4279629' lastUID='14814331' lastUName='葛昶' firstAID='4279569' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','“资金撤出期市入冬”这有点言过其实了。办法还是有的。 //@葛昶 ：“我们是顶着不道德的罪，挣个卖白菜的钱”妄自菲薄，无奈啊！ //@葛昶 ：有可读性为什么转载后有拿下呢？', '通胀调控引争议 期市抱怨“被错杀” http://url.hexun.com/17VcJ',this)">转发<font id="forwardfont_4279629" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4279629');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4279629','1','14814331','4279569')">评论<font id="commentfont_4279629" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4279629_d.html">2010-12-12</a>来自和讯微博 <a href="/14814331/4279601_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4279629" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4279629"></div><div class="nr_con" id="articelItem_4279601">				<div class="nr_shuo">“我们是顶着不道德的罪，挣个卖白菜的钱”妄自菲薄，无奈啊！ //<a href="/14814331/default.html">@葛昶</a> ：有可读性为什么转载后有拿下呢？</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：通胀调控引争议 期市抱怨“被错杀” <a href="http://url.hexun.com/17VcJ" title="http://gechang68.blog.hexun.com/59724291_d.html" target="_blank">http://url.hexun.com/17VcJ</a></p>						<dl><dd><span style="float:left;"><a  href="/gechang68/4279569_d.html">2010-12-12</a>来自<a href="/relblog.aspx?uid=14814331" target=_blank>关联博客</a></span><a href="/gechang68/4279569_d.html">转发原文<font >(6)</font></a>|<a href="/gechang68/4279569_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='4279601' lastUID='14814331' lastUName='葛昶' firstAID='4279569' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','“我们是顶着不道德的罪，挣个卖白菜的钱”妄自菲薄，无奈啊！ //@葛昶 ：有可读性为什么转载后有拿下呢？', '通胀调控引争议 期市抱怨“被错杀” http://url.hexun.com/17VcJ',this)">转发<font id="forwardfont_4279601" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4279601');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4279601','1','14814331','4279569')">评论<font id="commentfont_4279601"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4279601_d.html">2010-12-12</a>来自和讯微博 <a href="/14814331/4279582_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4279601" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4279601"></div><div class="nr_con" id="articelItem_4279582">				<div class="nr_shuo">有可读性为什么转载后有拿下呢？</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：通胀调控引争议 期市抱怨“被错杀” <a href="http://url.hexun.com/17VcJ" title="http://gechang68.blog.hexun.com/59724291_d.html" target="_blank">http://url.hexun.com/17VcJ</a></p>						<dl><dd><span style="float:left;"><a  href="/gechang68/4279569_d.html">2010-12-12</a>来自<a href="/relblog.aspx?uid=14814331" target=_blank>关联博客</a></span><a href="/gechang68/4279569_d.html">转发原文<font >(6)</font></a>|<a href="/gechang68/4279569_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='4279582' lastUID='14814331' lastUName='葛昶' firstAID='4279569' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','有可读性为什么转载后有拿下呢？', '通胀调控引争议 期市抱怨“被错杀” http://url.hexun.com/17VcJ',this)">转发<font id="forwardfont_4279582" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4279582');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4279582','1','14814331','4279569')">评论<font id="commentfont_4279582"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4279582_d.html">2010-12-12</a>来自和讯微博 <a href="/14814331/4279569_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4279582" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4279582"></div><div class="nr_con" id="articelItem_4279569">				<div class="nr_shuo">通胀调控引争议 期市抱怨“被错杀” <a href="http://url.hexun.com/17VcJ" title="http://gechang68.blog.hexun.com/59724291_d.html" target="_blank">http://url.hexun.com/17VcJ</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='7' lastAID='4279569' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','通胀调控引争议 期市抱怨“被错杀” http://url.hexun.com/17VcJ', '',this)">转发<font id="forwardfont_4279569" >(6)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4279569');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4279569','1','14814331','0')">评论<font id="commentfont_4279569"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4279569_d.html">2010-12-12</a>来自<a href="/relblog.aspx?uid=14814331" target=_blank>关联博客</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4279569" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4279569"></div><div class="nr_con" id="articelItem_4174068">				<div class="nr_shuo">一个小孩大家都说他傻。当别人拿一张五元和一张十元的钱给他，他总是去拿五元的，此事很快传开，大家见了他就用此方法试试他，嘲笑他。每次他都面带微笑的拿起五元就走。一智者听说此事，亲自进行试验，结果与大家说的一样。智者哈哈大笑，拍着那孩子的肩膀说：“小朋友，你太聪明了！”那孩子也笑了。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='4174068' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','一个小孩大家都说他傻。当别人拿一张五元和一张十元的钱给他，他总是去拿五元的，此事很快传开，大家见了他就用此方法试试他，嘲笑他。每次他都面带微笑的拿起五元就走。一智者听说此事，亲自进行试验，结果与大家说的一样。智者哈哈大笑，拍着那孩子的肩膀说：“小朋友，你太聪明了！”那孩子也笑了。', '',this)">转发<font id="forwardfont_4174068" >(4)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4174068');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4174068','1','14814331','0')">评论<font id="commentfont_4174068" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4174068_d.html">2010-12-08</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4174068" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4174068"></div><div class="nr_con" id="articelItem_4173498">				<div class="nr_shuo">【推荐】其实，真正想抑制房价，办法很简单，只要全民坚持两年不买房，不要多，只要两年，那样会倒掉一批开发商跟枪毙一批银行行长双规一批市长，代价是大了点，但是换来的是啥大家心里清楚。“我干了10年房地产，真的看透了，转自一个房地产商的告白”。<a href="http://url.hexun.com/17Qpr" title="http://letaoba.info/2010/12/2093.html" target="_blank">http://url.hexun.com/17Qpr</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='4173498' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','【推荐】其实，真正想抑制房价，办法很简单，只要全民坚持两年不买房，不要多，只要两年，那样会倒掉一批开发商跟枪毙一批银行行长双规一批市长，代价是大了点，但是换来的是啥大家心里清楚。“我干了10年房地产，真的看透了，转自一个房地产商的告白”。http://url.hexun.com/17Qpr', '',this)">转发<font id="forwardfont_4173498" >(6)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4173498');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4173498','1','14814331','0')">评论<font id="commentfont_4173498" >(2)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4173498_d.html">2010-12-08</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4173498" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4173498"></div><div class="nr_con" id="articelItem_4139355">				<div class="nr_shuo">财政部明确期货保税交割增值税政策-期货频道-和讯网 <a href="http://url.hexun.com/17OVn" title="http://futures.hexun.com/2010-12-07/126020421.html" target="_blank">http://url.hexun.com/17OVn</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='4139355' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','财政部明确期货保税交割增值税政策-期货频道-和讯网 http://url.hexun.com/17OVn', '',this)">转发<font id="forwardfont_4139355" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4139355');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4139355','1','14814331','0')">评论<font id="commentfont_4139355"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4139355_d.html">2010-12-08</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4139355" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4139355"></div><div class="nr_con" id="articelItem_4078494">				<div class="nr_shuo">真是搞笑的时代 //<a href="/14290091/default.html">@王海涛</a> ：估计台阶还没被砌上呢</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/lwckyer/default.html">@lwckyer</a><b class="indshowC_b2" title="投资达人">&nbsp;</b>：这ATM机估计是为姚明设计的吧，哥们，你给点力吖 </p>						<dl>							<dt id="SmallDiv_4078494_84301384" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('4078494','84301384','http://photo20.hexun.com/p/2010/1206/421506/b45_69C9D10F930C7B0F5E614ECE18A5D071.jpg',1)"><img  src="http://photo20.hexun.com/p/2010/1206/421506/t150_69C9D10F930C7B0F5E614ECE18A5D071.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_4078494_84301384" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/lwckyer/4070941_d.html">2010-12-06</a>来自和讯微博</span><a href="/lwckyer/4070941_d.html">转发原文<font >(9)</font></a>|<a href="/lwckyer/4070941_d.html">评论原文<font >(1)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='4078494' lastUID='14814331' lastUName='葛昶' firstAID='4070941' firstUID='13124680' firstUName='lwckyer' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='84301384' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','真是搞笑的时代 //@王海涛 ：估计台阶还没被砌上呢', '这ATM机估计是为姚明设计的吧，哥们，你给点力吖 ',this)">转发<font id="forwardfont_4078494" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4078494');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4078494','1','14814331','4070941')">评论<font id="commentfont_4078494"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4078494_d.html">2010-12-06</a>来自和讯微博 <a href="/14290091/4071013_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4078494" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4078494"></div><div class="nr_con" id="articelItem_4042417">				<div class="nr_shuo">综合性金融企业将是期货公司发展方向-期货频道-和讯网 <a href="http://url.hexun.com/17KlA" title="http://futures.hexun.com/2010-12-04/125981077.html" target="_blank">http://url.hexun.com/17KlA</a>“期货公司比券商含金量更高，”期货公司对人才知识水平要求更高、对风险管理水平要求更高、对投资者教育要求更高、期货事业的发展需要期货公司发展、金融业的发展需要期货人才的机构化</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='4042417' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','综合性金融企业将是期货公司发展方向-期货频道-和讯网 http://url.hexun.com/17KlA“期货公司比券商含金量更高，”期货公司对人才知识水平要求更高、对风险管理水平要求更高、对投资者教育要求更高、期货事业的发展需要期货公司发展、金融业的发展需要期货人才的机构化', '',this)">转发<font id="forwardfont_4042417" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4042417');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4042417','1','14814331','0')">评论<font id="commentfont_4042417" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4042417_d.html">2010-12-04</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4042417" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4042417"></div><div class="nr_con" id="articelItem_4042306">				<div class="nr_shuo">胡俞越：希望“十二五”期间出现一批上市期货公司-期货频道-和讯网 <a href="http://url.hexun.com/17Klj" title="http://futures.hexun.com/2010-12-04/125980329.html" target="_blank">http://url.hexun.com/17Klj</a>期货公司才是期货市场创新主体，所以要明确期货公司作为期货市场创新主体的地位</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='4042306' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','胡俞越：希望“十二五”期间出现一批上市期货公司-期货频道-和讯网 http://url.hexun.com/17Klj期货公司才是期货市场创新主体，所以要明确期货公司作为期货市场创新主体的地位', '',this)">转发<font id="forwardfont_4042306"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4042306');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4042306','1','14814331','0')">评论<font id="commentfont_4042306"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4042306_d.html">2010-12-04</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4042306" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4042306"></div><div class="nr_con" id="articelItem_4038294">				<div class="nr_shuo"> <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>工作的一周！？</div><div id="SmallDiv_4038294_84270652" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('4038294', '84270652','http://photo20.hexun.com/p/2010/1204/421353/b45_vip_4E938A6BC49E37F72AB6DB4C2C58F2A4.jpg',1)"><img  src="http://photo20.hexun.com/p/2010/1204/421353/t150_vip_4E938A6BC49E37F72AB6DB4C2C58F2A4.jpg" class="imgBig" ></a></div><div id="MiddleDiv_4038294_84270652" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='4038294' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='84270652' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#分享图片#&amp;nbsp;工作的一周！？', '',this)">转发<font id="forwardfont_4038294"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4038294');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4038294','1','14814331','0')">评论<font id="commentfont_4038294"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4038294_d.html">2010-12-04</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4038294" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4038294"></div><div class="nr_con" id="articelItem_4015017">				<div class="nr_shuo">是啊，顶级人物期货市场里有。 //<a href="/14290091/default.html">@王海涛</a> ：怎么没让你去啊，呵呵</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='4015017' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','是啊，顶级人物期货市场里有。 //@王海涛 ：怎么没让你去啊，呵呵', '',this)">转发<font id="forwardfont_4015017"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4015017');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4015017','1','14814331','0')">评论<font id="commentfont_4015017"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4015017_d.html">2010-12-03</a>来自和讯微博 <a href="/14290091/4010965_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4015017" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4015017"></div><div class="nr_con" id="articelItem_4014994">				<div class="nr_shuo">关键的是职工一方谁为法定代表？ //<a href="/4805804/default.html">@吕尤</a> ：转发微博 //转自 <a href="/15229871/default.html">@邵芳卿</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/say09/default.html">@邵芳卿</a><b class="indshowC_b4" title="业界精英">&nbsp;</b>：2011年元旦起，福建省各地区一旦CPI持续较大变动时，职工一方或企业均可提出工资专项集体协商要求，企业拒绝或故意拖延的，最高可罚3万元人民币。今日采访得知，原草案中CPI指数曾由“增长”、“变动”、“较大变动”演变至“持续较大变动”；而罚金原为1‰～‰，后考虑企业受罚数额过大而变。</p>						<dl>							<dt id="SmallDiv_4014994_84213799" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('4014994','84213799','http://photo20.hexun.com/p/2010/1201/421068/b45_vip_C6C854A0DDE5C860F90E9D3EA1A7D555.jpg',1)"><img  src="http://photo20.hexun.com/p/2010/1201/421068/t150_vip_C6C854A0DDE5C860F90E9D3EA1A7D555.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_4014994_84213799" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/say09/3957209_d.html">2010-12-01</a>来自和讯微博</span><a href="/say09/3957209_d.html">转发原文<font >(3)</font></a>|<a href="/say09/3957209_d.html">评论原文<font >(2)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='4014994' lastUID='14814331' lastUName='葛昶' firstAID='3957209' firstUID='15229871' firstUName='邵芳卿' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='84213799' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','关键的是职工一方谁为法定代表？ //@吕尤 ：转发微博 //转自 @邵芳卿', '2011年元旦起，福建省各地区一旦CPI持续较大变动时，职工一方或企业均可提出工资专项集体协商要求，企业拒绝或故意拖延的，最高可罚3万元人民币。今日采访得知，原草案中CPI指数曾由“增长”、“变动”、“较大变动”演变至“持续较大变动”；而罚金原为1‰～‰，后考虑企业受罚数额过大而变。',this)">转发<font id="forwardfont_4014994"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4014994');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4014994','1','14814331','3957209')">评论<font id="commentfont_4014994"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4014994_d.html">2010-12-03</a>来自和讯微博 <a href="/4805804/4013753_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4014994" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4014994"></div><div class="nr_con" id="articelItem_4014963">				<div class="nr_shuo">一老大爷去买西红柿，挑了三个，摊主秤了下说：“一斤半，三块七。”大爷说：“就做个汤，用不着那么多。”说完就去掉了个儿最大的西红柿。摊主迅速又瞧一眼秤子“一斤二两，三块。”正当我看不过去想提醒大爷注意摊主的秤子时，大爷从容的掏出了七毛钱，拿起刚刚去掉的那个大的西红柿，扭头走了。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='4014963' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','一老大爷去买西红柿，挑了三个，摊主秤了下说：“一斤半，三块七。”大爷说：“就做个汤，用不着那么多。”说完就去掉了个儿最大的西红柿。摊主迅速又瞧一眼秤子“一斤二两，三块。”正当我看不过去想提醒大爷注意摊主的秤子时，大爷从容的掏出了七毛钱，拿起刚刚去掉的那个大的西红柿，扭头走了。', '',this)">转发<font id="forwardfont_4014963" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','4014963');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('4014963','1','14814331','0')">评论<font id="commentfont_4014963" >(2)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/4014963_d.html">2010-12-03</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_4014963" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_4014963"></div><div class="nr_con" id="articelItem_3993478">				<div class="nr_shuo"> IT经理走进一家拉面馆，问：你们需要客户端吗？老板：面一般是伙计端，忙的时候才需要客户端</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3993478' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' IT经理走进一家拉面馆，问：你们需要客户端吗？老板：面一般是伙计端，忙的时候才需要客户端', '',this)">转发<font id="forwardfont_3993478" >(3)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3993478');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3993478','1','14814331','0')">评论<font id="commentfont_3993478" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3993478_d.html">2010-12-02</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3993478" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3993478"></div><div class="nr_con" id="articelItem_3961279">				<div class="nr_shuo">“骨干是折腾出来的”有意思 //<a href="/14290091/default.html">@王海涛</a> ：你自己去开户，说明你入市意愿强，不会给你降的 //<a href="/6727390/default.html">@datoubaobao11</a> ：确实强 本人在国信开户 多次要求降低佣金未果 后来偶然在银行发现 他们经纪人开出的佣金条件竟然比我的1半还低 汗颜 //<a href="/14290091/default.html">@王海涛</a> ：国信的营销能力很强，早有耳闻</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/guosensecurities/default.html">@国信证券成都部</a><b class="indshowC_b3" title="公司机构">&nbsp;</b>： <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a> 兄弟营业部风采：近日，国信证券宜昌营业部举办了一场以读《骨干是折腾出来的》一书为主题的别开生面的演讲比赛。这是一次员工们展示文采与口才，交流生活经历的的盛会，一次让所有听众为之感动的盛会。充分展现了国信证券宜昌营业部全体员工爱岗敬业、拼搏创新、积极向上的良好精神风貌。</p>						<dl>							<dt id="SmallDiv_3961279_84199171" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3961279','84199171','http://photo20.hexun.com/p/2010/1201/420995/b45_vip_DB3DFC7B5D18AE8D338AD423CCF87E05.jpg',1)"><img  src="http://photo20.hexun.com/p/2010/1201/420995/t150_vip_DB3DFC7B5D18AE8D338AD423CCF87E05.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_3961279_84199171" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/guosensecurities/3935133_d.html">2010-12-01</a>来自和讯微博</span><a href="/guosensecurities/3935133_d.html">转发原文<font >(6)</font></a>|<a href="/guosensecurities/3935133_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3961279' lastUID='14814331' lastUName='葛昶' firstAID='3935133' firstUID='14289233' firstUName='国信证券成都部' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='84199171' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','“骨干是折腾出来的”有意思 //@王海涛 ：你自己去开户，说明你入市意愿强，不会给你降的 //@datoubaobao11 ：确实强 本人在国信开户 多次要求降低佣金未果 后来偶然在银行发现 他们经纪人开出的佣金条件竟然比我的1半还低 汗颜 //@王海涛 ：国信的营销能力很强，早有耳闻', ' &amp;nbsp;#分享图片#&amp;nbsp; 兄弟营业部风采：近日，国信证券宜昌营业部举办了一场以读《骨干是折腾出来的》一书为主题的别开生面的演讲比赛。这是一次员工们展示文采与口才，交流生活经历的的盛会，一次让所有听众为之感动的盛会。充分展现了国信证券宜昌营业部全体员工爱岗敬业、拼搏创新、积极向上的良好精神风貌。',this)">转发<font id="forwardfont_3961279" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3961279');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3961279','1','14814331','3935133')">评论<font id="commentfont_3961279"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3961279_d.html">2010-12-02</a>来自和讯微博 <a href="/14290091/3936034_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3961279" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3961279"></div><div class="nr_con" id="articelItem_3960831">				<div class="nr_shuo">提倡历史要以史实为依托，不带主义是对的、提倡爱国就要爱自己文化也是对的。干嘛自己一不小心带上强烈的“主义”呢？还“为往圣继绝学”真是语不惊人不罢休啊！</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/wangshanyuan/default.html">@胖牛</a>：推荐：袁腾飞：为往圣继绝学 中国历史老师有三分之一有这么一份心的话，国何患不强！  <a href="/k/%ca%d3%c6%b5">&nbsp;#视频#&nbsp;</a> 袁腾飞：为往圣继绝学</p>						<dl><div id="SmallDiv_3960831_video0" class="img_border"><div class="playicon" onmousedown="javascript:videoOpen(3960831,0,'')" onmouseup="javascript:videoMouseUp(3960831,0,'')"></div><a href="javascript:void(0);" onmousedown="javascript:videoOpen(3960831,0,'')" onmouseup="javascript:videoMouseUp(3960831,0,'')"><img  src="http://i01.img.tudou.com/data/imgs/i/051/477/957/p.jpg" class="imgBig" style="width:150px; height:115px"></a></div><div id="MiddleDiv_3960831_video0" class="preview_big" style="display:none;"><h3><span class="preview_big_4" title="关闭" onclick="javascript:videoClose(3960831,0)">&nbsp;</span></h3><p id="p_3960831_video0"></p><p id="hid_3960831_videoUrl0" style="display:none"><embed src="ptth://www.tudou.com/v/B8zcRBG3b5Q" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="508" height="425"></embed></p></div><dd><span style="float:left;"><a  href="/wangshanyuan/3944694_d.html">2010-12-01</a>来自和讯微博</span><a href="/wangshanyuan/3944694_d.html">转发原文<font >(12)</font></a>|<a href="/wangshanyuan/3944694_d.html">评论原文<font >(6)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3960831' lastUID='14814331' lastUName='葛昶' firstAID='3944694' firstUID='10792182' firstUName='胖牛' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','提倡历史要以史实为依托，不带主义是对的、提倡爱国就要爱自己文化也是对的。干嘛自己一不小心带上强烈的“主义”呢？还“为往圣继绝学”真是语不惊人不罢休啊！', '推荐：袁腾飞：为往圣继绝学 中国历史老师有三分之一有这么一份心的话，国何患不强！  &amp;nbsp;#视频#&amp;nbsp; 袁腾飞：为往圣继绝学',this)">转发<font id="forwardfont_3960831" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3960831');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3960831','1','14814331','3944694')">评论<font id="commentfont_3960831" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3960831_d.html">2010-12-01</a>来自和讯微博 <a href="/10792182/3944694_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3960831" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3960831"></div><div class="nr_con" id="articelItem_3960630">				<div class="nr_shuo">一个正常人想证明自己的正常，是非常困难的。也许只有不试图去证明的人，才称得上是一个正常人。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：读“假如哪天被强行抓进精神病院，怎么证明自己不是精神病… ”有感！<a href="http://url.hexun.com/17Gke" title="http://lzhi.info/views/1090" target="_blank">http://url.hexun.com/17Gke</a>那些用某种方式去证明自己真理在握的人，那些用某种方式证明自己知识丰富的人，包括那些用某种方式证明自己很有钱的人，都可能被认为是个疯子，只是他们自己不知道罢了！</p>						<dl><dd><span style="float:left;"><a  href="/gechang68/3960589_d.html">2010-12-01</a>来自和讯微博</span><a href="/gechang68/3960589_d.html">转发原文<font >(1)</font></a>|<a href="/gechang68/3960589_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3960630' lastUID='14814331' lastUName='葛昶' firstAID='3960589' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','一个正常人想证明自己的正常，是非常困难的。也许只有不试图去证明的人，才称得上是一个正常人。', '读“假如哪天被强行抓进精神病院，怎么证明自己不是精神病… ”有感！http://url.hexun.com/17Gke那些用某种方式去证明自己真理在握的人，那些用某种方式证明自己知识丰富的人，包括那些用某种方式证明自己很有钱的人，都可能被认为是个疯子，只是他们自己不知道罢了！',this)">转发<font id="forwardfont_3960630"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3960630');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3960630','1','14814331','3960589')">评论<font id="commentfont_3960630"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3960630_d.html">2010-12-01</a>来自和讯微博 <a href="/14814331/3960589_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3960630" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3960630"></div><div class="nr_con" id="articelItem_3960589">				<div class="nr_shuo">读“假如哪天被强行抓进精神病院，怎么证明自己不是精神病… ”有感！<a href="http://url.hexun.com/17Gke" title="http://lzhi.info/views/1090" target="_blank">http://url.hexun.com/17Gke</a>那些用某种方式去证明自己真理在握的人，那些用某种方式证明自己知识丰富的人，包括那些用某种方式证明自己很有钱的人，都可能被认为是个疯子，只是他们自己不知道罢了！</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3960589' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','读“假如哪天被强行抓进精神病院，怎么证明自己不是精神病… ”有感！http://url.hexun.com/17Gke那些用某种方式去证明自己真理在握的人，那些用某种方式证明自己知识丰富的人，包括那些用某种方式证明自己很有钱的人，都可能被认为是个疯子，只是他们自己不知道罢了！', '',this)">转发<font id="forwardfont_3960589" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3960589');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3960589','1','14814331','0')">评论<font id="commentfont_3960589"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3960589_d.html">2010-12-01</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3960589" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3960589"></div><div class="nr_con" id="articelItem_3958018">				<div class="nr_shuo">哈哈，CPI最高5.5%，不至于啊。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/zaizhou/default.html">@吕尤</a>： 真经典：两个五毛党结婚了，他们以为永远是一块，谁知道通货膨胀，他们现在是一块2。 </p>						<dl><dd><span style="float:left;"><a  href="/zaizhou/3954420_d.html">2010-12-01</a>来自和讯微博</span><a href="/zaizhou/3954420_d.html">转发原文<font >(6)</font></a>|<a href="/zaizhou/3954420_d.html">评论原文<font >(3)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3958018' lastUID='14814331' lastUName='葛昶' firstAID='3954420' firstUID='4805804' firstUName='吕尤' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','哈哈，CPI最高5.5%，不至于啊。', ' 真经典：两个五毛党结婚了，他们以为永远是一块，谁知道通货膨胀，他们现在是一块2。 ',this)">转发<font id="forwardfont_3958018"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3958018');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3958018','1','14814331','3954420')">评论<font id="commentfont_3958018"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3958018_d.html">2010-12-01</a>来自和讯微博 <a href="/4805804/3954420_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3958018" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3958018"></div><div class="nr_con" id="articelItem_3957730">				<div class="nr_shuo">忘记说了，在走过这家店前，大伙在密林出看到一只白狐。真的！</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>： <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>领导就是有才，能题这么好的词。真想每天下班来这里销歇一会啊</p>						<dl>							<dt id="SmallDiv_3957730_83548461" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3957730','83548461','http://photo19.hexun.com/p/2010/1102/417742/b45_A473DB611837B532F1FAC694D1C07930.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1102/417742/t150_A473DB611837B532F1FAC694D1C07930.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_3957730_83548461" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/gechang68/3024125_d.html">2010-11-02</a>来自和讯微博</span><a href="/gechang68/3024125_d.html">转发原文<font >(3)</font></a>|<a href="/gechang68/3024125_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3957730' lastUID='14814331' lastUName='葛昶' firstAID='3024125' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='83548461' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','忘记说了，在走过这家店前，大伙在密林出看到一只白狐。真的！', ' &amp;nbsp;#分享图片#&amp;nbsp;领导就是有才，能题这么好的词。真想每天下班来这里销歇一会啊',this)">转发<font id="forwardfont_3957730"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3957730');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3957730','1','14814331','3024125')">评论<font id="commentfont_3957730"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3957730_d.html">2010-12-01</a>来自和讯微博 <a href="/14814331/3024125_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3957730" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3957730"></div><div class="nr_con" id="articelItem_3957532">				<div class="nr_shuo">指责投机者是很容易，但实在不专业、不负责、不道德。<a href="http://url.hexun.com/17Gh0" title="http://www.ftchinese.com/story/001035254" target="_blank">http://url.hexun.com/17Gh0</a>产量跟不上需求，从而造成供需吃紧。这是经济规律使然。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3957532' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','指责投机者是很容易，但实在不专业、不负责、不道德。http://url.hexun.com/17Gh0产量跟不上需求，从而造成供需吃紧。这是经济规律使然。', '',this)">转发<font id="forwardfont_3957532"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3957532');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3957532','1','14814331','0')">评论<font id="commentfont_3957532"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3957532_d.html">2010-12-01</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3957532" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3957532"></div><div class="nr_con" id="articelItem_3918771">				<div class="nr_shuo">看李明博的样子好像做错事了 //<a href="/14290091/default.html">@王海涛</a> ：应该把老金废掉，中国另立太子，最好的人选是金正男，如果美国同意这事就好办了 //<a href="/8607975/default.html">@热血平和</a> ：大国博弈当然国家利益至上。但要是不敲打敲打朝鲜，额国国家形象也将受损! //<a href="/13434420/default.html">@盖勇</a> ：戴：听说你们被炸了？李：......戴：还死了几个人？李：......戴：让你们跟着美国混 李：</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/13827783/default.html">@yjs19730322</a><b class="indshowC_b2" title="投资达人">&nbsp;</b>：尴尬   </p>						<dl>							<dt id="SmallDiv_3918771_84166547" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3918771','84166547','http://photo20.hexun.com/p/2010/1129/420832/b45_vip_D2BF75E80A0495B06CB91070CEDCD04D.jpg',1)"><img  src="http://photo20.hexun.com/p/2010/1129/420832/t150_vip_D2BF75E80A0495B06CB91070CEDCD04D.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_3918771_84166547" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/13827783/3895627_d.html">2010-11-29</a>来自和讯微博</span><a href="/13827783/3895627_d.html">转发原文<font >(23)</font></a>|<a href="/13827783/3895627_d.html">评论原文<font >(6)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3918771' lastUID='14814331' lastUName='葛昶' firstAID='3895627' firstUID='13827783' firstUName='yjs19730322' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='84166547' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','看李明博的样子好像做错事了 //@王海涛 ：应该把老金废掉，中国另立太子，最好的人选是金正男，如果美国同意这事就好办了 //@热血平和 ：大国博弈当然国家利益至上。但要是不敲打敲打朝鲜，额国国家形象也将受损! //@盖勇 ：戴：听说你们被炸了？李：......戴：还死了几个人？李：......戴：让你们跟着美国混 李：', '尴尬   ',this)">转发<font id="forwardfont_3918771"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3918771');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3918771','1','14814331','3895627')">评论<font id="commentfont_3918771"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3918771_d.html">2010-11-30</a>来自和讯微博 <a href="/14290091/3907781_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3918771" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3918771"></div><div class="nr_con" id="articelItem_3868714">				<div class="nr_shuo">快来看看 <a href="/321184/default.html">@馨月</a> 的微博 <a href="http://url.hexun.com/15aw5" title="http://t.hexun.com/xinyue/default.html" target="_blank">http://url.hexun.com/15aw5</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3868714' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','快来看看 @馨月 的微博 http://url.hexun.com/15aw5', '',this)">转发<font id="forwardfont_3868714" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3868714');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3868714','1','14814331','0')">评论<font id="commentfont_3868714"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3868714_d.html">2010-11-28</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3868714" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3868714"></div><div class="nr_con" id="articelItem_3868707">				<div class="nr_shuo">快来看看 <a href="/4124191/default.html">@莫大</a> 的微博 <a href="http://url.hexun.com/15sTG" title="http://t.hexun.com/sulon888/default.html" target="_blank">http://url.hexun.com/15sTG</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3868707' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','快来看看 @莫大 的微博 http://url.hexun.com/15sTG', '',this)">转发<font id="forwardfont_3868707" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3868707');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3868707','1','14814331','0')">评论<font id="commentfont_3868707"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3868707_d.html">2010-11-28</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3868707" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3868707"></div><div class="nr_con" id="articelItem_3834040">				<div class="nr_shuo">游资就像神马、浮云，谁看见了？现在谁不开口骂游资，就好象不专业似的。涨。。。它，跌。。。。它。一颗小白菜涨跌也操它！<a href="http://url.hexun.com/17zDZ" title="http://futures.hexun.com/2010-11-26/125849620_1.html" target="_blank">http://url.hexun.com/17zDZ</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3834040' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','游资就像神马、浮云，谁看见了？现在谁不开口骂游资，就好象不专业似的。涨。。。它，跌。。。。它。一颗小白菜涨跌也操它！http://url.hexun.com/17zDZ', '',this)">转发<font id="forwardfont_3834040" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3834040');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3834040','1','14814331','0')">评论<font id="commentfont_3834040"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3834040_d.html">2010-11-26</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3834040" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3834040"></div><div class="nr_con" id="articelItem_3829786">				<div class="nr_shuo">低杠杆早就来了，保证金的收取不要只看交易所的数字。08年后各期货公司的保证金收取就不怎么参考交易所的保证金比例了，参照的直接是板的幅度。而平今收单是世纪之初的产物，当时的期货市场到了灭亡的边缘。这产物早该废了。从交易所几次取消平今测试可以得出其根本不可能起到抑制投机的效果。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/hottopics/default.html">@微博话题</a><b class="indshowC_b3" title="公司机构">&nbsp;</b>： <a href="/k/%ce%a2%bb%b0%cc%e2">&nbsp;#微话题#&nbsp;</a> 交易所在监管层统一部署下使出了撒手锏，近期国内期货交易所频频调整交易规则，提高保证金、扩板、取消平今优惠等，这些将增加投资者的交易成本，抑制过度投机，又能赚上一笔，何乐而不为呢？看来低杠杆高成本的时代已经来临，您是如何看待监管层出台新规的意图和作用的？欢迎讨论！</p>						<dl>							<dt id="SmallDiv_3829786_84058382" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3829786','84058382','http://photo20.hexun.com/p/2010/1126/420291/b45_vip_466B45B4A9470EF13BA3A6ED12B593BC.jpg',1)"><img  src="http://photo20.hexun.com/p/2010/1126/420291/t150_vip_466B45B4A9470EF13BA3A6ED12B593BC.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_3829786_84058382" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/hottopics/3826366_d.html">2010-11-26</a>来自和讯微博</span><a href="/hottopics/3826366_d.html">转发原文<font >(52)</font></a>|<a href="/hottopics/3826366_d.html">评论原文<font >(30)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3829786' lastUID='14814331' lastUName='葛昶' firstAID='3826366' firstUID='14482418' firstUName='微博话题' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='84058382' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','低杠杆早就来了，保证金的收取不要只看交易所的数字。08年后各期货公司的保证金收取就不怎么参考交易所的保证金比例了，参照的直接是板的幅度。而平今收单是世纪之初的产物，当时的期货市场到了灭亡的边缘。这产物早该废了。从交易所几次取消平今测试可以得出其根本不可能起到抑制投机的效果。', ' &amp;nbsp;#微话题#&amp;nbsp; 交易所在监管层统一部署下使出了撒手锏，近期国内期货交易所频频调整交易规则，提高保证金、扩板、取消平今优惠等，这些将增加投资者的交易成本，抑制过度投机，又能赚上一笔，何乐而不为呢？看来低杠杆高成本的时代已经来临，您是如何看待监管层出台新规的意图和作用的？欢迎讨论！',this)">转发<font id="forwardfont_3829786"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3829786');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3829786','1','14814331','3826366')">评论<font id="commentfont_3829786"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3829786_d.html">2010-11-26</a>来自和讯微博 <a href="/14482418/3826366_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3829786" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3829786"></div><div class="nr_con" id="articelItem_3825296">				<div class="nr_shuo">“糖高宗”退位“糖玄宗”继位？短期内现货紧张的局面已彻底改变了？高宗还是复位吧<a href="http://url.hexun.com/17z2Q" title="http://news.10jqka.com.cn/content/636/694/040/63669440.shtml" target="_blank">http://url.hexun.com/17z2Q</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3825296' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','“糖高宗”退位“糖玄宗”继位？短期内现货紧张的局面已彻底改变了？高宗还是复位吧http://url.hexun.com/17z2Q', '',this)">转发<font id="forwardfont_3825296"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3825296');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3825296','1','14814331','0')">评论<font id="commentfont_3825296"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3825296_d.html">2010-11-26</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3825296" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3825296"></div><div class="nr_con" id="articelItem_3816030">				<div class="nr_shuo">成本推动是初期的一个因素。也是游资看中的一个因素。各种因素都是有联系的。只是目前游资成了过街老鼠。由于国内国际农产品都上涨，说明各国政府都无可奈何。下次G20再接着吵呗。 //<a href="/14290091/default.html">@王海涛</a> ：呵呵，刚才在地铁了从手机上看了这个关于游资炒作的新闻，游资炒作是一方面，但政府不能推卸责任 //<a href="/13203275/default.html">@长余量子基金</a> ：就在一个月前</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/guotz/default.html">@一德郭铁铮</a><b class="indshowC_b5" title="投资专家">&nbsp;</b>：国家发改委昨日发文称，种种迹象表明，游资炒作和不法经营者采取欺诈、串通、哄抬、囤积等不正当手段操纵相关商品价格，是农产品价格上涨的直接推手。这是发改委连续第三天在官方网站发文就如何贯彻“国16条”做出论述。（国内期货三大交易所取消日内交易手续费减半，也是政策组合拳的重要组成部分）</p>						<dl><dd><span style="float:left;"><a  href="/guotz/3785746_d.html">2010-11-25</a>来自和讯微博</span><a href="/guotz/3785746_d.html">转发原文<font >(5)</font></a>|<a href="/guotz/3785746_d.html">评论原文<font >(1)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3816030' lastUID='14814331' lastUName='葛昶' firstAID='3785746' firstUID='14727327' firstUName='一德郭铁铮' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','成本推动是初期的一个因素。也是游资看中的一个因素。各种因素都是有联系的。只是目前游资成了过街老鼠。由于国内国际农产品都上涨，说明各国政府都无可奈何。下次G20再接着吵呗。 //@王海涛 ：呵呵，刚才在地铁了从手机上看了这个关于游资炒作的新闻，游资炒作是一方面，但政府不能推卸责任 //@长余量子基金 ：就在一个月前', '国家发改委昨日发文称，种种迹象表明，游资炒作和不法经营者采取欺诈、串通、哄抬、囤积等不正当手段操纵相关商品价格，是农产品价格上涨的直接推手。这是发改委连续第三天在官方网站发文就如何贯彻“国16条”做出论述。（国内期货三大交易所取消日内交易手续费减半，也是政策组合拳的重要组成部分）',this)">转发<font id="forwardfont_3816030" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3816030');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3816030','1','14814331','3785746')">评论<font id="commentfont_3816030" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3816030_d.html">2010-11-26</a>来自和讯微博 <a href="/14290091/3809014_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3816030" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3816030"></div><div class="nr_con" id="articelItem_3784166">				<div class="nr_shuo">投机过剩～官方话语也！ //<a href="/14840239/default.html">@杨明东</a> ：期货市场的本质就是风险管理的市场，如无法发挥对冲风险的作用，将失去存在的意义。但缺乏投机者市场将失去润滑剂，投机者本身就是市场的受险者。当前我国期货市场的确出现投机与套保不协调，投机过剩，缺乏机构投资者，机构投资者是市场的稳定器。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/XYWL/default.html">@徐晓宇</a><b class="indshowC_b5" title="投资专家">&nbsp;</b>：：“期货市场为国民经济服务、为机构投资者服务”？为何不禁止个人投资者？@巴曙松：<a href="http://url.hexun.com/17qb8" title="http://sinaurl.cn/h4sZ66" target="_blank">http://url.hexun.com/17qb8</a>上海会议 </p>						<dl><dd><span style="float:left;"><a  href="/XYWL/3659872_d.html">2010-11-20</a>来自和讯微博</span><a href="/XYWL/3659872_d.html">转发原文<font >(7)</font></a>|<a href="/XYWL/3659872_d.html">评论原文<font >(3)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3784166' lastUID='14814331' lastUName='葛昶' firstAID='3659872' firstUID='2130150' firstUName='徐晓宇' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','投机过剩～官方话语也！ //@杨明东 ：期货市场的本质就是风险管理的市场，如无法发挥对冲风险的作用，将失去存在的意义。但缺乏投机者市场将失去润滑剂，投机者本身就是市场的受险者。当前我国期货市场的确出现投机与套保不协调，投机过剩，缺乏机构投资者，机构投资者是市场的稳定器。', '：“期货市场为国民经济服务、为机构投资者服务”？为何不禁止个人投资者？@巴曙松：http://url.hexun.com/17qb8上海会议 ',this)">转发<font id="forwardfont_3784166"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3784166');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3784166','1','14814331','3659872')">评论<font id="commentfont_3784166"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3784166_d.html">2010-11-24</a>来自和讯微博 <a href="/14840239/3659948_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3784166" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3784166"></div><div class="nr_con" id="articelItem_3719486">				<div class="nr_shuo">有智慧的人，有内涵的人。更重要的是充满信心的人会这样。 //<a href="/4805804/default.html">@吕尤</a> ：老爷子还挺乐 //转自 <a href="/5389901/default.html">@曉風殘月</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/hongchengzhilian/default.html">@曉風殘月</a><b class="indshowC_b5" title="投资专家">&nbsp;</b>：退休后，朱镕基最大的原则就是不谈工作。他明确表示，不在其位，不谋其政。 <a href="http://url.hexun.com/17szo" title="http://sinaurl.cn/hbPSsb" target="_blank">http://url.hexun.com/17szo</a></p>						<dl>							<dt id="SmallDiv_3719486_83965859" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3719486','83965859','http://photo20.hexun.com/p/2010/1122/419829/b45_vip_EECB74CA5383A4B90DFCD367E4351914.jpg',1)"><img  src="http://photo20.hexun.com/p/2010/1122/419829/t150_vip_EECB74CA5383A4B90DFCD367E4351914.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_3719486_83965859" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/hongchengzhilian/3716340_d.html">2010-11-22</a>来自和讯微博</span><a href="/hongchengzhilian/3716340_d.html">转发原文<font >(53)</font></a>|<a href="/hongchengzhilian/3716340_d.html">评论原文<font >(29)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3719486' lastUID='14814331' lastUName='葛昶' firstAID='3716340' firstUID='5389901' firstUName='曉風殘月' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='83965859' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','有智慧的人，有内涵的人。更重要的是充满信心的人会这样。 //@吕尤 ：老爷子还挺乐 //转自 @曉風殘月', '退休后，朱镕基最大的原则就是不谈工作。他明确表示，不在其位，不谋其政。 http://url.hexun.com/17szo',this)">转发<font id="forwardfont_3719486"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3719486');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3719486','1','14814331','3716340')">评论<font id="commentfont_3719486"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3719486_d.html">2010-11-22</a>来自和讯微博 <a href="/4805804/3716858_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3719486" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3719486"></div><div class="nr_con" id="articelItem_3713293">				<div class="nr_shuo">证券期货业IT备份标准即将推出<a href="http://url.hexun.com/17sny" title="http://stock.hexun.com/2010-11-22/125741142.html" target="_blank">http://url.hexun.com/17sny</a>我们机构又要脱3层皮。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='12' lastAID='3713293' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','证券期货业IT备份标准即将推出http://url.hexun.com/17sny我们机构又要脱3层皮。', '',this)">转发<font id="forwardfont_3713293"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3713293');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3713293','1','14814331','0')">评论<font id="commentfont_3713293"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3713293_d.html">2010-11-22</a>来自<a target="_blank" href="http://t.hexun.com/tools_4.aspx">网页分享</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3713293" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3713293"></div><div class="nr_con" id="articelItem_3641336">				<div class="nr_shuo">随着股指期货的推出，内幕交易更具隐蔽性、复杂性。“联手严打”中，对异常交易的关联账户的死死盯住啊。<a href="http://url.hexun.com/17pmV" title="http://news.hexun.com/2010-11-19/125718026.html" target="_blank">http://url.hexun.com/17pmV</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3641336' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','随着股指期货的推出，内幕交易更具隐蔽性、复杂性。“联手严打”中，对异常交易的关联账户的死死盯住啊。http://url.hexun.com/17pmV', '',this)">转发<font id="forwardfont_3641336"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3641336');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3641336','1','14814331','0')">评论<font id="commentfont_3641336"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3641336_d.html">2010-11-19</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3641336" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3641336"></div><div class="nr_con" id="articelItem_3605655">				<div class="nr_shuo">各交易所都禁止自买自卖。符核三公原则</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：从4大期货交易所鉴定的&quot;期货异常交易&quot;看交易所的监管思路</p>						<dl><dd><span style="float:left;"><a  href="/gechang68/3605460_d.html">2010-11-18</a>来自和讯微博</span><a href="/gechang68/3605460_d.html">转发原文<font >(3)</font></a>|<a href="/gechang68/3605460_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3605655' lastUID='14814331' lastUName='葛昶' firstAID='3605460' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','各交易所都禁止自买自卖。符核三公原则', '从4大期货交易所鉴定的&amp;quot;期货异常交易&amp;quot;看交易所的监管思路',this)">转发<font id="forwardfont_3605655"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3605655');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3605655','1','14814331','3605460')">评论<font id="commentfont_3605655"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3605655_d.html">2010-11-18</a>来自和讯微博 <a href="/14814331/3605460_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3605655" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3605655"></div><div class="nr_con" id="articelItem_3605558">				<div class="nr_shuo">明确提出反对通过计算机程序自动批量下单、快速下单的为中金所和大商所。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：从4大期货交易所鉴定的&quot;期货异常交易&quot;看交易所的监管思路</p>						<dl><dd><span style="float:left;"><a  href="/gechang68/3605460_d.html">2010-11-18</a>来自和讯微博</span><a href="/gechang68/3605460_d.html">转发原文<font >(3)</font></a>|<a href="/gechang68/3605460_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3605558' lastUID='14814331' lastUName='葛昶' firstAID='3605460' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','明确提出反对通过计算机程序自动批量下单、快速下单的为中金所和大商所。', '从4大期货交易所鉴定的&amp;quot;期货异常交易&amp;quot;看交易所的监管思路',this)">转发<font id="forwardfont_3605558"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3605558');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3605558','1','14814331','3605460')">评论<font id="commentfont_3605558"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3605558_d.html">2010-11-18</a>来自和讯微博 <a href="/14814331/3605460_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3605558" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3605558"></div><div class="nr_con" id="articelItem_3605500">				<div class="nr_shuo">对大额、频繁报、撤单各交易所基本一致。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：从4大期货交易所鉴定的&quot;期货异常交易&quot;看交易所的监管思路</p>						<dl><dd><span style="float:left;"><a  href="/gechang68/3605460_d.html">2010-11-18</a>来自和讯微博</span><a href="/gechang68/3605460_d.html">转发原文<font >(3)</font></a>|<a href="/gechang68/3605460_d.html">评论原文<font  style="display:none" >(0)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3605500' lastUID='14814331' lastUName='葛昶' firstAID='3605460' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','对大额、频繁报、撤单各交易所基本一致。', '从4大期货交易所鉴定的&amp;quot;期货异常交易&amp;quot;看交易所的监管思路',this)">转发<font id="forwardfont_3605500"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3605500');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3605500','1','14814331','3605460')">评论<font id="commentfont_3605500"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3605500_d.html">2010-11-18</a>来自和讯微博 <a href="/14814331/3605460_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3605500" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3605500"></div><div class="nr_con" id="articelItem_3605460">				<div class="nr_shuo">从4大期货交易所鉴定的&quot;期货异常交易&quot;看交易所的监管思路</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3605460' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','从4大期货交易所鉴定的&amp;quot;期货异常交易&amp;quot;看交易所的监管思路', '',this)">转发<font id="forwardfont_3605460" >(3)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3605460');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3605460','1','14814331','0')">评论<font id="commentfont_3605460"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3605460_d.html">2010-11-18</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3605460" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3605460"></div><div class="nr_con" id="articelItem_3586142">				<div class="nr_shuo"> 某人说，解决流动性，一个大牛市在接着一个大熊市接行了。//<a href="/13291645/default.html">@何采薇</a> ：很难得抉择呀，大家怎么看？ //转自 <a href="/14482418/default.html">@微博话题</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/hottopics/default.html">@微博话题</a><b class="indshowC_b3" title="公司机构">&nbsp;</b>： <a href="/k/%ce%a2%bb%b0%cc%e2">&nbsp;#微话题#&nbsp;</a><a href="/13416210/default.html">@郭士英</a> 说“传言砸盘，一步到位。什么人物这么重要，还不都是市场在“顺水推舟”？一般来说，现在可以陆续建仓入市了！”而<a href="/321184/default.html">@馨月</a> 说昨夜外盘股市和期市整体大跌，另昨日国内盘面也加速下跌，短期还是空仓或轻仓以观望为主，不急于建仓。局势不明朗的情况下，如果股市反弹您会减仓还是加仓呢？</p>						<dl><dd><span style="float:left;"><a  href="/hottopics/3578956_d.html">2010-11-17</a>来自和讯微博</span><a href="/hottopics/3578956_d.html">转发原文<font >(24)</font></a>|<a href="/hottopics/3578956_d.html">评论原文<font >(21)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3586142' lastUID='14814331' lastUName='葛昶' firstAID='3578956' firstUID='14482418' firstUName='微博话题' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 某人说，解决流动性，一个大牛市在接着一个大熊市接行了。//@何采薇 ：很难得抉择呀，大家怎么看？ //转自 @微博话题', ' &amp;nbsp;#微话题#&amp;nbsp;@郭士英 说“传言砸盘，一步到位。什么人物这么重要，还不都是市场在“顺水推舟”？一般来说，现在可以陆续建仓入市了！”而@馨月 说昨夜外盘股市和期市整体大跌，另昨日国内盘面也加速下跌，短期还是空仓或轻仓以观望为主，不急于建仓。局势不明朗的情况下，如果股市反弹您会减仓还是加仓呢？',this)">转发<font id="forwardfont_3586142" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3586142');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3586142','1','14814331','3578956')">评论<font id="commentfont_3586142" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3586142_d.html">2010-11-17</a>来自和讯微博 <a href="/13291645/3578985_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3586142" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3586142"></div><div class="nr_con" id="articelItem_3081877">				<div class="nr_shuo">zt：360与腾讯之争，是中国全体IT界在与腾讯干的一场反垄断、反山寨、反掠夺的战争 <a href="http://url.hexun.com/1766F" title="http://gechang68.blog.hexun.com/58424451_d.html" target="_blank">http://url.hexun.com/1766F</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='7' lastAID='3081877' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','zt：360与腾讯之争，是中国全体IT界在与腾讯干的一场反垄断、反山寨、反掠夺的战争 http://url.hexun.com/1766F', '',this)">转发<font id="forwardfont_3081877"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3081877');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3081877','1','14814331','0')">评论<font id="commentfont_3081877"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3081877_d.html">2010-11-04</a>来自<a href="/relblog.aspx?uid=14814331" target=_blank>关联博客</a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3081877" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3081877"></div><div class="nr_con" id="articelItem_3049270">				<div class="nr_shuo">角度，角度。多点角度 //<a href="/14790528/default.html">@李才元</a> ：回复@神龙大侠888 ：遗憾地告诉你，“系统性的利息掠夺”利用的恰是如此的“胡说八道”_貌似加息利民实则南辕北辙！ //@神龙大侠888 ：胡说八道！又是一个反经济学常识的！富人早就炒股炒楼去了，谁在乎你这点利息？在乎利息的只有穷人和老人！穷人不得不存钱，因为没有投资的能力</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/14790528/default.html">@李才元</a><b class="indshowC_b5" title="投资专家">&nbsp;</b>：任何时候的加息都是劫穷济富。很多穷人为了自已相对不多的存款呼吁加息是一种集体无意识自残。假设穷人有1万元，富人有9万元，加息1%，穷人加了100块利息收入，富人会加900块。加息加大了800块的差距。虽然穷人的钱跟富人的钱同比例增加了，但穷人的相对购买力进一步下降了800元。</p>						<dl><dd><span style="float:left;"><a  href="/14790528/3004136_d.html">2010-11-01</a>来自短信</span><a href="/14790528/3004136_d.html">转发原文<font >(52)</font></a>|<a href="/14790528/3004136_d.html">评论原文<font >(19)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3049270' lastUID='14814331' lastUName='葛昶' firstAID='3004136' firstUID='14790528' firstUName='李才元' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','角度，角度。多点角度 //@李才元 ：回复@神龙大侠888 ：遗憾地告诉你，“系统性的利息掠夺”利用的恰是如此的“胡说八道”_貌似加息利民实则南辕北辙！ //@神龙大侠888 ：胡说八道！又是一个反经济学常识的！富人早就炒股炒楼去了，谁在乎你这点利息？在乎利息的只有穷人和老人！穷人不得不存钱，因为没有投资的能力', '任何时候的加息都是劫穷济富。很多穷人为了自已相对不多的存款呼吁加息是一种集体无意识自残。假设穷人有1万元，富人有9万元，加息1%，穷人加了100块利息收入，富人会加900块。加息加大了800块的差距。虽然穷人的钱跟富人的钱同比例增加了，但穷人的相对购买力进一步下降了800元。',this)">转发<font id="forwardfont_3049270"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3049270');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3049270','1','14814331','3004136')">评论<font id="commentfont_3049270"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3049270_d.html">2010-11-03</a>来自和讯微博 <a href="/14790528/3040797_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3049270" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3049270"></div><div class="nr_con" id="articelItem_3029032">				<div class="nr_shuo"> <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>周恩来当年用的名片，多了“中央人民政府外交部部长”</div><div id="SmallDiv_3029032_83552517" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3029032', '83552517','http://photo19.hexun.com/p/2010/1102/417762/b45_E3FB0795BD0CEECE7EE754512E3E6BC7.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1102/417762/t150_E3FB0795BD0CEECE7EE754512E3E6BC7.jpg" class="imgBig" ></a></div><div id="MiddleDiv_3029032_83552517" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3029032' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='83552517' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#分享图片#&amp;nbsp;周恩来当年用的名片，多了“中央人民政府外交部部长”', '',this)">转发<font id="forwardfont_3029032"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3029032');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3029032','1','14814331','0')">评论<font id="commentfont_3029032"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3029032_d.html">2010-11-02</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3029032" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3029032"></div><div class="nr_con" id="articelItem_3028982">				<div class="nr_shuo"> <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>毛主席当年用的名片。长11.9公分、宽6.3公分，竖版仿宋繁体铅印“毛泽东”三个字</div><div id="SmallDiv_3028982_83552477" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3028982', '83552477','http://photo19.hexun.com/p/2010/1102/417762/b45_F0BE234D4F2FF7B749425CB13183B572.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1102/417762/t150_F0BE234D4F2FF7B749425CB13183B572.jpg" class="imgBig" ></a></div><div id="MiddleDiv_3028982_83552477" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3028982' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='83552477' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#分享图片#&amp;nbsp;毛主席当年用的名片。长11.9公分、宽6.3公分，竖版仿宋繁体铅印“毛泽东”三个字', '',this)">转发<font id="forwardfont_3028982"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3028982');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3028982','1','14814331','0')">评论<font id="commentfont_3028982"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3028982_d.html">2010-11-02</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3028982" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3028982"></div>
+			</div>
+			<iframe style="display:none;" id="iframeBlog" src="about:blank" frameBorder="0" width="554" name="iframeBlog" scrolling="no"></iframe>
+			<script language="javascript" type="text/javascript">
+			document.domain = "hexun.com";
+			function switchBlog()
+			{
+			    $("#liWeibo").attr("class","otherLi");
+			    $("#liBlog").attr("class","currentLi");
+			    $("#tabWeibo").css("cursor","pointer");
+			    $("#tabBlog").css("cursor","default");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconG.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconR.gif");
+			    $("#listWeibo").hide();
+			    $("#gotop").hide();
+			    var iframesrc = $("#iframeBlog").attr("src");
+			    if (iframesrc == "about:blank")
+			    {
+			        iframesrc = "http://gechang68.blog.hexun.com/wbblog.html?mb=19"; 
+			        $("#iframeBlog").attr("src",iframesrc);
+			    }
+			    $("#iframeBlog").show();
+			}
+			function switchWeibo()
+			{
+			    $("#liWeibo").attr("class","currentLi");
+			    $("#liBlog").attr("class","otherLi");
+			    $("#tabWeibo").css("cursor","default");
+			    $("#tabBlog").css("cursor","pointer");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconR.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconG.gif");
+			    $("#iframeBlog").hide();
+			    $("#listWeibo").show();
+			    $("#gotop").show();
+			}
+			</script>
+		</div>
+		<div id="gotop">
+	        <div style="float:left"><a href="javascript:void(0);" onclick="javascript:GotoTop();">返回顶部</a></div>
+			<div id="page2"><ul><li class="border_f"><strong >1</strong></li><li><a href="/gechang68/p2/default.html">2</a></li><li class="nextbtn2 a555"><a href="/gechang68/p2/default.html" >下一页&nbsp;&gt;</a></li></ul>
+</div>
+			<div class=clear></div>
+		</div>
+	</div>
+	<div class="mainR">
+		<!--博主简介 s-->		
+		<div class="user_con">
+			<ul>
+				<li class="li1"><strong><a href="/gechang68/MyFollow.html" id=followcFont>30</a></strong><a href="/gechang68/MyFollow.html">关注</a></li>
+				<li class="li2"><strong><a href="/gechang68/FollowMy.html" id=followedFont>7117</a></strong><a href="/gechang68/FollowMy.html">被关注</a></li>
+				<li class="li3"><strong><a href="/gechang68/default.html"  id=articlecFont>64</a></strong><a href="/gechang68/default.html">博文</a></li>
+			</ul>
+		</div>
+		<!--博主简介 e-->
+		 <div class="phb" style="background:none;padding-left:0px;">微博人气总榜：第<strong>457</strong>名</div>
+		
+        <!--真实身份认证-->
+		
+		<div class="phb" style="background:none;padding-left:0px;"><img src="/images/common/rz.gif" border="0" title="真实身份认证用户">&nbsp;&nbsp;</div>
+				
+        <!--真实身份认证 e-->
+        
+        
+		<div class="mainR_line"></div>
+
+
+				
+		<div align="center">
+ 
+<table width="185" border="0">
+  <tr>
+    <td width="185"><div align="center"><a href="http://t.hexun.com/zt/fangtan.html" target="_blank"><img src="http://i9.hexunimg.cn/2012-05-10/141257867.jpg" width="185" height="150" border="0"></a></div></td>
+  </tr>
+ 
+</table>
+ 
+</div>
+	  <!--自选股票-->
+	  <div id="TaStockDiv_line" class="mainR_line2"></div>
+	  <!--增加自选股-->
+	  <div id="TaStockDiv" class="theme_con" style="margin-top:15px;">
+        <h2><span id="smyStockDiv" onclick="trHead('myStockDiv','19')" class="iconimg" title="隐藏">&nbsp;</span>Ta的自选股</h2>
+        <div id="myStockDiv">
+	  
+	   <!--增加自选股end-->
+	    <!--自选股-->
+	  <div id="sfqp_StockInfo2" class="sfgp_con" style="background:#fff; overflow:hidden;filter:alpha(opacity=90); opacity:0.9;width:162px;padding:0 5px;">
+	  </div>
+	  <!--自选股end-->
+	  <!--自选股票end-->
+        <script type="text/javascript">
+        getMyStockInfoForHomePage = function()
+        {     
+             
+             $.getIfModified(ApiFile,{GetMyStockInfoForHomePage:Math.random(),curID:14814331}, 
+             function(response)
+             {         
+                 if(response.length == 0)
+                 {
+                       document.getElementById("TaStockDiv").style.display = "none";
+                       document.getElementById("TaStockDiv_line").style.display = "none";
+                       
+                 }                         
+                 document.getElementById("sfqp_StockInfo2").innerHTML = response;         
+             });
+        }
+        getMyStockInfoForHomePage();
+        setInterval("getMyStockInfoForHomePage()",300000);
+        </script>        
+        </div>
+     </div>
+		
+		<!--Ta的微群-->
+		
+		<!--Ta的微群 e-->
+		<div class="mainR_line"></div>
+		
+		<!--Ta的同行 s-->
+		<div class="rec_con">
+			<h2>Ta的同行</h2>
+			<ul> 
+			    <li><a href="/6117/default.html" title="江涛"><img src="http://logo1.tool.hexun.com/e51700-40.jpg" /></a><a href="/6117/default.html" title="江涛"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=6117')" >江涛</a><br><a href='#' onclick='javscript:AddFollow(6117,0);window.location.reload();'>关注Ta</a></li><li><a href="/368902/default.html" title="陈剑峰"><img src="http://logo2.tool.hexun.com/6a105-40.jpg" /></a><a href="/368902/default.html" title="陈剑峰"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=368902')" >陈剑峰</a><br><a href='#' onclick='javscript:AddFollow(368902,0);window.location.reload();'>关注Ta</a></li><li><a href="/1493771/default.html" title="刘彦斌"><img src="http://logo3.tool.hexun.com/bcb16-40.jpg" /></a><a href="/1493771/default.html" title="刘彦斌"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=1493771')" >刘彦斌</a><br><a href='#' onclick='javscript:AddFollow(1493771,0);window.location.reload();'>关注Ta</a></li><li><a href="/2736365/default.html" title="DTSBCceo"><img src="http://logo1.tool.hexun.com/edc029-40.jpg" /></a><a href="/2736365/default.html" title="DTSBCceo"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2736365')" >DTSBCc..</a><br><a href='#' onclick='javscript:AddFollow(2736365,0);window.location.reload();'>关注Ta</a></li><li><a href="/2949026/default.html" title="任志强"><img src="http://logo2.tool.hexun.com/a2ff2c-40.jpg" /></a><a href="/2949026/default.html" title="任志强"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2949026')" >任志强</a><br><a href='#' onclick='javscript:AddFollow(2949026,0);window.location.reload();'>关注Ta</a></li><li><a href="/3383756/default.html" title="陶行逸"><img src="http://logo0.tool.hexun.com/cca133-40.jpg" /></a><a href="/3383756/default.html" title="陶行逸"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=3383756')" >陶行逸</a><br><a href='#' onclick='javscript:AddFollow(3383756,0);window.location.reload();'>关注Ta</a></li><li><a href="/4069031/default.html" title="贾卧龙"><img src="http://logo3.tool.hexun.com/a7163e-40.jpg" /></a><a href="/4069031/default.html" title="贾卧龙"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4069031')" >贾卧龙</a><br><a href='#' onclick='javscript:AddFollow(4069031,0);window.location.reload();'>关注Ta</a></li><li><a href="/4226845/default.html" title="于跃文"><img src="http://logo1.tool.hexun.com/1d7f40-40.jpg" /></a><a href="/4226845/default.html" title="于跃文"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4226845')" >于跃文</a><br><a href='#' onclick='javscript:AddFollow(4226845,0);window.location.reload();'>关注Ta</a></li><li><a href="/4244579/default.html" title="潘石屹"><img src="http://logo3.tool.hexun.com/63c440-40.jpg" /></a><a href="/4244579/default.html" title="潘石屹"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4244579')" >潘石屹</a><br><a href='#' onclick='javscript:AddFollow(4244579,0);window.location.reload();'>关注Ta</a></li>
+				<div class="clear"></div>
+			</ul>
+			<p><a href="/Channel/InvestmentExperts.aspx?typeId=10">更多&gt;</a></p>
+		</div>
+		<!--Ta的同行 e-->
+		<!--Ta关注的话题 s-->
+		
+<script type="text/javascript">
+function changeWeihu()
+{
+    //debugger;
+    if(document.getElementById("ulWeihu2").style.display=="none")
+    {
+        document.getElementById("ulWeihu1").style.display="none";
+        document.getElementById("ulWeihu2").style.display="block";
+        
+    }
+    else
+    {
+        document.getElementById("ulWeihu2").style.display="none";
+        document.getElementById("ulWeihu1").style.display="block";
+
+    }
+}
+</script>
+		<!--Ta关注的话题 e-->
+		<!--Ta的股票 s-->
+		
+		<!--Ta的股票 e-->
+		
+<div class="mainR_line"></div>
+		<!--和讯微博意见反馈 s-->
+		<div class="stock_con">
+			<h2><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">和讯微博意见反馈</a></h2>
+			<h4>和讯财经微博新鲜上架，肯定有很多不完善的地方，特别欢迎大家帮忙提出宝贵意见与建议。</h4>
+			<ul>
+				<li><a href="http://t.hexun.com/hecaiwei/default.html">1.财经微博客服何采薇</a></li>
+				<li><a href="http://t.hexun.com/weibo/default.html">2.财经微博产品动态</a></li>
+				
+                <!-- xl -->
+		        
+                <li><a href="http://hecaiwei.blog.hexun.com/49208608_d.html" target="_blank">3.新手攻略：帮您成为微博达人</a></li>
+				<li><a href="http://t.hexun.com/zt/jianyi.html" target="_blank">4.有奖征集发展管理建议</a></li>
+                
+                
+			</ul>
+			
+			
+</div>
+
+
+	</div>
+	<div class="clear"></div>
+	
+</div>
+
+
+<div id="mainbgB"></div>
+<div id="footer"><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">意见反馈</a><font>|</font><a href="http://hexun.com/report.aspx?userid=14814331&type=1" target=_blank>举报</a><font>|</font>和讯微博V1.0 beta powered by hexun.com</div>
+<!--弹出窗口：转发博文1-->
+<div class="conBg_oth_zf" id="turn1Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn2Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn3Window" style="display:none;">
+</div>
+
+<div class="conBg_fz" id="fzWindow" style="display:none;">1111</div>
+
+  
+  <!--informbg start-->
+  <div class="conBg_oth informbg" id="informbg" style="z-index:1000;">
+  <form id=frm_CompUserName>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="z-index:1000;">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+		    
+			<h3><span onclick="closeInformbg();"></span>举报</h3>
+			
+			
+			<table class="inform_table">
+  <tr>
+    <td>被举报人：<span class="red" id="span_CompUserName"></span></td>
+    
+    <input type=hidden id="form_CompID"  value=0/>
+    <input type=hidden id="form_CompUserID"  value=0/>
+    <input type=hidden id="form_CompType"  value=0/>
+    
+    
+  </tr>
+  <tr>
+    <td valign="top" id="span_compID"></td>
+  </tr>
+    <tr>
+    <td valign="top">举报理由（请详细填写，以便核实）：</td>
+  </tr>
+   <tr>
+    <td valign="top"><textarea name="form_ComReason" id="form_ComReason" cols="20" rows="" class="inp9"></textarea></td>
+  </tr>
+  <tr>
+   
+    <td><p class="red inform_tip">恶意举报和试图欺骗管理员，在查实后将可能处以
+从警告直至删号的处理，请严肃对待。</p><input class="btn2" onclick="addComplaints();" type=button title="举报" value="举报" name="Submit2" style=" float:right;"/></td>
+  </tr>
+</table>
+			
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</form>
+</div>
+<!--informbg end-->
+<script type="text/javascript" src="http://comment.blog.hexun.com/inc/wbemotions.aspx?c=EmotionsDiv&e=CommentContent"></script>
+<script language=javascript src='http://shequ5.tool.hexun.com/rest/GetVoteCount.aspx?v='></script>
+
+<!--分享start-->
+<script type="text/javascript">
+(function(){
+  var reg = /^[http:\/\/\w|\w\.*\w|\w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;
+  if(!reg.test(window.location.href)) {
+    document.write('\x3Cscript type="text/javascript" src="http://img.hexun.com/base/version/hx_base.min1.1.js">\x3C/script>'+'\x3Cscript type="text/javascript" src="http://img.hexun.com/share/hxShare2011.js">\x3C/script><link href="http://img.hexun.com/share/hxShare2011.css" type="text/css" rel="stylesheet" />');
+    if(window.attachEvent) window.attachEvent('onload',function() {hxShare2011('');});
+	if(window.addEventListener) window.addEventListener('load',function(){hxShare2011('');},false);
+  }
+})();
+</script>
+<!--分享over-->
+
+<script type="text/javascript" src="http://img.hexun.com/app/js/TB.main.js"></script>
+
+
+<script src="http://utrack.hexun.com/track/track.js"></script> 
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-2167933-52");
+
+pageTracker._trackPageview();
+
+} catch(err) {}
+</script>
+<script type="text/javascript" src="/js/tipblog.js"></script>
+
+</div>
+
+<!--帮推 start-->
+  <div class="conBg_oth" id="BTRecbg"  style="display:none;" >
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+	    <td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"></span><p id="forwardtextarea_Title">把xxx的特别推荐帮推给我的朋友</p></h3>
+			<div class="win_con2">
+		<div class="win_con2_2"><span id="tipInfoBoxhelpRecommend">还可以输入<strong>140</strong>个字</span></div>
+            <textarea id="forwardtextarea_helpRecommend" name="forwardtextarea_helpRecommend" cols="" rows=""  class="BTinp6" onkeyup="javascript:forwardInputLimit(this,'helpRecommend');">@海豚猫 的特别推荐里有@AAA @BBB @CCC等高人，很有关注价值，大家都来看看吧：http://t.hexun.com/xxxxx。</textarea>
+        </div>
+        <div class="clear"></div>
+        <div class="BTbtn">
+		   <input class="conBgbtn_1" type="button"title="取消" value="取消" name="Submit2" onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"/>	 <input class="conBgbtn_1" id="forwardbtn_helpRecommend" name="forwardbtn_helpRecommend" type="button" title="确定" value="确定" onclick="javascript:helpRecommend('turn3Window','360','230','葛昶','14814331','gechang68')"/></div>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+
+<!--弹出窗口：成功-->
+
+<!--弹出窗口：成功-->
+<div class="conBg_oth" id="successfulWindow" style="display:none;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('successfulWindow');"></span>成功</h3>
+			<form>
+			<div class="win_con">
+				<p class="successfulp">您添加的关注已成功！</p>
+				<p class="huizip">5秒后自动关闭...</p>
+				<p class="fabup">
+					<span><input type="submit" class="conBgbtn_1" value="确定" /></span>
+				</p>
+			</div>
+			</form>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+  <!--帮推 end-->
+  
+<!--弹出窗口：微博认证  start-->
+
+<!--弹出窗口：微博认证  end-->
+                
+</body>
+</html>
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TIANYUAN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>葛昶的微博-和讯财经微博</title>
+
+<link href="/css/wb.css" rel="stylesheet" type="text/css" />
+<link href="/css/vote.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/mb19.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/js/Util.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/wb.js"></script>
+<script src="/js/smallwindow.js" type="text/javascript"></script>
+<script src="/js/chk_frm.js" type="text/javascript"></script>
+<script type="text/javascript"  src="/yuce/js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript"  src="/jquery/jquery-1.4.2.min.js" ></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/jquery.tablesorter.js"></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/api.js"></script>
+<script language="JavaScript" type="text/javascript" src="/unitpngfix/unitpngfix.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/FriendList.js"></script>
+<script src="/js/vote.js" type="text/javascript"></script>
+<script src="/js/complaintsJS.js" type="text/javascript"></script>
+<script>
+var usertemplate=19;
+</script>
+<script>
+var valueofnameinput="用户名/邮箱/手机";
+var valueofpassinout="******";
+
+<!--
+ var sWidth=window.screen.width;
+
+var sHeight=window.screen.height;
+
+if(sWidth<640&&sHeight<480)
+{
+   document.location="http://mt.hexun.com";
+}
+
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+	}
+function cssControl()
+{
+    document.getElementById('jshao_yi').style.display='none';
+    setCookie("UserControlCookie","1","h12");  
+}
+
+function setCookie(name,value,time)
+{
+    var strsec = getsec(time);
+    var exp = new Date();
+    exp.setTime(exp.getTime() + strsec*1);
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+function getsec(str)
+{
+    var str1=str.substring(1,str.length)*1;
+    var str2=str.substring(0,1);
+    if (str2=="s")
+    {
+        return str1*1000;
+    }
+    else if (str2=="h")
+    {
+        return str1*60*60*1000;
+    }else if (str2=="d")
+    {
+       return str1*24*60*60*1000;
+    }
+    
+}
+
+function quickSubmit(evt)
+{
+    evt = evt || window.event;
+    var code = evt.keyCode;
+    if( code == 13)
+    {
+      login(); 
+    }
+}
+function login()
+{
+    //debugger;
+    if(document.getElementById("LoginStateAuto").checked == true)
+    {
+        document.getElementById("LoginStateName").checked = true;
+    }
+    if(CheckLoginForm())
+    {
+        document.getElementById("Frm").action="http://reg.hexun.com/login.aspx?gourl=http://t.hexun.com/default2.aspx?blogname=gechang68&page=2";
+        document.getElementById("Frm").submit();
+    }
+}
+function CheckLoginForm()
+{
+    if(document.getElementById("username").value==''||document.getElementById("username").value==valueofnameinput)
+    {
+	    alert('请填写用户名');
+	    document.getElementById("username").value="";
+	    document.getElementById("username").focus();
+	    return false;
+    }
+    else if(document.getElementById("password").value=='')
+    {
+	    alert('请填写密码');
+	    document.getElementById("password").focus();
+	    return false;
+    }
+    return true;
+}
+
+function initFade()
+{
+    var windowbg = document.getElementById("fade");
+        //windowbg.id = "windowbg";
+        with(windowbg.style) {
+	       position = "absolute";
+	        background = "#666";
+	        width = document.documentElement.scrollWidth+"px";
+	        height = document.documentElement.scrollHeight+"px";
+	        top = "0px";
+	        left = "0px";
+	        filter="Alpha(opacity=50)";
+	        opacity = 0.5;
+	        zIndex=999;
+	        }
+}
+function AddFollows(strFollows, userId, userRelation)
+{     
+     //
+     var follows = new Array();
+     follows = strFollows.split('|');
+     if (strFollows.length > 0)
+     {
+         //alert(strFollows.length);
+         for(var i = 0; i < follows.length; i++)
+         {   
+             //alert(2);      
+             AddMyFollow(follows[i], userId, userRelation);
+         }
+     }
+     
+}
+//从/special/useriframe.aspx 过来，直接推荐某用户
+window.onload = function() 
+{
+    //alert("sdfsd");
+    if(0 == 1)
+    {
+        javascript:CommendUser('turn3Window','360','230','葛昶','14814331','gechang68');
+    }
+}
+//全局当前登陆的用户ID
+var pub_LoginUserID=0;
+//-->
+</script>
+
+</head>
+<body>
+
+
+
+<div id="main">
+
+<script language=javascript>
+function GoLogin(){
+  document.location.href='http://t.hexun.com/login.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function Loginout(blogname){
+   document.location.href='http://utility.tool.hexun.com/quit.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+}
+</script>
+<div class="nav">
+	<div class="navL">
+	        <ul>
+	        
+			    <li><a href="http://www.hexun.com" target="_blank">和讯首页</a>|</li>
+			    <li class="toogle_nav" id="toogle_nav" onmouseover="navToogle()" onmouseout="navTogle()"><a href="/default.htm" target="_blank">财经微博</a>
+		        <div class="toogle_content" id="toogle_content">
+                  <ul>
+                    <li> <a href="/financemennew.html">名人推荐</a></li>
+                    <li> <a href="http://t.hexun.com/grouphome.html" target="_blank">微群首页</a></li>
+                    <li><a href="/stocks.aspx"><font color="red">直播解盘</font></a></li>
+                    <!--<li><a href="/yuce/" target="_blank">大盘预测</a></li>-->
+                    <li><a href="/top.html">排行榜</a></li>
+                    <li><a href="/special/interview/" target="_blank">微访谈</a></li>
+                    <li><a href="/cms/rdht/" target="_blank">热门话题</a></li>
+                    <li><a href="/qsrz.aspx" target=_blank>证券公司</a></li>
+                    <li><a href="/qhrz.aspx" target=_blank>期货公司</a></li>  
+                    <li><a href="/jiepan.html">高手解盘</a></li>
+                    <li><a href="/recommend.htm">特别推荐</a></li>
+                    <li><a href="/look.htm">随便看看</a></li>
+                  </ul>
+                </div>
+		        </li>	
+		        		    
+	        </ul>
+	 </div>
+	
+	
+    <div class="navR">
+		<ul>
+			<li><a href="/help.html">帮助</a>|</li>
+			<li><a href="javascript:GoLogin();">登录</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+<div class="titbg">
+    
+	<h1><a href="http://t.hexun.com/gechang68/default.html">葛昶的微博</a></h1>
+	<h2><a href="http://t.hexun.com/gechang68">http://t.hexun.com/gechang68</a>   <a href="javascript:void(0);" onclick="javascript:copytext('gechang68','葛昶');">复制</a></h2>
+	
+</div>
+
+<script type="text/javascript">
+var WeiboWatchUserTemplate=19;
+</script>
+<script type="text/javascript" src="/js/toogle.js"></script>
+
+<div class="main mainbg">
+	<div class="mainL mainLbg1">
+	
+      <div class="activebg">		
+			
+			<dl>
+				<dd>
+					和讯财经微博可以让你随时随地与百万网友分享理财心得，与财经名人零距离接触，与股市达人探讨学习，与亲朋好友保持联络。
+				</dd>
+				<dt class="indlogin">
+				
+				
+				
+				<form name="Frm" id="Frm" method="post"  action="http://reg.hexun.com/login.aspx" onsubmit="return CheckLoginForm();" target="_parent" style="margin-top:0px;">
+				<ul>
+					<li>
+						登录名：
+						<label><input type="text" id="username" name="username" value="用户名/邮箱/手机" onmouseover="" onclick="if(this.value==valueofnameinput)this.value='';"  onblur="if(this.value=='')this.value=valueofnameinput;" onfocus="if(this.value==valueofnameinput)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li>
+						密<font>空</font>码：
+						<label><input type="password" id="password" name="password" value="******"  onclick="if(this.value==valueofpassinout)this.value='';"   onblur="if(this.value=='')this.value=valueofpassinout;"  onkeypress="quickSubmit(event);" onfocus="if(this.value==valueofpassinout)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li class="indloginLi1">
+					<label><input type="checkbox" name="LoginStateAuto" id="LoginStateAuto" value="1"/></label>
+					下次自动登录
+				</li>
+				<li class="indloginLi2"><label><input type="button" onclick="javascript:login();" value="" class="indlogin_btn" /></label><a href="http://reg.hexun.com/GetPasswordPre.aspx" target="_blank">找回密码</a><font>|</font><a href="http://reg.hexun.com/regname.aspx?IsWeiBo=1&urlreferrerhost=http://t.hexun.com/default2.aspx?blogname=gechang68&page=2" target="_blank">注册</a></li>
+              </ul>
+              <p style="display:none"><input type="checkbox" name="LoginStateName" id="LoginStateName" value="1"/></p>   
+              <input type="hidden" name="gourl">
+		    </form>                
+                </dt>
+			  <div class="clear"></div>
+			</dl>
+			
+		</div>
+    
+		<div class="blogbg">
+			<div class="tarenint">
+			    <div class="tarenintL">
+		        <dl>
+			        
+			        <dt><a href="http://gechang68.photo.hexun.com/logo.html" target=_blank><img src="http://logo3.tool.hexun.com/7b0ce2-150.jpg" /></a></dt>
+			        
+		        </dl>
+		        
+		        
+		            <p><!--<img src="/images/common/bico.gif" alt="访问Ta的博客" align="absmiddle" /><a href="http://gechang68.blog.hexun.com/" target=_blank>访问Ta的博客</a><br/> -->
+		            
+
+		            </p>
+		        
+	        </div>
+	        
+	        
+	        <div class="tarenintR">
+		        <dl>
+			        <dd class="tarenint_dd1">
+			            <span class="RZ_span1"><a href='/Channel/FinanceMenmore.aspx?typeId=8'><img src="/images/common/space.gif" class="rz_cjmr" /></a></span>				        
+						<a class="tarena14">葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b><span class="RZ_span2 fcjmr">——瑞达期货董事总经理</span>
+						<strong class="sex_men">福建省(厦门市)</strong>
+						
+						<p style="color:#999999">用户名：葛昶</p>
+						<p>博客：<a target="_blank" href="http://gechang68.blog.hexun.com/">http://gechang68.blog.hexun.com/</a></p>
+						瑞达期货董事总经理				        
+			        </dd>
+			        <dd class="tarenint_dd2">
+						<span><a href="javascript:void(0);" onclick="javascript:CommendUser('turn3Window','360','230','葛昶','14814331','gechang68');">推荐</a>|<a href="/0/default.html?attype=n&atkey=葛昶">@葛昶</a></span>
+				        
+						<label id=followlabel><input type="button" onclick="javscript:AddFollow(14814331,0);" class="addbtn1" title="加关注" /></label>
+						
+						<!--&nbsp;<input type=button style="width:80px; background-image: url(/images/Common/phone.png);" onclick="NewDYSms('14814331','turn3Window','360','230','0')" />-->
+			        </dd>
+			        <dd class="tarenint_dd3">
+			        
+					    <span class="tarenint_dd3R" > <a href="javascript:void(0);" onclick="javascript:AddBlacklist(14814331,0,0,'葛昶');" >加入黑名单</a></span>	
+				   </dd>
+
+
+
+		        </dl>
+	        </div>
+	        
+				<dl>
+					<dt></dt>
+					<dd class="tarenint_dd1">
+					    
+				    </dd>
+					<dd class="tarenint_dd2">
+					    
+					</dd>
+					
+					<div class="clear"></div>
+				</dl>
+		  </div>  
+		  
+		  
+		  <ul class="miniUl">
+            <li style="width: 77px;" class="currentLi" id="liWeibo"><span id="tabWeibo" style="cursor:default;" onclick="javascript:switchWeibo();"><img id="imgWeibo" align="absmiddle" src="/images/common/wb_iconR.gif"> 微博</span></li>
+            <li style="width: 77px;" class="otherLi" id="liBlog"><span id="tabBlog" style="cursor:pointer;" onclick="javascript:switchBlog();"><img id="imgBlog" align="absmiddle" src="/images/common/wb_iconG.gif"> 博客</span></li>
+          </ul>
+		    <div class="blogcon" id="listWeibo">
+				<div class="nr_con" id="articelItem_3024125">				<div class="nr_shuo"> <a href="/k/%b7%d6%cf%ed%cd%bc%c6%ac">&nbsp;#分享图片#&nbsp;</a>领导就是有才，能题这么好的词。真想每天下班来这里销歇一会啊</div><div id="SmallDiv_3024125_83548461" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3024125', '83548461','http://photo19.hexun.com/p/2010/1102/417742/b45_A473DB611837B532F1FAC694D1C07930.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1102/417742/t150_A473DB611837B532F1FAC694D1C07930.jpg" class="imgBig" ></a></div><div id="MiddleDiv_3024125_83548461" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='3024125' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='83548461' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#分享图片#&amp;nbsp;领导就是有才，能题这么好的词。真想每天下班来这里销歇一会啊', '',this)">转发<font id="forwardfont_3024125" >(3)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3024125');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3024125','1','14814331','0')">评论<font id="commentfont_3024125"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3024125_d.html">2010-11-02</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3024125" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3024125"></div><div class="nr_con" id="articelItem_3006201">				<div class="nr_shuo">以现金交割的股指期货，慎言逼空。</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/hottopics/default.html">@微博话题</a><b class="indshowC_b3" title="公司机构">&nbsp;</b>： <a href="/k/%ce%a2%bb%b0%cc%e2">&nbsp;#微话题#&nbsp;</a> 在上周调整后，今日期指继续强势上涨，目前<a href="/g/600036_1">招商银行</a>以及新的<a href="/g/000300_3">沪深300</a>第一大权重<a href="/g/601318_1">中国平安</a>都已触到5周平均线，这一位置支撑较强。金融地产占据了<a href="/g/000300_3">沪深300</a>大概三分之一的权重，一旦金融股回调到位，以及近期较为活跃的地产股联合发力，很可能出现新的逼空走势，您的观点如何？欢迎讨论！<a href="/g/600036_1">$600036(招商银行)</a> </p>						<dl>							<dt id="SmallDiv_3006201_83516769" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('3006201','83516769','http://photo19.hexun.com/p/2010/1101/417583/b45_CF1DC39BBB09B483F392190A6B0FB0CE.jpg',1)"><img src="http://photo19.hexun.com/p/2010/1101/417583/t150_CF1DC39BBB09B483F392190A6B0FB0CE.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_3006201_83516769" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/hottopics/2993035_d.html">2010-11-01</a>来自和讯微博</span><a href="/hottopics/2993035_d.html">转发原文<font >(39)</font></a>|<a href="/hottopics/2993035_d.html">评论原文<font >(28)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='3006201' lastUID='14814331' lastUName='葛昶' firstAID='2993035' firstUID='14482418' firstUName='微博话题' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='83516769' firstQuoteCode='600036' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','以现金交割的股指期货，慎言逼空。', ' &amp;nbsp;#微话题#&amp;nbsp; 在上周调整后，今日期指继续强势上涨，目前招商银行以及新的沪深300第一大权重中国平安都已触到5周平均线，这一位置支撑较强。金融地产占据了沪深300大概三分之一的权重，一旦金融股回调到位，以及近期较为活跃的地产股联合发力，很可能出现新的逼空走势，您的观点如何？欢迎讨论！$600036(招商银行) ',this)">转发<font id="forwardfont_3006201" >(5)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','3006201');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('3006201','1','14814331','2993035')">评论<font id="commentfont_3006201" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/3006201_d.html">2010-11-01</a>来自和讯微博 <a href="/14482418/2993035_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_3006201" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_3006201"></div><div class="nr_con" id="articelItem_2983146">				<div class="nr_shuo"><a href="http://url.hexun.com/170cP" title="http://player.ku6.com/refer/1AWQfJIfq795DbH2/v.swf" target="_blank">http://url.hexun.com/170cP</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/gechang68/default.html">@葛昶</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>： <a href="/k/%b2%bb%bf%bf%c6%d7%b5%c4%bb%a5%c1%aa%cd%f8">&nbsp;#不靠谱的互联网#&nbsp;</a>立场上谁免费支持谁，QQ你就免费彻底点吧。道德上鄙视这个呆企鹅。江湖上好崇拜帅企鹅哦，你好NB！</p>						<dl><dd><span style="float:left;"><a  href="/gechang68/2913130_d.html">2010-10-28</a>来自和讯微博</span><a href="/gechang68/2913130_d.html">转发原文<font >(14)</font></a>|<a href="/gechang68/2913130_d.html">评论原文<font >(1)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='2983146' lastUID='14814331' lastUName='葛昶' firstAID='2913130' firstUID='14814331' firstUName='葛昶' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','http://url.hexun.com/170cP', ' &amp;nbsp;#不靠谱的互联网#&amp;nbsp;立场上谁免费支持谁，QQ你就免费彻底点吧。道德上鄙视这个呆企鹅。江湖上好崇拜帅企鹅哦，你好NB！',this)">转发<font id="forwardfont_2983146" >(4)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2983146');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2983146','1','14814331','2913130')">评论<font id="commentfont_2983146"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2983146_d.html">2010-10-31</a>来自和讯微博 <a href="/14814331/2913130_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2983146" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2983146"></div><div class="nr_con" id="articelItem_2982482">				<div class="nr_shuo">神的长袍不知是什么布料做的</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/jiqiyen/default.html">@jiqiyen</a><b class="indshowC_b2" title="投资达人">&nbsp;</b>：@清华专家服务_秦鹏：Google街景，10月20日在瑞士Quarten湖上空看到了神，有人说可能是上帝和他的儿子耶稣。<a href="http://url.hexun.com/16ZOr" title="http://sinaurl.cn/h4i3cs" target="_blank">http://url.hexun.com/16ZOr</a> </p>						<dl>							<dt id="SmallDiv_2982482_83495243" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('2982482','83495243','http://photo19.hexun.com/p/2010/1031/417476/b45_612ABA91EE3B3DF50FF77D4F899E67C4.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1031/417476/t150_612ABA91EE3B3DF50FF77D4F899E67C4.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_2982482_83495243" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/jiqiyen/2969162_d.html">2010-10-31</a>来自和讯微博</span><a href="/jiqiyen/2969162_d.html">转发原文<font >(18)</font></a>|<a href="/jiqiyen/2969162_d.html">评论原文<font >(4)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='2982482' lastUID='14814331' lastUName='葛昶' firstAID='2969162' firstUID='2132944' firstUName='jiqiyen' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='83495243' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','神的长袍不知是什么布料做的', '@清华专家服务_秦鹏：Google街景，10月20日在瑞士Quarten湖上空看到了神，有人说可能是上帝和他的儿子耶稣。http://url.hexun.com/16ZOr ',this)">转发<font id="forwardfont_2982482" >(7)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2982482');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2982482','1','14814331','2969162')">评论<font id="commentfont_2982482" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2982482_d.html">2010-10-31</a>来自和讯微博 <a href="/2132944/2969162_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2982482" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2982482"></div><div class="nr_con" id="articelItem_2982166">				<div class="nr_shuo">中国期货业：带着镣铐起舞<a href="http://url.hexun.com/170bC" title="http://www.ftchinese.com/story/001035267" target="_blank">http://url.hexun.com/170bC</a>。不知国内的相关媒体会不会转载这篇文章</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2982166' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中国期货业：带着镣铐起舞http://url.hexun.com/170bC。不知国内的相关媒体会不会转载这篇文章', '',this)">转发<font id="forwardfont_2982166" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2982166');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2982166','1','14814331','0')">评论<font id="commentfont_2982166"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2982166_d.html">2010-10-31</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2982166" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2982166"></div><div class="nr_con" id="articelItem_2913130">				<div class="nr_shuo"> <a href="/k/%b2%bb%bf%bf%c6%d7%b5%c4%bb%a5%c1%aa%cd%f8">&nbsp;#不靠谱的互联网#&nbsp;</a>立场上谁免费支持谁，QQ你就免费彻底点吧。道德上鄙视这个呆企鹅。江湖上好崇拜帅企鹅哦，你好NB！</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2913130' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' &amp;nbsp;#不靠谱的互联网#&amp;nbsp;立场上谁免费支持谁，QQ你就免费彻底点吧。道德上鄙视这个呆企鹅。江湖上好崇拜帅企鹅哦，你好NB！', '',this)">转发<font id="forwardfont_2913130" >(14)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2913130');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2913130','1','14814331','0')">评论<font id="commentfont_2913130" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2913130_d.html">2010-10-28</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2913130" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2913130"></div><div class="nr_con" id="articelItem_2885473">				<div class="nr_shuo"><a href="http://url.hexun.com/16VSb" title="http://www.ftchinese.com/story/001031810" target="_blank">http://url.hexun.com/16VSb</a>西班牙哲学家乔治?桑塔亚纳(George Santayana)有一段著名的话：“如果你没有记住你的经历，你将永远处于婴儿期。那些不能铭记过去的人注定会重蹈覆辙。”不错，瞧我们的中投。但责任呢？巴菲特道歉了，索罗斯认错了，可谁应该被追究并能否绳之以法。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2885473' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','http://url.hexun.com/16VSb西班牙哲学家乔治?桑塔亚纳(George Santayana)有一段著名的话：“如果你没有记住你的经历，你将永远处于婴儿期。那些不能铭记过去的人注定会重蹈覆辙。”不错，瞧我们的中投。但责任呢？巴菲特道歉了，索罗斯认错了，可谁应该被追究并能否绳之以法。', '',this)">转发<font id="forwardfont_2885473" >(12)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2885473');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2885473','1','14814331','0')">评论<font id="commentfont_2885473"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2885473_d.html">2010-10-27</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2885473" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2885473"></div><div class="nr_con" id="articelItem_2872050">				<div class="nr_shuo">交易所能做的也只能在规则以内。 //<a href="/321184/default.html">@馨月</a> ：回复<a href="/14791072/default.html">@付鹏</a> ：知，但是软手段不能切实解决根本问题。 //<a href="/14791072/default.html">@付鹏</a> ：从交易所的态度来看，风险提示应该是上面部委打过招呼了，现在期货公司大部分分析人员也都开始谨慎了，他们重点提到了一些‘投机’等字眼，其实谁投机交易所最清楚不过了，只有郑商所发了，大连和上海都没</div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/xinyue/default.html">@馨月</a><b class="indshowC_b1" title="财经名人">&nbsp;</b>：郑州交易所农产品都在10月28日调整保证金到8%，看来有控制农产品风险的意思，但是仅从资金上做这样的处理有什么作用呢？不从根本问题上解决问题，炒作就难以遏制，经济到如此危险的境地怎么还在使用软手段呢？这不就是彻底放纵投机吗？</p>						<dl><dd><span style="float:left;"><a  href="/xinyue/2870400_d.html">2010-10-27</a>来自和讯微博</span><a href="/xinyue/2870400_d.html">转发原文<font >(30)</font></a>|<a href="/xinyue/2870400_d.html">评论原文<font >(6)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='2872050' lastUID='14814331' lastUName='葛昶' firstAID='2870400' firstUID='321184' firstUName='馨月' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','交易所能做的也只能在规则以内。 //@馨月 ：回复@付鹏 ：知，但是软手段不能切实解决根本问题。 //@付鹏 ：从交易所的态度来看，风险提示应该是上面部委打过招呼了，现在期货公司大部分分析人员也都开始谨慎了，他们重点提到了一些‘投机’等字眼，其实谁投机交易所最清楚不过了，只有郑商所发了，大连和上海都没', '郑州交易所农产品都在10月28日调整保证金到8%，看来有控制农产品风险的意思，但是仅从资金上做这样的处理有什么作用呢？不从根本问题上解决问题，炒作就难以遏制，经济到如此危险的境地怎么还在使用软手段呢？这不就是彻底放纵投机吗？',this)">转发<font id="forwardfont_2872050" >(3)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2872050');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2872050','1','14814331','2870400')">评论<font id="commentfont_2872050"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2872050_d.html">2010-10-27</a>来自和讯微博 <a href="/321184/2870994_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2872050" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2872050"></div><div class="nr_con" id="articelItem_2806054">				<div class="nr_shuo">和讯微博要像他们一样啊，分享范围才广啊</div><div id="SmallDiv_2806054_83365274" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('2806054', '83365274','http://photo19.hexun.com/p/2010/1025/416826/b45_7707D1CB515FFA7479689864291E8747.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1025/416826/t150_7707D1CB515FFA7479689864291E8747.jpg" class="imgBig" ></a></div><div id="MiddleDiv_2806054_83365274" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2806054' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='83365274' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','和讯微博要像他们一样啊，分享范围才广啊', '',this)">转发<font id="forwardfont_2806054" >(4)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2806054');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2806054','1','14814331','0')">评论<font id="commentfont_2806054"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2806054_d.html">2010-10-25</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2806054" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2806054"></div><div class="nr_con" id="articelItem_2805442">				<div class="nr_shuo"><a href="http://url.hexun.com/16RZN" title="http://futures.hexun.com/2010-09-30/125038907.html" target="_blank">http://url.hexun.com/16RZN</a>其实，对营业部实行“四统一”管理没有必要出台相关规定。无非谁主张，谁举证。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2805442' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','http://url.hexun.com/16RZN其实，对营业部实行“四统一”管理没有必要出台相关规定。无非谁主张，谁举证。', '',this)">转发<font id="forwardfont_2805442" >(4)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2805442');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2805442','1','14814331','0')">评论<font id="commentfont_2805442"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2805442_d.html">2010-10-25</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2805442" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2805442"></div><div class="nr_con" id="articelItem_2785910">				<div class="nr_shuo">建议钱总的这篇文章发表在法制日报上。业内在努力规范，可有些地方法官大人的无知或自以为是危害了期货业的健康发展。<a href="http://url.hexun.com/16QTa" title="http://futures.hexun.com/2010-10-19/125173070.html" target="_blank">http://url.hexun.com/16QTa</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2785910' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','建议钱总的这篇文章发表在法制日报上。业内在努力规范，可有些地方法官大人的无知或自以为是危害了期货业的健康发展。http://url.hexun.com/16QTa', '',this)">转发<font id="forwardfont_2785910" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2785910');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2785910','1','14814331','0')">评论<font id="commentfont_2785910"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2785910_d.html">2010-10-23</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2785910" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2785910"></div><div class="nr_con" id="articelItem_2785425">				<div class="nr_shuo">为交易所采取的措施叫好。提高交易成本来扼制投机过度对整个市场的各个主体是有好处的。<a href="http://url.hexun.com/16QR7" title="http://futures.hexun.com/2010-10-23/125231312.html" target="_blank">http://url.hexun.com/16QR7</a></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2785425' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','为交易所采取的措施叫好。提高交易成本来扼制投机过度对整个市场的各个主体是有好处的。http://url.hexun.com/16QR7', '',this)">转发<font id="forwardfont_2785425" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2785425');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2785425','1','14814331','0')">评论<font id="commentfont_2785425"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2785425_d.html">2010-10-23</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2785425" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2785425"></div><div class="nr_con" id="articelItem_2783688">				<div class="nr_shuo">滥用而又底薪是对”人才“的亵渎，也是一种掠夺。企业内部的薪酬没有等级，没有差异只会造成不思进取，平均主义泛滥。 //转自 <a href="/14790528/default.html">@李才元</a></div>				<!--转发效果box为nr_zhuan s-->				<div class="nr_zhuan">					<h4 class="conbg_1"></h4>					<div class="nr_zhuan_con">						<p><a href="/14790528/default.html">@李才元</a><b class="indshowC_b5" title="投资专家">&nbsp;</b>：你会不会在十二五失业？“被涨薪”会不会增加失业？在就业人数最集中的中小和民营企业，工资总额很难突破，或许要靠减人加薪。这是十二五的大问题。人力资源和社会保障部新闻发言人尹成基在新闻发布会上表示，截至9月底，全国已有30个省份调整了最低工资标准，月最低工资标准最高档增长幅度平均为24%。</p>						<dl>							<dt id="SmallDiv_2783688_83313868" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('2783688','83313868','http://photo19.hexun.com/p/2010/1022/416569/b45_vip_393F5138845B8EEEED8DC5604D098541.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1022/416569/t150_vip_393F5138845B8EEEED8DC5604D098541.jpg" class="imgBig" /></a></dt><dt id="MiddleDiv_2783688_83313868" class="preview_big" style="display:none;"></dt><dd><span style="float:left;"><a  href="/14790528/2774773_d.html">2010-10-22</a>来自和讯微博</span><a href="/14790528/2774773_d.html">转发原文<font >(7)</font></a>|<a href="/14790528/2774773_d.html">评论原文<font >(3)</font></a></dd>						</dl>					</div>				</div>				<!--nr_zhuan e-->				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='6' lastAID='2783688' lastUID='14814331' lastUName='葛昶' firstAID='2774773' firstUID='14790528' firstUName='李才元' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='83313868' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','滥用而又底薪是对”人才“的亵渎，也是一种掠夺。企业内部的薪酬没有等级，没有差异只会造成不思进取，平均主义泛滥。 //转自 @李才元', '你会不会在十二五失业？“被涨薪”会不会增加失业？在就业人数最集中的中小和民营企业，工资总额很难突破，或许要靠减人加薪。这是十二五的大问题。人力资源和社会保障部新闻发言人尹成基在新闻发布会上表示，截至9月底，全国已有30个省份调整了最低工资标准，月最低工资标准最高档增长幅度平均为24%。',this)">转发<font id="forwardfont_2783688" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2783688');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2783688','1','14814331','2774773')">评论<font id="commentfont_2783688"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2783688_d.html">2010-10-23</a>来自和讯微博 <a href="/14790528/2774773_d.html" title="由于此条微博为转发自他人微博，所以你可以使用“回溯”功能，以访问被转发的该条微博；你甚至可以反复点击“回溯”直到访问到最原始的第一条微博为止">回溯 <img src="/images/hs.gif"></a></h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2783688" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2783688"></div><div class="nr_con" id="articelItem_2759592">				<div class="nr_shuo">感谢和讯，献一份薄礼表达敬意<a href="http://url.hexun.com/16P4l" title="http://u.115.com/file/f25859b357" target="_blank">http://url.hexun.com/16P4l</a>玩转(最版_).rar</div><div id="SmallDiv_2759592_83298685" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('2759592', '83298685','http://photo19.hexun.com/p/2010/1022/416493/b45_449A9B014EE1BE0073604D6A06498942.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/1022/416493/t150_449A9B014EE1BE0073604D6A06498942.jpg" class="imgBig" ></a></div><div id="MiddleDiv_2759592_83298685" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2759592' lastUID='14814331' lastUName='葛昶' firstAID='0' firstUID='0' firstUName='' lastPhotoID='83298685' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','感谢和讯，献一份薄礼表达敬意http://url.hexun.com/16P4l玩转(最版_).rar', '',this)">转发<font id="forwardfont_2759592" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2759592');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2759592','1','14814331','0')">评论<font id="commentfont_2759592"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/gechang68/2759592_d.html">2010-10-22</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2759592" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2759592"></div>
+			</div>
+			<iframe style="display:none;" id="iframeBlog" src="about:blank" frameBorder="0" width="554" name="iframeBlog" scrolling="no"></iframe>
+			<script language="javascript" type="text/javascript">
+			document.domain = "hexun.com";
+			function switchBlog()
+			{
+			    $("#liWeibo").attr("class","otherLi");
+			    $("#liBlog").attr("class","currentLi");
+			    $("#tabWeibo").css("cursor","pointer");
+			    $("#tabBlog").css("cursor","default");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconG.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconR.gif");
+			    $("#listWeibo").hide();
+			    $("#gotop").hide();
+			    var iframesrc = $("#iframeBlog").attr("src");
+			    if (iframesrc == "about:blank")
+			    {
+			        iframesrc = "http://gechang68.blog.hexun.com/wbblog.html?mb=19"; 
+			        $("#iframeBlog").attr("src",iframesrc);
+			    }
+			    $("#iframeBlog").show();
+			}
+			function switchWeibo()
+			{
+			    $("#liWeibo").attr("class","currentLi");
+			    $("#liBlog").attr("class","otherLi");
+			    $("#tabWeibo").css("cursor","default");
+			    $("#tabBlog").css("cursor","pointer");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconR.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconG.gif");
+			    $("#iframeBlog").hide();
+			    $("#listWeibo").show();
+			    $("#gotop").show();
+			}
+			</script>
+		</div>
+		<div id="gotop">
+	        <div style="float:left"><a href="javascript:void(0);" onclick="javascript:GotoTop();">返回顶部</a></div>
+			<div id="page2"><ul><li class="returnbtn2 a555"><a href="/gechang68/p1/default.html" >&lt;&nbsp;上一页</a></li><li><a href="/gechang68/p1/default.html">1</a></li><li class="border_f"><strong >2</strong></li></ul>
+</div>
+			<div class=clear></div>
+		</div>
+	</div>
+	<div class="mainR">
+		<!--博主简介 s-->		
+		<div class="user_con">
+			<ul>
+				<li class="li1"><strong><a href="/gechang68/MyFollow.html" id=followcFont>30</a></strong><a href="/gechang68/MyFollow.html">关注</a></li>
+				<li class="li2"><strong><a href="/gechang68/FollowMy.html" id=followedFont>7117</a></strong><a href="/gechang68/FollowMy.html">被关注</a></li>
+				<li class="li3"><strong><a href="/gechang68/default.html"  id=articlecFont>64</a></strong><a href="/gechang68/default.html">博文</a></li>
+			</ul>
+		</div>
+		<!--博主简介 e-->
+		 <div class="phb" style="background:none;padding-left:0px;">微博人气总榜：第<strong>457</strong>名</div>
+		
+        <!--真实身份认证-->
+		
+		<div class="phb" style="background:none;padding-left:0px;"><img src="/images/common/rz.gif" border="0" title="真实身份认证用户">&nbsp;&nbsp;</div>
+				
+        <!--真实身份认证 e-->
+        
+        
+		<div class="mainR_line"></div>
+
+
+				
+		<div align="center">
+ 
+<table width="185" border="0">
+  <tr>
+    <td width="185"><div align="center"><a href="http://t.hexun.com/zt/fangtan.html" target="_blank"><img src="http://i9.hexunimg.cn/2012-05-10/141257867.jpg" width="185" height="150" border="0"></a></div></td>
+  </tr>
+ 
+</table>
+ 
+</div>
+	  <!--自选股票-->
+	  <div id="TaStockDiv_line" class="mainR_line2"></div>
+	  <!--增加自选股-->
+	  <div id="TaStockDiv" class="theme_con" style="margin-top:15px;">
+        <h2><span id="smyStockDiv" onclick="trHead('myStockDiv','19')" class="iconimg" title="隐藏">&nbsp;</span>Ta的自选股</h2>
+        <div id="myStockDiv">
+	  
+	   <!--增加自选股end-->
+	    <!--自选股-->
+	  <div id="sfqp_StockInfo2" class="sfgp_con" style="background:#fff; overflow:hidden;filter:alpha(opacity=90); opacity:0.9;width:162px;padding:0 5px;">
+	  </div>
+	  <!--自选股end-->
+	  <!--自选股票end-->
+        <script type="text/javascript">
+        getMyStockInfoForHomePage = function()
+        {     
+             
+             $.getIfModified(ApiFile,{GetMyStockInfoForHomePage:Math.random(),curID:14814331}, 
+             function(response)
+             {         
+                 if(response.length == 0)
+                 {
+                       document.getElementById("TaStockDiv").style.display = "none";
+                       document.getElementById("TaStockDiv_line").style.display = "none";
+                       
+                 }                         
+                 document.getElementById("sfqp_StockInfo2").innerHTML = response;         
+             });
+        }
+        getMyStockInfoForHomePage();
+        setInterval("getMyStockInfoForHomePage()",300000);
+        </script>        
+        </div>
+     </div>
+		
+		<!--Ta的微群-->
+		
+		<!--Ta的微群 e-->
+		<div class="mainR_line"></div>
+		
+		<!--Ta的同行 s-->
+		<div class="rec_con">
+			<h2>Ta的同行</h2>
+			<ul> 
+			    <li><a href="/6117/default.html" title="江涛"><img src="http://logo1.tool.hexun.com/e51700-40.jpg" /></a><a href="/6117/default.html" title="江涛"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=6117')" >江涛</a><br><a href='#' onclick='javscript:AddFollow(6117,0);window.location.reload();'>关注Ta</a></li><li><a href="/368902/default.html" title="陈剑峰"><img src="http://logo2.tool.hexun.com/6a105-40.jpg" /></a><a href="/368902/default.html" title="陈剑峰"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=368902')" >陈剑峰</a><br><a href='#' onclick='javscript:AddFollow(368902,0);window.location.reload();'>关注Ta</a></li><li><a href="/1493771/default.html" title="刘彦斌"><img src="http://logo3.tool.hexun.com/bcb16-40.jpg" /></a><a href="/1493771/default.html" title="刘彦斌"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=1493771')" >刘彦斌</a><br><a href='#' onclick='javscript:AddFollow(1493771,0);window.location.reload();'>关注Ta</a></li><li><a href="/2736365/default.html" title="DTSBCceo"><img src="http://logo1.tool.hexun.com/edc029-40.jpg" /></a><a href="/2736365/default.html" title="DTSBCceo"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2736365')" >DTSBCc..</a><br><a href='#' onclick='javscript:AddFollow(2736365,0);window.location.reload();'>关注Ta</a></li><li><a href="/2949026/default.html" title="任志强"><img src="http://logo2.tool.hexun.com/a2ff2c-40.jpg" /></a><a href="/2949026/default.html" title="任志强"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2949026')" >任志强</a><br><a href='#' onclick='javscript:AddFollow(2949026,0);window.location.reload();'>关注Ta</a></li><li><a href="/3383756/default.html" title="陶行逸"><img src="http://logo0.tool.hexun.com/cca133-40.jpg" /></a><a href="/3383756/default.html" title="陶行逸"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=3383756')" >陶行逸</a><br><a href='#' onclick='javscript:AddFollow(3383756,0);window.location.reload();'>关注Ta</a></li><li><a href="/4069031/default.html" title="贾卧龙"><img src="http://logo3.tool.hexun.com/a7163e-40.jpg" /></a><a href="/4069031/default.html" title="贾卧龙"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4069031')" >贾卧龙</a><br><a href='#' onclick='javscript:AddFollow(4069031,0);window.location.reload();'>关注Ta</a></li><li><a href="/4226845/default.html" title="于跃文"><img src="http://logo1.tool.hexun.com/1d7f40-40.jpg" /></a><a href="/4226845/default.html" title="于跃文"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4226845')" >于跃文</a><br><a href='#' onclick='javscript:AddFollow(4226845,0);window.location.reload();'>关注Ta</a></li><li><a href="/4244579/default.html" title="潘石屹"><img src="http://logo3.tool.hexun.com/63c440-40.jpg" /></a><a href="/4244579/default.html" title="潘石屹"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=4244579')" >潘石屹</a><br><a href='#' onclick='javscript:AddFollow(4244579,0);window.location.reload();'>关注Ta</a></li>
+				<div class="clear"></div>
+			</ul>
+			<p><a href="/Channel/InvestmentExperts.aspx?typeId=10">更多&gt;</a></p>
+		</div>
+		<!--Ta的同行 e-->
+		<!--Ta关注的话题 s-->
+		
+<script type="text/javascript">
+function changeWeihu()
+{
+    //debugger;
+    if(document.getElementById("ulWeihu2").style.display=="none")
+    {
+        document.getElementById("ulWeihu1").style.display="none";
+        document.getElementById("ulWeihu2").style.display="block";
+        
+    }
+    else
+    {
+        document.getElementById("ulWeihu2").style.display="none";
+        document.getElementById("ulWeihu1").style.display="block";
+
+    }
+}
+</script>
+		<!--Ta关注的话题 e-->
+		<!--Ta的股票 s-->
+		
+		<!--Ta的股票 e-->
+		
+<div class="mainR_line"></div>
+		<!--和讯微博意见反馈 s-->
+		<div class="stock_con">
+			<h2><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">和讯微博意见反馈</a></h2>
+			<h4>和讯财经微博新鲜上架，肯定有很多不完善的地方，特别欢迎大家帮忙提出宝贵意见与建议。</h4>
+			<ul>
+				<li><a href="http://t.hexun.com/hecaiwei/default.html">1.财经微博客服何采薇</a></li>
+				<li><a href="http://t.hexun.com/weibo/default.html">2.财经微博产品动态</a></li>
+				
+                <!-- xl -->
+		        
+                <li><a href="http://hecaiwei.blog.hexun.com/49208608_d.html" target="_blank">3.新手攻略：帮您成为微博达人</a></li>
+				<li><a href="http://t.hexun.com/zt/jianyi.html" target="_blank">4.有奖征集发展管理建议</a></li>
+                
+                
+			</ul>
+			
+			
+</div>
+
+
+	</div>
+	<div class="clear"></div>
+	
+</div>
+
+
+<div id="mainbgB"></div>
+<div id="footer"><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">意见反馈</a><font>|</font><a href="http://hexun.com/report.aspx?userid=14814331&type=1" target=_blank>举报</a><font>|</font>和讯微博V1.0 beta powered by hexun.com</div>
+<!--弹出窗口：转发博文1-->
+<div class="conBg_oth_zf" id="turn1Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn2Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn3Window" style="display:none;">
+</div>
+
+<div class="conBg_fz" id="fzWindow" style="display:none;">1111</div>
+
+  
+  <!--informbg start-->
+  <div class="conBg_oth informbg" id="informbg" style="z-index:1000;">
+  <form id=frm_CompUserName>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="z-index:1000;">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+		    
+			<h3><span onclick="closeInformbg();"></span>举报</h3>
+			
+			
+			<table class="inform_table">
+  <tr>
+    <td>被举报人：<span class="red" id="span_CompUserName"></span></td>
+    
+    <input type=hidden id="form_CompID"  value=0/>
+    <input type=hidden id="form_CompUserID"  value=0/>
+    <input type=hidden id="form_CompType"  value=0/>
+    
+    
+  </tr>
+  <tr>
+    <td valign="top" id="span_compID"></td>
+  </tr>
+    <tr>
+    <td valign="top">举报理由（请详细填写，以便核实）：</td>
+  </tr>
+   <tr>
+    <td valign="top"><textarea name="form_ComReason" id="form_ComReason" cols="20" rows="" class="inp9"></textarea></td>
+  </tr>
+  <tr>
+   
+    <td><p class="red inform_tip">恶意举报和试图欺骗管理员，在查实后将可能处以
+从警告直至删号的处理，请严肃对待。</p><input class="btn2" onclick="addComplaints();" type=button title="举报" value="举报" name="Submit2" style=" float:right;"/></td>
+  </tr>
+</table>
+			
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</form>
+</div>
+<!--informbg end-->
+<script type="text/javascript" src="http://comment.blog.hexun.com/inc/wbemotions.aspx?c=EmotionsDiv&e=CommentContent"></script>
+<script language=javascript src='http://shequ5.tool.hexun.com/rest/GetVoteCount.aspx?v='></script>
+
+<!--分享start-->
+<script type="text/javascript">
+(function(){
+  var reg = /^[http:\/\/\w|\w\.*\w|\w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;
+  if(!reg.test(window.location.href)) {
+    document.write('\x3Cscript type="text/javascript" src="http://img.hexun.com/base/version/hx_base.min1.1.js">\x3C/script>'+'\x3Cscript type="text/javascript" src="http://img.hexun.com/share/hxShare2011.js">\x3C/script><link href="http://img.hexun.com/share/hxShare2011.css" type="text/css" rel="stylesheet" />');
+    if(window.attachEvent) window.attachEvent('onload',function() {hxShare2011('');});
+	if(window.addEventListener) window.addEventListener('load',function(){hxShare2011('');},false);
+  }
+})();
+</script>
+<!--分享over-->
+
+<script type="text/javascript" src="http://img.hexun.com/app/js/TB.main.js"></script>
+
+
+<script src="http://utrack.hexun.com/track/track.js"></script> 
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-2167933-52");
+
+pageTracker._trackPageview();
+
+} catch(err) {}
+</script>
+<script type="text/javascript" src="/js/tipblog.js"></script>
+
+</div>
+
+<!--帮推 start-->
+  <div class="conBg_oth" id="BTRecbg"  style="display:none;" >
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+	    <td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"></span><p id="forwardtextarea_Title">把xxx的特别推荐帮推给我的朋友</p></h3>
+			<div class="win_con2">
+		<div class="win_con2_2"><span id="tipInfoBoxhelpRecommend">还可以输入<strong>140</strong>个字</span></div>
+            <textarea id="forwardtextarea_helpRecommend" name="forwardtextarea_helpRecommend" cols="" rows=""  class="BTinp6" onkeyup="javascript:forwardInputLimit(this,'helpRecommend');">@海豚猫 的特别推荐里有@AAA @BBB @CCC等高人，很有关注价值，大家都来看看吧：http://t.hexun.com/xxxxx。</textarea>
+        </div>
+        <div class="clear"></div>
+        <div class="BTbtn">
+		   <input class="conBgbtn_1" type="button"title="取消" value="取消" name="Submit2" onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"/>	 <input class="conBgbtn_1" id="forwardbtn_helpRecommend" name="forwardbtn_helpRecommend" type="button" title="确定" value="确定" onclick="javascript:helpRecommend('turn3Window','360','230','葛昶','14814331','gechang68')"/></div>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+
+<!--弹出窗口：成功-->
+
+<!--弹出窗口：成功-->
+<div class="conBg_oth" id="successfulWindow" style="display:none;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('successfulWindow');"></span>成功</h3>
+			<form>
+			<div class="win_con">
+				<p class="successfulp">您添加的关注已成功！</p>
+				<p class="huizip">5秒后自动关闭...</p>
+				<p class="fabup">
+					<span><input type="submit" class="conBgbtn_1" value="确定" /></span>
+				</p>
+			</div>
+			</form>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+  <!--帮推 end-->
+  
+<!--弹出窗口：微博认证  start-->
+
+<!--弹出窗口：微博认证  end-->
+                
+</body>
+</html>
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TIANYUAN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

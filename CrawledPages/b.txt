@@ -1,0 +1,689 @@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@citicbankbj@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+###################################################################articelItem_5336251####################################################
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>中信银行总行营业部的微博-和讯财经微博</title>
+
+<link href="/css/wb.css" rel="stylesheet" type="text/css" />
+<link href="/css/vote.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/mb1.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="/js/Util.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/base.js"></script>
+<script type="text/javascript" src="/js/wb.js"></script>
+<script src="/js/smallwindow.js" type="text/javascript"></script>
+<script src="/js/chk_frm.js" type="text/javascript"></script>
+<script type="text/javascript"  src="/yuce/js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript"  src="/jquery/jquery-1.4.2.min.js" ></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/jquery.tablesorter.js"></script>
+<script language="JavaScript" type="text/javascript" src="/jquery/api.js"></script>
+<script language="JavaScript" type="text/javascript" src="/unitpngfix/unitpngfix.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/FriendList.js"></script>
+<script src="/js/vote.js" type="text/javascript"></script>
+<script src="/js/complaintsJS.js" type="text/javascript"></script>
+<script>
+var usertemplate=1;
+</script>
+<script>
+var valueofnameinput="用户名/邮箱/手机";
+var valueofpassinout="******";
+
+<!--
+ var sWidth=window.screen.width;
+
+var sHeight=window.screen.height;
+
+if(sWidth<640&&sHeight<480)
+{
+   document.location="http://mt.hexun.com";
+}
+
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+	}
+function cssControl()
+{
+    document.getElementById('jshao_yi').style.display='none';
+    setCookie("UserControlCookie","1","h12");  
+}
+
+function setCookie(name,value,time)
+{
+    var strsec = getsec(time);
+    var exp = new Date();
+    exp.setTime(exp.getTime() + strsec*1);
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+function getsec(str)
+{
+    var str1=str.substring(1,str.length)*1;
+    var str2=str.substring(0,1);
+    if (str2=="s")
+    {
+        return str1*1000;
+    }
+    else if (str2=="h")
+    {
+        return str1*60*60*1000;
+    }else if (str2=="d")
+    {
+       return str1*24*60*60*1000;
+    }
+    
+}
+
+function quickSubmit(evt)
+{
+    evt = evt || window.event;
+    var code = evt.keyCode;
+    if( code == 13)
+    {
+      login(); 
+    }
+}
+function login()
+{
+    //debugger;
+    if(document.getElementById("LoginStateAuto").checked == true)
+    {
+        document.getElementById("LoginStateName").checked = true;
+    }
+    if(CheckLoginForm())
+    {
+        document.getElementById("Frm").action="http://reg.hexun.com/login.aspx?gourl=http://t.hexun.com/default2.aspx?blogname=citicbankbj";
+        document.getElementById("Frm").submit();
+    }
+}
+function CheckLoginForm()
+{
+    if(document.getElementById("username").value==''||document.getElementById("username").value==valueofnameinput)
+    {
+	    alert('请填写用户名');
+	    document.getElementById("username").value="";
+	    document.getElementById("username").focus();
+	    return false;
+    }
+    else if(document.getElementById("password").value=='')
+    {
+	    alert('请填写密码');
+	    document.getElementById("password").focus();
+	    return false;
+    }
+    return true;
+}
+
+function initFade()
+{
+    var windowbg = document.getElementById("fade");
+        //windowbg.id = "windowbg";
+        with(windowbg.style) {
+	       position = "absolute";
+	        background = "#666";
+	        width = document.documentElement.scrollWidth+"px";
+	        height = document.documentElement.scrollHeight+"px";
+	        top = "0px";
+	        left = "0px";
+	        filter="Alpha(opacity=50)";
+	        opacity = 0.5;
+	        zIndex=999;
+	        }
+}
+function AddFollows(strFollows, userId, userRelation)
+{     
+     //
+     var follows = new Array();
+     follows = strFollows.split('|');
+     if (strFollows.length > 0)
+     {
+         //alert(strFollows.length);
+         for(var i = 0; i < follows.length; i++)
+         {   
+             //alert(2);      
+             AddMyFollow(follows[i], userId, userRelation);
+         }
+     }
+     
+}
+//从/special/useriframe.aspx 过来，直接推荐某用户
+window.onload = function() 
+{
+    //alert("sdfsd");
+    if(0 == 1)
+    {
+        javascript:CommendUser('turn3Window','360','230','中信银行总行营业部','14432234','citicbankbj');
+    }
+}
+//全局当前登陆的用户ID
+var pub_LoginUserID=0;
+//-->
+</script>
+
+</head>
+<body>
+
+
+
+<div id="main">
+
+<script language=javascript>
+function GoLogin(){
+  document.location.href='http://t.hexun.com/login.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function Loginout(blogname){
+   document.location.href='http://utility.tool.hexun.com/quit.aspx?gourl='+escape('http://t.hexun.com/default.htm');
+}
+function popwin(thisObj){
+	thisObj.className="pop"
+	thisObj.onmouseout=function (){thisObj.className=""}
+}
+</script>
+<div class="nav">
+	<div class="navL">
+	        <ul>
+	        
+			    <li><a href="http://www.hexun.com" target="_blank">和讯首页</a>|</li>
+			    <li class="toogle_nav" id="toogle_nav" onmouseover="navToogle()" onmouseout="navTogle()"><a href="/default.htm" target="_blank">财经微博</a>
+		        <div class="toogle_content" id="toogle_content">
+                  <ul>
+                    <li> <a href="/financemennew.html">名人推荐</a></li>
+                    <li> <a href="http://t.hexun.com/grouphome.html" target="_blank">微群首页</a></li>
+                    <li><a href="/stocks.aspx"><font color="red">直播解盘</font></a></li>
+                    <!--<li><a href="/yuce/" target="_blank">大盘预测</a></li>-->
+                    <li><a href="/top.html">排行榜</a></li>
+                    <li><a href="/special/interview/" target="_blank">微访谈</a></li>
+                    <li><a href="/cms/rdht/" target="_blank">热门话题</a></li>
+                    <li><a href="/qsrz.aspx" target=_blank>证券公司</a></li>
+                    <li><a href="/qhrz.aspx" target=_blank>期货公司</a></li>  
+                    <li><a href="/jiepan.html">高手解盘</a></li>
+                    <li><a href="/recommend.htm">特别推荐</a></li>
+                    <li><a href="/look.htm">随便看看</a></li>
+                  </ul>
+                </div>
+		        </li>	
+		        		    
+	        </ul>
+	 </div>
+	
+	
+    <div class="navR">
+		<ul>
+			<li><a href="/help.html">帮助</a>|</li>
+			<li><a href="javascript:GoLogin();">登录</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+<div class="titbg">
+    
+	<h1><a href="http://t.hexun.com/citicbankbj/default.html">中信银行总行营业部的微博</a></h1>
+	<h2><a href="http://t.hexun.com/citicbankbj">http://t.hexun.com/citicbankbj</a>   <a href="javascript:void(0);" onclick="javascript:copytext('citicbankbj','中信银行总行营业部');">复制</a></h2>
+	
+</div>
+
+<script type="text/javascript">
+var WeiboWatchUserTemplate=1;
+</script>
+<script type="text/javascript" src="/js/toogle.js"></script>
+
+<div class="main mainbg">
+	<div class="mainL mainLbg1">
+	
+      <div class="activebg">		
+			
+			<dl>
+				<dd>
+					和讯财经微博可以让你随时随地与百万网友分享理财心得，与财经名人零距离接触，与股市达人探讨学习，与亲朋好友保持联络。
+				</dd>
+				<dt class="indlogin">
+				
+				
+				
+				<form name="Frm" id="Frm" method="post"  action="http://reg.hexun.com/login.aspx" onsubmit="return CheckLoginForm();" target="_parent" style="margin-top:0px;">
+				<ul>
+					<li>
+						登录名：
+						<label><input type="text" id="username" name="username" value="用户名/邮箱/手机" onmouseover="" onclick="if(this.value==valueofnameinput)this.value='';"  onblur="if(this.value=='')this.value=valueofnameinput;" onfocus="if(this.value==valueofnameinput)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li>
+						密<font>空</font>码：
+						<label><input type="password" id="password" name="password" value="******"  onclick="if(this.value==valueofpassinout)this.value='';"   onblur="if(this.value=='')this.value=valueofpassinout;"  onkeypress="quickSubmit(event);" onfocus="if(this.value==valueofpassinout)this.value='';" class="indlogin_inp" /></label>
+					</li>
+					<li class="indloginLi1">
+					<label><input type="checkbox" name="LoginStateAuto" id="LoginStateAuto" value="1"/></label>
+					下次自动登录
+				</li>
+				<li class="indloginLi2"><label><input type="button" onclick="javascript:login();" value="" class="indlogin_btn" /></label><a href="http://reg.hexun.com/GetPasswordPre.aspx" target="_blank">找回密码</a><font>|</font><a href="http://reg.hexun.com/regname.aspx?IsWeiBo=1&urlreferrerhost=http://t.hexun.com/default2.aspx?blogname=citicbankbj" target="_blank">注册</a></li>
+              </ul>
+              <p style="display:none"><input type="checkbox" name="LoginStateName" id="LoginStateName" value="1"/></p>   
+              <input type="hidden" name="gourl">
+		    </form>                
+                </dt>
+			  <div class="clear"></div>
+			</dl>
+			
+		</div>
+    
+		<div class="blogbg">
+			<div class="tarenint">
+			    <div class="tarenintL">
+		        <dl>
+			        
+			        <dt><a href="http://citicbankbj.photo.hexun.com/logo.html" target=_blank><img src="http://logo2.tool.hexun.com/ea37dc-150.jpg" /></a></dt>
+			        
+		        </dl>
+		        
+		        
+		            <p><!--<img src="/images/common/bico.gif" alt="访问Ta的博客" align="absmiddle" /><a href="http://citicbankbj.blog.hexun.com/" target=_blank>访问Ta的博客</a><br/> -->
+		            
+
+		            </p>
+		        
+	        </div>
+	        
+	        
+	        <div class="tarenintR">
+		        <dl>
+			        <dd class="tarenint_dd1">
+			            <span class="RZ_span1"><a href='/Channel/Company.aspx?typeId=35'><img src="/images/common/space.gif" class="rz_gsjg" /></a></span>				        
+						<a class="tarena14">中信银行总行营业部</a><b class="indshowC_b3" title="公司机构">&nbsp;</b><span class="RZ_span2 fgsjg">——中信银行总行营业部</span>
+						<strong class="sex_men">北京(西城区)</strong>
+						
+						<p style="color:#999999">用户名：中信银行总行营业部</p>
+						<p>博客：<a target="_blank" href="http://citicbankbj.blog.hexun.com/">http://citicbankbj.blog.hexun.com/</a></p>
+						中信银行总行营业部				        
+			        </dd>
+			        <dd class="tarenint_dd2">
+						<span><a href="javascript:void(0);" onclick="javascript:CommendUser('turn3Window','360','230','中信银行总行营业部','14432234','citicbankbj');">推荐</a>|<a href="/0/default.html?attype=n&atkey=中信银行总行营业部">@中信银行总行营业部</a></span>
+				        
+						<label id=followlabel><input type="button" onclick="javscript:AddFollow(14432234,0);" class="addbtn1" title="加关注" /></label>
+						
+						<!--&nbsp;<input type=button style="width:80px; background-image: url(/images/Common/phone.png);" onclick="NewDYSms('14432234','turn3Window','360','230','0')" />-->
+			        </dd>
+			        <dd class="tarenint_dd3">
+			        
+					    <span class="tarenint_dd3R" > <a href="javascript:void(0);" onclick="javascript:AddBlacklist(14432234,0,0,'中信银行总行营业部');" >加入黑名单</a></span>	
+				   </dd>
+
+
+
+		        </dl>
+	        </div>
+	        
+				<dl>
+					<dt></dt>
+					<dd class="tarenint_dd1">
+					    
+				    </dd>
+					<dd class="tarenint_dd2">
+					    
+					</dd>
+					
+					<div class="clear"></div>
+				</dl>
+		  </div>  
+		  
+		  
+		  <ul class="miniUl">
+            <li style="width: 77px;" class="currentLi" id="liWeibo"><span id="tabWeibo" style="cursor:default;" onclick="javascript:switchWeibo();"><img id="imgWeibo" align="absmiddle" src="/images/common/wb_iconR.gif"> 微博</span></li>
+            <li style="width: 77px;" class="otherLi" id="liBlog"><span id="tabBlog" style="cursor:pointer;" onclick="javascript:switchBlog();"><img id="imgBlog" align="absmiddle" src="/images/common/wb_iconG.gif"> 博客</span></li>
+          </ul>
+		    <div class="blogcon" id="listWeibo">
+				<div class="nr_con" id="articelItem_5336251">				<div class="nr_shuo">楼市调控、股市震荡、加息频出、市场机会难把握，短期投资如何选？<a href="http://t.hexun.com/g/601998_1">中信银行</a>2月24日起在北京地区倾情推出26天短期理财产品，测算年化收益高达5.9%-6.5%，更有女性专属产品，详询95558或<a href="http://t.hexun.com/g/601998_1">中信银行</a>北京地区各网点。</div><div id="SmallDiv_5336251_86169096" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5336251', '86169096','http://photo20.hexun.com/p/2011/0223/430845/b45_vip_16983C334CCFC179433B151C6339DA7E.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0223/430845/t150_vip_16983C334CCFC179433B151C6339DA7E.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5336251_86169096" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5336251' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='86169096' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','楼市调控、股市震荡、加息频出、市场机会难把握，短期投资如何选？中信银行2月24日起在北京地区倾情推出26天短期理财产品，测算年化收益高达5.9%-6.5%，更有女性专属产品，详询95558或中信银行北京地区各网点。', '',this)">转发<font id="forwardfont_5336251" >(2)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5336251');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5336251','1','14432234','0')">评论<font id="commentfont_5336251" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/5336251_d.html">2011-02-23</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5336251" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5336251"></div><div class="nr_con" id="articelItem_5285915">				<div class="nr_shuo"><a href="http://t.hexun.com/g/601998_1">中信银行</a>北京通州支行位于通州区翠屏北里瑞都国际底商，周边商业繁华，交通便利，金融机构聚集。支行开业后将为通州居民和企业提供存款、贷款、汇兑、结算等个人和公司银行业务；同时也将把出国金融服务、贵宾理财服务、个人住房贷款等具有<a href="http://t.hexun.com/g/601998_1">中信银行</a>优势和特色的金融产品和服务带给通州居民。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5285915' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行北京通州支行位于通州区翠屏北里瑞都国际底商，周边商业繁华，交通便利，金融机构聚集。支行开业后将为通州居民和企业提供存款、贷款、汇兑、结算等个人和公司银行业务；同时也将把出国金融服务、贵宾理财服务、个人住房贷款等具有中信银行优势和特色的金融产品和服务带给通州居民。', '',this)">转发<font id="forwardfont_5285915"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5285915');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5285915','1','14432234','0')">评论<font id="commentfont_5285915"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/5285915_d.html">2011-02-18</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5285915" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5285915"></div><div class="nr_con" id="articelItem_5285901">				<div class="nr_shuo"><a href="http://t.hexun.com/g/601998_1">中信银行</a>总行营业部今日宣布北京通州支行隆重开业，这是<a href="http://t.hexun.com/g/601998_1">中信银行</a>在北京郊区县设立的第一家支行，此举标志着<a href="http://t.hexun.com/g/601998_1">中信银行</a>开始加快郊区县网点布局的步伐。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5285901' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行总行营业部今日宣布北京通州支行隆重开业，这是中信银行在北京郊区县设立的第一家支行，此举标志着中信银行开始加快郊区县网点布局的步伐。', '',this)">转发<font id="forwardfont_5285901"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5285901');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5285901','1','14432234','0')">评论<font id="commentfont_5285901"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/5285901_d.html">2011-02-18</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5285901" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5285901"></div><div class="nr_con" id="articelItem_5093062">				<div class="nr_shuo">尊敬的客户，我行北京地区各营业网点“春节”长假期间的零售业务营业时间见附件，欢迎前往办理业务。</div><div id="SmallDiv_5093062_85765515" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('5093062', '85765515','http://photo20.hexun.com/p/2011/0201/428827/b45_vip_7905BB4B4E595B521C035E82834C90D1.jpg',1)"><img  src="http://photo20.hexun.com/p/2011/0201/428827/t150_vip_7905BB4B4E595B521C035E82834C90D1.jpg" class="imgBig" ></a></div><div id="MiddleDiv_5093062_85765515" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5093062' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='85765515' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','尊敬的客户，我行北京地区各营业网点“春节”长假期间的零售业务营业时间见附件，欢迎前往办理业务。', '',this)">转发<font id="forwardfont_5093062"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5093062');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5093062','1','14432234','0')">评论<font id="commentfont_5093062"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/5093062_d.html">2011-02-01</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5093062" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5093062"></div><div class="nr_con" id="articelItem_5089431">				<div class="nr_shuo"><a href="/g/601998_1">中信银行</a>恭祝您兔年大吉、身体健康、合家团圆、万事如意！感谢有您陪伴中信成长，展望新年我行将更加努力！春节营业时间详询95558。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='5089431' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行恭祝您兔年大吉、身体健康、合家团圆、万事如意！感谢有您陪伴中信成长，展望新年我行将更加努力！春节营业时间详询95558。', '',this)">转发<font id="forwardfont_5089431"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','5089431');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('5089431','1','14432234','0')">评论<font id="commentfont_5089431"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/5089431_d.html">2011-02-01</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_5089431" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_5089431"></div><div class="nr_con" id="articelItem_2410798">				<div class="nr_shuo">我行创新推出信福年金产品，稳健配置，预期基本年化收益1.75%，更有机会获取超额回报，每季开放及分红，您的理财好选择！详询<a href="/g/601998_1">中信银行</a>北京各网点。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2410798' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','我行创新推出信福年金产品，稳健配置，预期基本年化收益1.75%，更有机会获取超额回报，每季开放及分红，您的理财好选择！详询中信银行北京各网点。', '',this)">转发<font id="forwardfont_2410798"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2410798');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2410798','1','14432234','0')">评论<font id="commentfont_2410798"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/2410798_d.html">2010-10-13</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2410798" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2410798"></div><div class="nr_con" id="articelItem_2140451">				<div class="nr_shuo"> 中信网银多重礼：即日起网银购买中网公开赛中央球场或包厢票尊享九折优惠！网银买基金申购费率七折！详见bank.ecitic.com[<a href="/g/601998_1">中信银行</a>]</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2140451' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230',' 中信网银多重礼：即日起网银购买中网公开赛中央球场或包厢票尊享九折优惠！网银买基金申购费率七折！详见bank.ecitic.com[中信银行]', '',this)">转发<font id="forwardfont_2140451"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2140451');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2140451','1','14432234','0')">评论<font id="commentfont_2140451"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/2140451_d.html">2010-09-28</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2140451" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2140451"></div><div class="nr_con" id="articelItem_2071309">				<div class="nr_shuo">9月22日至10月7日贵友20周年店庆盛大回馈，大部分商品八折后满百劲减20元。持中信卡到贵友建国门/方庄店单卡累计消费满八百元获星巴克咖啡券一张，满千元获<a href="/g/300005_1">探路者</a>水壶或哈士奇水袋一个，数量有限，送完为止。详询95558[<a href="/g/601998_1">中信银行</a>]</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2071309' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','9月22日至10月7日贵友20周年店庆盛大回馈，大部分商品八折后满百劲减20元。持中信卡到贵友建国门/方庄店单卡累计消费满八百元获星巴克咖啡券一张，满千元获探路者水壶或哈士奇水袋一个，数量有限，送完为止。详询95558[中信银行]', '',this)">转发<font id="forwardfont_2071309"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2071309');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2071309','1','14432234','0')">评论<font id="commentfont_2071309"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/2071309_d.html">2010-09-21</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2071309" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2071309"></div><div class="nr_con" id="articelItem_2047744">				<div class="nr_shuo">我行天天快车产品上线啦，5万起预测年化收益1.6%50万1.7%，随时申购，赎回本金实时到帐。天天快车，您的理财好帮手！详询各网点[<a href="/g/601998_1">中信银行</a>]</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2047744' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','我行天天快车产品上线啦，5万起预测年化收益1.6%50万1.7%，随时申购，赎回本金实时到帐。天天快车，您的理财好帮手！详询各网点[中信银行]', '',this)">转发<font id="forwardfont_2047744"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2047744');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2047744','1','14432234','0')">评论<font id="commentfont_2047744"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/2047744_d.html">2010-09-20</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2047744" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2047744"></div><div class="nr_con" id="articelItem_2043623">				<div class="nr_shuo">我行隆重推出“中信汇萃”外币定制业务，3000美元即可定制，期限1个月、3个月、6个月及1年，保本保息可提前终止，详询95558[<a href="/g/601998_1">中信银行</a>]</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='2043623' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','我行隆重推出“中信汇萃”外币定制业务，3000美元即可定制，期限1个月、3个月、6个月及1年，保本保息可提前终止，详询95558[中信银行]', '',this)">转发<font id="forwardfont_2043623"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','2043623');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('2043623','1','14432234','0')">评论<font id="commentfont_2043623"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/2043623_d.html">2010-09-20</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_2043623" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_2043623"></div><div class="nr_con" id="articelItem_1437054">				<div class="nr_shuo">图为球员市政交通一卡通的正背面图案。五位球员分别为：徐云龙、杨智、乔尔格里菲斯、闫相闯和黄博文。黄博文会后在接受采访时认为徐云龙的卡会卖得最好，而徐云龙则笑称小闯会卖得最火，因为他长得像王宝强。主教练洪元硕说，这五张卡他都要收藏。</div><div id="SmallDiv_1437054_81478474" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('1437054', '81478474','http://photo19.hexun.com/p/2010/0804/407392/b45_231500C4707860184D1DE2FE3F21C79F.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/0804/407392/t150_231500C4707860184D1DE2FE3F21C79F.jpg" class="imgBig" ></a></div><div id="MiddleDiv_1437054_81478474" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='1437054' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='81478474' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','图为球员市政交通一卡通的正背面图案。五位球员分别为：徐云龙、杨智、乔尔格里菲斯、闫相闯和黄博文。黄博文会后在接受采访时认为徐云龙的卡会卖得最好，而徐云龙则笑称小闯会卖得最火，因为他长得像王宝强。主教练洪元硕说，这五张卡他都要收藏。', '',this)">转发<font id="forwardfont_1437054" >(1)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','1437054');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('1437054','1','14432234','0')">评论<font id="commentfont_1437054" >(3)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/1437054_d.html">2010-08-04</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_1437054" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_1437054"></div><div class="nr_con" id="articelItem_1437036">				<div class="nr_shuo"><a href="/g/601998_1">中信银行</a>与北京国安足球俱乐部联合推出了“<a href="/g/000839_1">中信国安</a>球迷联名卡”，并借助“市政交通一卡通”平台发行“球员市政交通一卡通异形卡”。自8月3日起市民可在北京地区<a href="/g/601998_1">中信银行</a>各营业网点办理或购买。图为杨智在印有自己形象的一卡通上为球迷签名留念。</div><div id="SmallDiv_1437036_81478392" class="img_border"><a href="javascript:void(0);" onclick="javascript:ShinkImg('1437036', '81478392','http://photo19.hexun.com/p/2010/0804/407391/b45_56C2089B8F0B0611F88C0B53674D2480.jpg',1)"><img  src="http://photo19.hexun.com/p/2010/0804/407391/t150_56C2089B8F0B0611F88C0B53674D2480.jpg" class="imgBig" ></a></div><div id="MiddleDiv_1437036_81478392" class="preview_big" style="display:none;"></div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='1437036' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='81478392' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行与北京国安足球俱乐部联合推出了“中信国安球迷联名卡”，并借助“市政交通一卡通”平台发行“球员市政交通一卡通异形卡”。自8月3日起市民可在北京地区中信银行各营业网点办理或购买。图为杨智在印有自己形象的一卡通上为球迷签名留念。', '',this)">转发<font id="forwardfont_1437036"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','1437036');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('1437036','1','14432234','0')">评论<font id="commentfont_1437036"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/1437036_d.html">2010-08-04</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_1437036" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_1437036"></div><div class="nr_con" id="articelItem_1222611">				<div class="nr_shuo">昨天中午<a href="/g/601998_1">中信银行</a>股份有限公司与国家开发银行联合筹组银团，与阿根廷经济和公共财政部签订了2.73亿美元出口买方信贷贷款协议，用于支持<a href="/g/601299_1">中国北车</a>股份有限公司向阿根廷出口20辆高速机车、220辆客车以及配套零配件并提供相关技术服务。此次合约的成功签署为阿根廷总统访华商务活动增加了精彩的一笔。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='1222611' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','昨天中午中信银行股份有限公司与国家开发银行联合筹组银团，与阿根廷经济和公共财政部签订了2.73亿美元出口买方信贷贷款协议，用于支持中国北车股份有限公司向阿根廷出口20辆高速机车、220辆客车以及配套零配件并提供相关技术服务。此次合约的成功签署为阿根廷总统访华商务活动增加了精彩的一笔。', '',this)">转发<font id="forwardfont_1222611"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','1222611');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('1222611','1','14432234','0')">评论<font id="commentfont_1222611" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/1222611_d.html">2010-07-14</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_1222611" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_1222611"></div><div class="nr_con" id="articelItem_1124139">				<div class="nr_shuo"><a href="/g/601998_1">中信银行</a>总行营业部今日与北京市海淀区人民政府签署战略合作框架协议，未来三年内将为海淀区提供100亿元人民币的融资支持。同时<a href="/g/601998_1">中信银行</a>海淀区中小企业金融服务专营机构也于今日正式揭牌。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='1124139' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行总行营业部今日与北京市海淀区人民政府签署战略合作框架协议，未来三年内将为海淀区提供100亿元人民币的融资支持。同时中信银行海淀区中小企业金融服务专营机构也于今日正式揭牌。', '',this)">转发<font id="forwardfont_1124139"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','1124139');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('1124139','1','14432234','0')">评论<font id="commentfont_1124139"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/1124139_d.html">2010-07-06</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_1124139" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_1124139"></div><div class="nr_con" id="articelItem_1004898">				<div class="nr_shuo"><a href="/g/601998_1">中信银行</a>总行营业部主办的“信用北京行”活动明天将在太阳星金星园城举行“信用记录关爱日”专场活动，届时欢迎附近市民到活动现场免费查询个人信用报告。即将于7月8日开业的<a href="/g/601998_1">中信银行</a>北京太阳宫支行专业团队明天也将在现场为市民提供金融咨询服务。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='1004898' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行总行营业部主办的“信用北京行”活动明天将在太阳星金星园城举行“信用记录关爱日”专场活动，届时欢迎附近市民到活动现场免费查询个人信用报告。即将于7月8日开业的中信银行北京太阳宫支行专业团队明天也将在现场为市民提供金融咨询服务。', '',this)">转发<font id="forwardfont_1004898"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','1004898');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('1004898','1','14432234','0')">评论<font id="commentfont_1004898" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/1004898_d.html">2010-06-25</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_1004898" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_1004898"></div><div class="nr_con" id="articelItem_993716">				<div class="nr_shuo"><a href="/g/601998_1">中信银行</a>首批四笔业务创下北京地区三个“第一单”，分别是服务贸易项下人民币跨境结算、贸易项下汇至香港特别行政区和贸易项下汇至澳门特别行政区的人民币汇款业务第一单。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='993716' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行首批四笔业务创下北京地区三个“第一单”，分别是服务贸易项下人民币跨境结算、贸易项下汇至香港特别行政区和贸易项下汇至澳门特别行政区的人民币汇款业务第一单。', '',this)">转发<font id="forwardfont_993716"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','993716');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('993716','1','14432234','0')">评论<font id="commentfont_993716" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/993716_d.html">2010-06-24</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_993716" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_993716"></div><div class="nr_con" id="articelItem_993691">				<div class="nr_shuo">中国人民银行营业管理部今日在“北京地区开展跨境贸易人民币结算试点工作会议”上宣布，人民币跨境结算业务在北京地区正式开通。在人民银行的“人民币跨境收付信息管理系统”中，<a href="/g/601998_1">中信银行</a>总行营业部的名字第一个显示出来，这标志着<a href="/g/601998_1">中信银行</a>总行营业部在北京地区打响了人民币跨境结算业务的头炮。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='993691' lastUID='14432234' lastUName='中信银行总行营业部' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中国人民银行营业管理部今日在“北京地区开展跨境贸易人民币结算试点工作会议”上宣布，人民币跨境结算业务在北京地区正式开通。在人民银行的“人民币跨境收付信息管理系统”中，中信银行总行营业部的名字第一个显示出来，这标志着中信银行总行营业部在北京地区打响了人民币跨境结算业务的头炮。', '',this)">转发<font id="forwardfont_993691"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','993691');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('993691','1','14432234','0')">评论<font id="commentfont_993691" >(1)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/993691_d.html">2010-06-24</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_993691" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_993691"></div><div class="nr_con" id="articelItem_985488">				<div class="nr_shuo"><a href="/g/601998_1">中信银行</a>出国金融服务中心最新推出了希腊和塞浦路斯签证材料代传递服务。同时推出美国使馆“代传快递”服务，提高签证办理效率，当日递交材料当日送使馆，取出签证后当日返还客户。申请人还有望在年内直接从<a href="/g/601998_1">中信银行</a>网站上查询到签证进程。 </div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='985488' lastUID='14432234' lastUName='citicbank_bj' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行出国金融服务中心最新推出了希腊和塞浦路斯签证材料代传递服务。同时推出美国使馆“代传快递”服务，提高签证办理效率，当日递交材料当日送使馆，取出签证后当日返还客户。申请人还有望在年内直接从中信银行网站上查询到签证进程。 ', '',this)">转发<font id="forwardfont_985488"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','985488');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('985488','1','14432234','0')">评论<font id="commentfont_985488"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/985488_d.html">2010-06-23</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_985488" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_985488"></div><div class="nr_con" id="articelItem_985472">				<div class="nr_shuo"><a href="/g/601998_1">中信银行</a>在和讯的官方微博现在正式开通了，有最新金融动态、理财咨询我们将第一时间在这里发布，欢迎大家关注。</div>				<div class="nr_tan">					<h3><span><a href="javascript:void(0);" style="cursor:pointer;" source='1' lastAID='985472' lastUID='14432234' lastUName='citicbank_bj' firstAID='0' firstUID='0' firstUName='' lastPhotoID='0' lastQuotePhotoID='0' lastQuoteCode='' firstPhotoID='0' firstQuotePhotoID='0' firstQuoteCode='' atType='1' curUserID='0'  onclick="javascript:ForwardArticle('turn1Window','360','230','中信银行在和讯的官方微博现在正式开通了，有最新金融动态、理财咨询我们将第一时间在这里发布，欢迎大家关注。', '',this)">转发<font id="forwardfont_985472"  style="display:none;" >(0)</font></a>|<a href="javascript:void(0);" onclick="collect('turn2Window','360','230','985472');">收藏</a>|<a href="javascript:void(0);" onclick="commentAritcle('985472','1','14432234','0')">评论<font id="commentfont_985472"  style="display:none" >(0)</font></a><b id="TaMoreWB_B"></b></span><a href="/citicbankbj/985472_d.html">2010-06-23</a>来自和讯微博</h3>				</div>				<!--有评论后box为nr_ping s-->				<div class="nr_ping" id="comment_985472" style="display:none;">				</div>				<!--nr_ping e-->		</div><div class="nr_line" id="line_985472"></div>
+			</div>
+			<iframe style="display:none;" id="iframeBlog" src="about:blank" frameBorder="0" width="554" name="iframeBlog" scrolling="no"></iframe>
+			<script language="javascript" type="text/javascript">
+			document.domain = "hexun.com";
+			function switchBlog()
+			{
+			    $("#liWeibo").attr("class","otherLi");
+			    $("#liBlog").attr("class","currentLi");
+			    $("#tabWeibo").css("cursor","pointer");
+			    $("#tabBlog").css("cursor","default");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconG.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconR.gif");
+			    $("#listWeibo").hide();
+			    $("#gotop").hide();
+			    var iframesrc = $("#iframeBlog").attr("src");
+			    if (iframesrc == "about:blank")
+			    {
+			        iframesrc = "http://citicbankbj.blog.hexun.com/wbblog.html?mb=1"; 
+			        $("#iframeBlog").attr("src",iframesrc);
+			    }
+			    $("#iframeBlog").show();
+			}
+			function switchWeibo()
+			{
+			    $("#liWeibo").attr("class","currentLi");
+			    $("#liBlog").attr("class","otherLi");
+			    $("#tabWeibo").css("cursor","default");
+			    $("#tabBlog").css("cursor","pointer");
+			    $("#imgWeibo").attr("src","/images/common/wb_iconR.gif");
+			    $("#imgBlog").attr("src","/images/common/wb_iconG.gif");
+			    $("#iframeBlog").hide();
+			    $("#listWeibo").show();
+			    $("#gotop").show();
+			}
+			</script>
+		</div>
+		<div id="gotop">
+	        <div style="float:left"><a href="javascript:void(0);" onclick="javascript:GotoTop();">返回顶部</a></div>
+			<div id="page2">
+</div>
+			<div class=clear></div>
+		</div>
+	</div>
+	<div class="mainR">
+		<!--博主简介 s-->		
+		<div class="user_con">
+			<ul>
+				<li class="li1"><strong><a href="/citicbankbj/MyFollow.html" id=followcFont>2</a></strong><a href="/citicbankbj/MyFollow.html">关注</a></li>
+				<li class="li2"><strong><a href="/citicbankbj/FollowMy.html" id=followedFont>876</a></strong><a href="/citicbankbj/FollowMy.html">被关注</a></li>
+				<li class="li3"><strong><a href="/citicbankbj/default.html"  id=articlecFont>19</a></strong><a href="/citicbankbj/default.html">博文</a></li>
+			</ul>
+		</div>
+		<!--博主简介 e-->
+		
+		
+        <!--真实身份认证-->
+		
+		<div class="phb" style="background:none;padding-left:0px;"><img src="/images/common/rz.gif" border="0" title="真实身份认证用户">&nbsp;&nbsp;</div>
+				
+        <!--真实身份认证 e-->
+        
+        
+		<div class="mainR_line"></div>
+
+
+				
+		<div align="center">
+ 
+<table width="185" border="0">
+  <tr>
+    <td width="185"><div align="center"><a href="http://t.hexun.com/zt/fangtan.html" target="_blank"><img src="http://i9.hexunimg.cn/2012-05-10/141257867.jpg" width="185" height="150" border="0"></a></div></td>
+  </tr>
+ 
+</table>
+ 
+</div>
+	  <!--自选股票-->
+	  <div id="TaStockDiv_line" class="mainR_line2"></div>
+	  <!--增加自选股-->
+	  <div id="TaStockDiv" class="theme_con" style="margin-top:15px;">
+        <h2><span id="smyStockDiv" onclick="trHead('myStockDiv','1')" class="iconimg" title="隐藏">&nbsp;</span>Ta的自选股</h2>
+        <div id="myStockDiv">
+	  
+	   <!--增加自选股end-->
+	    <!--自选股-->
+	  <div id="sfqp_StockInfo2" class="sfgp_con" style="background:#fff; overflow:hidden;filter:alpha(opacity=90); opacity:0.9;width:162px;padding:0 5px;">
+	  </div>
+	  <!--自选股end-->
+	  <!--自选股票end-->
+        <script type="text/javascript">
+        getMyStockInfoForHomePage = function()
+        {     
+             
+             $.getIfModified(ApiFile,{GetMyStockInfoForHomePage:Math.random(),curID:14432234}, 
+             function(response)
+             {         
+                 if(response.length == 0)
+                 {
+                       document.getElementById("TaStockDiv").style.display = "none";
+                       document.getElementById("TaStockDiv_line").style.display = "none";
+                       
+                 }                         
+                 document.getElementById("sfqp_StockInfo2").innerHTML = response;         
+             });
+        }
+        getMyStockInfoForHomePage();
+        setInterval("getMyStockInfoForHomePage()",300000);
+        </script>        
+        </div>
+     </div>
+		
+		<!--Ta的微群-->
+		
+		<!--Ta的微群 e-->
+		<div class="mainR_line"></div>
+		
+		<!--Ta的同行 s-->
+		<div class="rec_con">
+			<h2>Ta的同行</h2>
+			<ul> 
+			    <li><a href="/2282272/default.html" title="益盟操盘手"><img src="http://logo0.tool.hexun.com/20d322-40.jpg" /></a><a href="/2282272/default.html" title="益盟操盘手"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=2282272')" >益盟操..</a><br><a href='#' onclick='javscript:AddFollow(2282272,0);window.location.reload();'>关注Ta</a></li><li><a href="/3362987/default.html" title="万隆证券"><img src="http://logo3.tool.hexun.com/ab5033-40.jpg" /></a><a href="/3362987/default.html" title="万隆证券"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=3362987')" >万隆证..</a><br><a href='#' onclick='javscript:AddFollow(3362987,0);window.location.reload();'>关注Ta</a></li><li><a href="/3559365/default.html" title="重庆长安汽车股份有限公司"><img src="http://logo1.tool.hexun.com/c54f36-40.jpg" /></a><a href="/3559365/default.html" title="重庆长安汽车股份有限公司"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=3559365')" >重庆长..</a><br><a href='#' onclick='javscript:AddFollow(3559365,0);window.location.reload();'>关注Ta</a></li><li><a href="/9089192/default.html" title="凤凰资本公司"><img src="http://logo0.tool.hexun.com/a8b08a-40.jpg" /></a><a href="/9089192/default.html" title="凤凰资本公司"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=9089192')" >凤凰资..</a><br><a href='#' onclick='javscript:AddFollow(9089192,0);window.location.reload();'>关注Ta</a></li><li><a href="/13433006/default.html" title="良品日语"><img src="http://logo2.tool.hexun.com/aef8cc-40.jpg" /></a><a href="/13433006/default.html" title="良品日语"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=13433006')" >良品日..</a><br><a href='#' onclick='javscript:AddFollow(13433006,0);window.location.reload();'>关注Ta</a></li><li><a href="/13782318/default.html" title="阳光正东官方微博"><img src="http://logo2.tool.hexun.com/2e4dd2-40.jpg" /></a><a href="/13782318/default.html" title="阳光正东官方微博"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=13782318')" >阳光正..</a><br><a href='#' onclick='javscript:AddFollow(13782318,0);window.location.reload();'>关注Ta</a></li><li><a href="/13801437/default.html" title="麦田房产"><img src="http://logo1.tool.hexun.com/dd97d2-40.jpg" /></a><a href="/13801437/default.html" title="麦田房产"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=13801437')" >麦田房..</a><br><a href='#' onclick='javscript:AddFollow(13801437,0);window.location.reload();'>关注Ta</a></li><li><a href="/14158878/default.html" title="上海农商行"><img src="http://logo2.tool.hexun.com/1e0cd8-40.jpg" /></a><a href="/14158878/default.html" title="上海农商行"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=14158878')" >上海农..</a><br><a href='#' onclick='javscript:AddFollow(14158878,0);window.location.reload();'>关注Ta</a></li><li><a href="/14158891/default.html" title="通商银行"><img src="http://logo3.tool.hexun.com/2b0cd8-40.jpg" /></a><a href="/14158891/default.html" title="通商银行"  onmouseover="tipBlogT.showTInfo(this,'http://t.hexun.com/special/useriframe.aspx?userid=14158891')" >通商银..</a><br><a href='#' onclick='javscript:AddFollow(14158891,0);window.location.reload();'>关注Ta</a></li>
+				<div class="clear"></div>
+			</ul>
+			<p><a href="/Channel/InvestmentExperts.aspx?typeId=17">更多&gt;</a></p>
+		</div>
+		<!--Ta的同行 e-->
+		<!--Ta关注的话题 s-->
+		
+<script type="text/javascript">
+function changeWeihu()
+{
+    //debugger;
+    if(document.getElementById("ulWeihu2").style.display=="none")
+    {
+        document.getElementById("ulWeihu1").style.display="none";
+        document.getElementById("ulWeihu2").style.display="block";
+        
+    }
+    else
+    {
+        document.getElementById("ulWeihu2").style.display="none";
+        document.getElementById("ulWeihu1").style.display="block";
+
+    }
+}
+</script>
+		<!--Ta关注的话题 e-->
+		<!--Ta的股票 s-->
+		
+		<!--Ta的股票 e-->
+		
+<div class="mainR_line"></div>
+		<!--和讯微博意见反馈 s-->
+		<div class="stock_con">
+			<h2><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">和讯微博意见反馈</a></h2>
+			<h4>和讯财经微博新鲜上架，肯定有很多不完善的地方，特别欢迎大家帮忙提出宝贵意见与建议。</h4>
+			<ul>
+				<li><a href="http://t.hexun.com/hecaiwei/default.html">1.财经微博客服何采薇</a></li>
+				<li><a href="http://t.hexun.com/weibo/default.html">2.财经微博产品动态</a></li>
+				
+                <!-- xl -->
+		        
+                <li><a href="http://hecaiwei.blog.hexun.com/49208608_d.html" target="_blank">3.新手攻略：帮您成为微博达人</a></li>
+				<li><a href="http://t.hexun.com/zt/jianyi.html" target="_blank">4.有奖征集发展管理建议</a></li>
+                
+                
+			</ul>
+			
+			
+</div>
+
+
+	</div>
+	<div class="clear"></div>
+	
+</div>
+
+
+<div id="mainbgB"></div>
+<div id="footer"><a href="http://t.hexun.com/topic.aspx?value=%u5FAE%u535A%u610F%u89C1%u53CD%u9988">意见反馈</a><font>|</font><a href="http://hexun.com/report.aspx?userid=14432234&type=1" target=_blank>举报</a><font>|</font>和讯微博V1.0 beta powered by hexun.com</div>
+<!--弹出窗口：转发博文1-->
+<div class="conBg_oth_zf" id="turn1Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn2Window" style="display:none;">
+</div>
+<div class="conBg_oth" id="turn3Window" style="display:none;">
+</div>
+
+<div class="conBg_fz" id="fzWindow" style="display:none;">1111</div>
+
+  
+  <!--informbg start-->
+  <div class="conBg_oth informbg" id="informbg" style="z-index:1000;">
+  <form id=frm_CompUserName>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="z-index:1000;">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+		    
+			<h3><span onclick="closeInformbg();"></span>举报</h3>
+			
+			
+			<table class="inform_table">
+  <tr>
+    <td>被举报人：<span class="red" id="span_CompUserName"></span></td>
+    
+    <input type=hidden id="form_CompID"  value=0/>
+    <input type=hidden id="form_CompUserID"  value=0/>
+    <input type=hidden id="form_CompType"  value=0/>
+    
+    
+  </tr>
+  <tr>
+    <td valign="top" id="span_compID"></td>
+  </tr>
+    <tr>
+    <td valign="top">举报理由（请详细填写，以便核实）：</td>
+  </tr>
+   <tr>
+    <td valign="top"><textarea name="form_ComReason" id="form_ComReason" cols="20" rows="" class="inp9"></textarea></td>
+  </tr>
+  <tr>
+   
+    <td><p class="red inform_tip">恶意举报和试图欺骗管理员，在查实后将可能处以
+从警告直至删号的处理，请严肃对待。</p><input class="btn2" onclick="addComplaints();" type=button title="举报" value="举报" name="Submit2" style=" float:right;"/></td>
+  </tr>
+</table>
+			
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</form>
+</div>
+<!--informbg end-->
+<script type="text/javascript" src="http://comment.blog.hexun.com/inc/wbemotions.aspx?c=EmotionsDiv&e=CommentContent"></script>
+<script language=javascript src='http://shequ5.tool.hexun.com/rest/GetVoteCount.aspx?v='></script>
+
+<!--分享start-->
+<script type="text/javascript">
+(function(){
+  var reg = /^[http:\/\/\w|\w\.*\w|\w]+\.hexun\.com(\/|(\?[^\/]+)|\/index.html|\/index\-[\w]+.html)*$/;
+  if(!reg.test(window.location.href)) {
+    document.write('\x3Cscript type="text/javascript" src="http://img.hexun.com/base/version/hx_base.min1.1.js">\x3C/script>'+'\x3Cscript type="text/javascript" src="http://img.hexun.com/share/hxShare2011.js">\x3C/script><link href="http://img.hexun.com/share/hxShare2011.css" type="text/css" rel="stylesheet" />');
+    if(window.attachEvent) window.attachEvent('onload',function() {hxShare2011('');});
+	if(window.addEventListener) window.addEventListener('load',function(){hxShare2011('');},false);
+  }
+})();
+</script>
+<!--分享over-->
+
+<script type="text/javascript" src="http://img.hexun.com/app/js/TB.main.js"></script>
+
+
+<script src="http://utrack.hexun.com/track/track.js"></script> 
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-2167933-52");
+
+pageTracker._trackPageview();
+
+} catch(err) {}
+</script>
+<script type="text/javascript" src="/js/tipblog.js"></script>
+
+</div>
+
+<!--帮推 start-->
+  <div class="conBg_oth" id="BTRecbg"  style="display:none;" >
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+	    <td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"></span><p id="forwardtextarea_Title">把xxx的特别推荐帮推给我的朋友</p></h3>
+			<div class="win_con2">
+		<div class="win_con2_2"><span id="tipInfoBoxhelpRecommend">还可以输入<strong>140</strong>个字</span></div>
+            <textarea id="forwardtextarea_helpRecommend" name="forwardtextarea_helpRecommend" cols="" rows=""  class="BTinp6" onkeyup="javascript:forwardInputLimit(this,'helpRecommend');">@海豚猫 的特别推荐里有@AAA @BBB @CCC等高人，很有关注价值，大家都来看看吧：http://t.hexun.com/xxxxx。</textarea>
+        </div>
+        <div class="clear"></div>
+        <div class="BTbtn">
+		   <input class="conBgbtn_1" type="button"title="取消" value="取消" name="Submit2" onclick="wclose('BTRecbg');document.getElementById('BTRecbg').style.display='none';document.getElementById('fade').style.display='none'"/>	 <input class="conBgbtn_1" id="forwardbtn_helpRecommend" name="forwardbtn_helpRecommend" type="button" title="确定" value="确定" onclick="javascript:helpRecommend('turn3Window','360','230','中信银行总行营业部','14432234','citicbankbj')"/></div>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+
+<!--弹出窗口：成功-->
+
+<!--弹出窗口：成功-->
+<div class="conBg_oth" id="successfulWindow" style="display:none;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+	<tr>
+		<td class="tdbgL"></td>
+		<td class="tdbgC">
+			<h3><span onclick="wclose('successfulWindow');"></span>成功</h3>
+			<form>
+			<div class="win_con">
+				<p class="successfulp">您添加的关注已成功！</p>
+				<p class="huizip">5秒后自动关闭...</p>
+				<p class="fabup">
+					<span><input type="submit" class="conBgbtn_1" value="确定" /></span>
+				</p>
+			</div>
+			</form>
+		</td>
+		<td class="tdbgR"></td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tdbgT"></td>
+	</tr>
+</table>
+</div>
+  <!--帮推 end-->
+  
+<!--弹出窗口：微博认证  start-->
+
+<!--弹出窗口：微博认证  end-->
+                
+</body>
+</html>
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TIANYUAN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
